@@ -5,13 +5,13 @@ Auto-updated Apple Calendar feed for the FIFA World Cup 2026.
 Subscription URL:
 
 ```text
-https://jason-lewis-526.github.io/Worldcup-Calendar/worldcup-2026.ics
+https://raw.githubusercontent.com/Jason-lewis-526/Worldcup-Calendar/main/docs/worldcup-2026.ics
 ```
 
 Apple Calendar shortcut:
 
 ```text
-webcal://jason-lewis-526.github.io/Worldcup-Calendar/worldcup-2026.ics
+webcal://raw.githubusercontent.com/Jason-lewis-526/Worldcup-Calendar/main/docs/worldcup-2026.ics
 ```
 
 The generated calendar keeps each event simple:
