@@ -13,20 +13,17 @@ from pathlib import Path
 from typing import Any
 
 
-FIFA_API_URL = (
+FIFA_API_BASE_URL = (
     "https://api.fifa.com/api/v3/calendar/matches"
     "?from=2026-06-01T00%3A00%3A00Z"
     "&to=2026-07-31T23%3A59%3A59Z"
-    "&language=en"
     "&count=500"
     "&idCompetition=17"
 )
 
-OUTPUT_PATH = Path("docs/worldcup-2026.ics")
-CACHE_PATH = Path("data/fifa-worldcup-2026.json")
 EVENT_DURATION = timedelta(hours=2)
 
-REAL_STADIUM_LOCATIONS = {
+EN_STADIUM_LOCATIONS = {
     "Atlanta Stadium": "Mercedes-Benz Stadium, Atlanta, GA",
     "BC Place Vancouver": "BC Place, Vancouver, BC",
     "Boston Stadium": "Gillette Stadium, Foxborough, MA",
@@ -44,6 +41,46 @@ REAL_STADIUM_LOCATIONS = {
     "Seattle Stadium": "Lumen Field, Seattle, WA",
     "Toronto Stadium": "BMO Field, Toronto, ON",
 }
+
+ZH_STADIUM_LOCATIONS = {
+    "Atlanta Stadium": "梅赛德斯-奔驰体育场，亚特兰大，GA",
+    "BC Place Vancouver": "BC Place，温哥华，BC",
+    "Boston Stadium": "吉列体育场，福克斯堡，MA",
+    "Dallas Stadium": "AT&T 体育场，阿灵顿，TX",
+    "Guadalajara Stadium": "阿克伦体育场，萨波潘，哈利斯科",
+    "Houston Stadium": "NRG 体育场，休斯顿，TX",
+    "Kansas City Stadium": "箭头体育场，堪萨斯城，MO",
+    "Los Angeles Stadium": "SoFi 体育场，英格尔伍德，CA",
+    "Mexico City Stadium": "阿兹特克体育场，墨西哥城",
+    "Miami Stadium": "硬石体育场，迈阿密花园，FL",
+    "Monterrey Stadium": "BBVA 体育场，瓜达卢佩，新莱昂",
+    "New York/New Jersey Stadium": "大都会人寿体育场，东卢瑟福，NJ",
+    "Philadelphia Stadium": "林肯金融球场，费城，PA",
+    "San Francisco Bay Area Stadium": "李维斯体育场，圣克拉拉，CA",
+    "Seattle Stadium": "流明球场，西雅图，WA",
+    "Toronto Stadium": "BMO 球场，多伦多，ON",
+}
+
+CALENDARS = [
+    {
+        "language": "en",
+        "output_path": Path("docs/worldcup-2026.ics"),
+        "cache_path": Path("data/fifa-worldcup-2026.json"),
+        "calendar_name": "World Cup 2026",
+        "prodid": "-//Jason-lewis-526//World Cup 2026 Calendar//EN",
+        "prefer_localized_team_name": False,
+        "stadium_locations": EN_STADIUM_LOCATIONS,
+    },
+    {
+        "language": "zh",
+        "output_path": Path("docs/worldcup-2026-zh.ics"),
+        "cache_path": Path("data/fifa-worldcup-2026-zh.json"),
+        "calendar_name": "2026 世界杯",
+        "prodid": "-//Jason-lewis-526//World Cup 2026 Calendar//ZH",
+        "prefer_localized_team_name": True,
+        "stadium_locations": ZH_STADIUM_LOCATIONS,
+    },
+]
 
 
 def localized(value: Any, fallback: str = "") -> str:
@@ -117,61 +154,80 @@ def fetch_json(url: str) -> dict[str, Any]:
         return json.loads(response.read().decode("utf-8"))
 
 
-def load_fixture_data() -> dict[str, Any]:
+def fifa_api_url(language: str) -> str:
+    return f"{FIFA_API_BASE_URL}&language={language}"
+
+
+def load_fixture_data(config: dict[str, Any]) -> dict[str, Any]:
+    cache_path = config["cache_path"]
     try:
-        data = fetch_json(FIFA_API_URL)
+        data = fetch_json(fifa_api_url(config["language"]))
     except (urllib.error.URLError, TimeoutError, json.JSONDecodeError) as exc:
-        if CACHE_PATH.exists():
+        if cache_path.exists():
             print(f"FIFA fetch failed, using cached data: {exc}", file=sys.stderr)
-            return json.loads(CACHE_PATH.read_text(encoding="utf-8"))
+            return json.loads(cache_path.read_text(encoding="utf-8"))
         raise
 
     matches = data.get("Results", [])
     if not isinstance(matches, list) or len(matches) < 100:
         raise RuntimeError(f"Unexpected FIFA response: found {len(matches) if isinstance(matches, list) else 'no'} matches")
 
-    CACHE_PATH.parent.mkdir(parents=True, exist_ok=True)
-    CACHE_PATH.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    cache_path.parent.mkdir(parents=True, exist_ok=True)
+    cache_path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     return data
 
 
-def team_label(match: dict[str, Any], side: str) -> str:
+def team_label(match: dict[str, Any], side: str, config: dict[str, Any]) -> str:
     team = match.get(side)
     if isinstance(team, dict):
-        return team.get("ShortClubName") or localized(team.get("TeamName")) or team.get("Abbreviation") or "TBD"
+        localized_name = localized(team.get("TeamName"))
+        if config["prefer_localized_team_name"] and localized_name:
+            return localized_name
+        return team.get("ShortClubName") or localized_name or team.get("Abbreviation") or "TBD"
 
     placeholder_key = "PlaceHolderA" if side == "Home" else "PlaceHolderB"
     placeholder = match.get(placeholder_key)
     if placeholder:
-        return format_placeholder(str(placeholder))
+        return format_placeholder(str(placeholder), config["language"])
 
-    return "TBD"
+    return "待定" if config["language"] == "zh" else "TBD"
 
 
-def format_placeholder(value: str) -> str:
+def format_placeholder(value: str, language: str) -> str:
     winner = re.fullmatch(r"W(\d+)", value)
     if winner:
+        if language == "zh":
+            return f"第{winner.group(1)}场胜者"
         return f"Winner M{winner.group(1)}"
 
     runner_up = re.fullmatch(r"RU(\d+)", value)
     if runner_up:
+        if language == "zh":
+            return f"第{runner_up.group(1)}场负者"
         return f"Runner-up M{runner_up.group(1)}"
+
+    group_position = re.fullmatch(r"([123])([A-L]+)", value)
+    if language == "zh" and group_position:
+        position = group_position.group(1)
+        groups = "/".join(group_position.group(2))
+        return f"{groups}组第{position}名"
 
     return value
 
 
-def event_summary(match: dict[str, Any]) -> str:
-    return f"{team_label(match, 'Home')} vs {team_label(match, 'Away')}"
+def event_summary(match: dict[str, Any], config: dict[str, Any]) -> str:
+    return f"{team_label(match, 'Home', config)} vs {team_label(match, 'Away', config)}"
 
 
-def event_location(match: dict[str, Any]) -> str:
+def event_location(match: dict[str, Any], config: dict[str, Any]) -> str:
     stadium = match.get("Stadium")
     if not isinstance(stadium, dict):
         return ""
 
     stadium_name = localized(stadium.get("Name"))
-    if stadium_name in REAL_STADIUM_LOCATIONS:
-        return REAL_STADIUM_LOCATIONS[stadium_name]
+    stadium_locations = config["stadium_locations"]
+    if stadium_name in stadium_locations:
+        return stadium_locations[stadium_name]
 
     city = localized(stadium.get("CityName"))
     if stadium_name and city:
@@ -187,7 +243,7 @@ def event_sequence(match: dict[str, Any]) -> str:
     return str(int(match.get("MatchStatus") or 0))
 
 
-def build_event(match: dict[str, Any], generated_at: datetime) -> list[str]:
+def build_event(match: dict[str, Any], generated_at: datetime, config: dict[str, Any]) -> list[str]:
     start = parse_utc(match["Date"])
     end = start + EVENT_DURATION
     match_id = str(match["IdMatch"])
@@ -198,8 +254,8 @@ def build_event(match: dict[str, Any], generated_at: datetime) -> list[str]:
         f"DTSTAMP:{format_ics_datetime(generated_at)}",
         f"DTSTART:{format_ics_datetime(start)}",
         f"DTEND:{format_ics_datetime(end)}",
-        content_line("SUMMARY", event_summary(match)),
-        content_line("LOCATION", event_location(match)),
+        content_line("SUMMARY", event_summary(match, config)),
+        content_line("LOCATION", event_location(match, config)),
         content_line("SEQUENCE", event_sequence(match)),
         "TRANSP:OPAQUE",
         "STATUS:CONFIRMED",
@@ -208,17 +264,17 @@ def build_event(match: dict[str, Any], generated_at: datetime) -> list[str]:
     return lines
 
 
-def build_calendar(matches: list[dict[str, Any]]) -> str:
+def build_calendar(matches: list[dict[str, Any]], config: dict[str, Any]) -> str:
     generated_at = datetime.now(timezone.utc).replace(microsecond=0)
     sorted_matches = sorted(matches, key=lambda item: (item.get("Date", ""), item.get("MatchNumber", 0)))
 
     lines = [
         "BEGIN:VCALENDAR",
         "VERSION:2.0",
-        "PRODID:-//Jason-lewis-526//World Cup 2026 Calendar//EN",
+        f"PRODID:{config['prodid']}",
         "CALSCALE:GREGORIAN",
         "METHOD:PUBLISH",
-        "X-WR-CALNAME:World Cup 2026",
+        content_line("X-WR-CALNAME", config["calendar_name"]),
         "X-WR-TIMEZONE:UTC",
         "REFRESH-INTERVAL;VALUE=DURATION:PT15M",
         "X-PUBLISHED-TTL:PT15M",
@@ -226,21 +282,23 @@ def build_calendar(matches: list[dict[str, Any]]) -> str:
 
     for match in sorted_matches:
         if match.get("Date") and match.get("IdMatch"):
-            lines.extend(build_event(match, generated_at))
+            lines.extend(build_event(match, generated_at, config))
 
     lines.append("END:VCALENDAR")
     return "\r\n".join(lines) + "\r\n"
 
 
 def main() -> None:
-    data = load_fixture_data()
-    matches = data["Results"]
-    calendar = build_calendar(matches)
+    for config in CALENDARS:
+        data = load_fixture_data(config)
+        matches = data["Results"]
+        calendar = build_calendar(matches, config)
+        output_path = config["output_path"]
 
-    OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
-    with OUTPUT_PATH.open("w", encoding="utf-8", newline="") as output:
-        output.write(calendar)
-    print(f"Wrote {OUTPUT_PATH} with {len(matches)} matches")
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        with output_path.open("w", encoding="utf-8", newline="") as output:
+            output.write(calendar)
+        print(f"Wrote {output_path} with {len(matches)} matches")
 
 
 if __name__ == "__main__":
