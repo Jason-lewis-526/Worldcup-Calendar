@@ -102,7 +102,7 @@
         "Built": null,
         "Roof": false,
         "Turf": null,
-        "IdCity": "400222094",
+        "IdCity": "400022722",
         "CityName": [
           {
             "Locale": "en-GB",
@@ -282,7 +282,7 @@
       "Winner": null,
       "MatchReportUrl": null,
       "PlaceHolderA": "A3",
-      "PlaceHolderB": "UEFA PO D",
+      "PlaceHolderB": "A4",
       "BallPossession": null,
       "Officials": [],
       "MatchStatus": 1,
@@ -429,7 +429,7 @@
       "Winner": null,
       "MatchReportUrl": null,
       "PlaceHolderA": "B1",
-      "PlaceHolderB": "UEFA PO A",
+      "PlaceHolderB": "B2",
       "BallPossession": null,
       "Officials": [],
       "MatchStatus": 1,
@@ -543,7 +543,7 @@
         "Built": null,
         "Roof": false,
         "Turf": null,
-        "IdCity": "400249390",
+        "IdCity": "400021920",
         "CityName": [
           {
             "Locale": "en-GB",
@@ -837,11 +837,11 @@
         "Built": null,
         "Roof": false,
         "Turf": null,
-        "IdCity": "400221955",
+        "IdCity": "400021919",
         "CityName": [
           {
             "Locale": "en-GB",
-            "Description": "New York"
+            "Description": "New Jersey"
           }
         ],
         "IdCountry": "USA",
@@ -1164,7 +1164,7 @@
       "Winner": null,
       "MatchReportUrl": null,
       "PlaceHolderA": "D3",
-      "PlaceHolderB": "UEFA PO C",
+      "PlaceHolderB": "D4",
       "BallPossession": null,
       "Officials": [],
       "MatchStatus": 1,
@@ -1751,7 +1751,7 @@
       "SecondHalfExtraTime": null,
       "Winner": null,
       "MatchReportUrl": null,
-      "PlaceHolderA": "UEFA PO B",
+      "PlaceHolderA": "F3",
       "PlaceHolderB": "F4",
       "BallPossession": null,
       "Officials": [],
@@ -2307,7 +2307,7 @@
         "Built": null,
         "Roof": false,
         "Turf": null,
-        "IdCity": "400249390",
+        "IdCity": "400021920",
         "CityName": [
           {
             "Locale": "en-GB",
@@ -2454,11 +2454,11 @@
         "Built": null,
         "Roof": false,
         "Turf": null,
-        "IdCity": "400221955",
+        "IdCity": "400021919",
         "CityName": [
           {
             "Locale": "en-GB",
-            "Description": "New York"
+            "Description": "New Jersey"
           }
         ],
         "IdCountry": "USA",
@@ -2633,7 +2633,7 @@
       "SecondHalfExtraTime": null,
       "Winner": null,
       "MatchReportUrl": null,
-      "PlaceHolderA": "FIFA PO 2",
+      "PlaceHolderA": "I3",
       "PlaceHolderB": "I4",
       "BallPossession": null,
       "Officials": [],
@@ -3075,7 +3075,7 @@
       "Winner": null,
       "MatchReportUrl": null,
       "PlaceHolderA": "K1",
-      "PlaceHolderB": "FIFA PO 1",
+      "PlaceHolderB": "K2",
       "BallPossession": null,
       "Officials": [],
       "MatchStatus": 1,
@@ -3483,7 +3483,7 @@
         "Built": null,
         "Roof": false,
         "Turf": null,
-        "IdCity": "400222094",
+        "IdCity": "400022722",
         "CityName": [
           {
             "Locale": "en-GB",
@@ -3662,7 +3662,7 @@
       "SecondHalfExtraTime": null,
       "Winner": null,
       "MatchReportUrl": null,
-      "PlaceHolderA": "UEFA PO D",
+      "PlaceHolderA": "A4",
       "PlaceHolderB": "A2",
       "BallPossession": null,
       "Officials": [],
@@ -3777,7 +3777,7 @@
         "Built": null,
         "Roof": false,
         "Turf": null,
-        "IdCity": "400249390",
+        "IdCity": "400021920",
         "CityName": [
           {
             "Locale": "en-GB",
@@ -3810,7 +3810,7 @@
       "Winner": null,
       "MatchReportUrl": null,
       "PlaceHolderA": "B4",
-      "PlaceHolderB": "UEFA PO A",
+      "PlaceHolderB": "B2",
       "BallPossession": null,
       "Officials": [],
       "MatchStatus": 1,
@@ -4691,7 +4691,7 @@
       "SecondHalfExtraTime": null,
       "Winner": null,
       "MatchReportUrl": null,
-      "PlaceHolderA": "UEFA PO C",
+      "PlaceHolderA": "D4",
       "PlaceHolderB": "D2",
       "BallPossession": null,
       "Officials": [],
@@ -4839,7 +4839,7 @@
       "Winner": null,
       "MatchReportUrl": null,
       "PlaceHolderA": "F1",
-      "PlaceHolderB": "UEFA PO B",
+      "PlaceHolderB": "F3",
       "BallPossession": null,
       "Officials": [],
       "MatchStatus": 1,
@@ -5541,7 +5541,7 @@
         "Built": null,
         "Roof": false,
         "Turf": null,
-        "IdCity": "400249390",
+        "IdCity": "400021920",
         "CityName": [
           {
             "Locale": "en-GB",
@@ -6162,7 +6162,7 @@
       "Winner": null,
       "MatchReportUrl": null,
       "PlaceHolderA": "I1",
-      "PlaceHolderB": "FIFA PO 2",
+      "PlaceHolderB": "I3",
       "BallPossession": null,
       "Officials": [],
       "MatchStatus": 1,
@@ -6276,11 +6276,11 @@
         "Built": null,
         "Roof": false,
         "Turf": null,
-        "IdCity": "400221955",
+        "IdCity": "400021919",
         "CityName": [
           {
             "Locale": "en-GB",
-            "Description": "New York"
+            "Description": "New Jersey"
           }
         ],
         "IdCountry": "USA",
@@ -7044,7 +7044,7 @@
       "Winner": null,
       "MatchReportUrl": null,
       "PlaceHolderA": "K4",
-      "PlaceHolderB": "FIFA PO 1",
+      "PlaceHolderB": "K2",
       "BallPossession": null,
       "Officials": [],
       "MatchStatus": 1,
@@ -7190,7 +7190,7 @@
       "SecondHalfExtraTime": null,
       "Winner": null,
       "MatchReportUrl": null,
-      "PlaceHolderA": "UEFA PO A",
+      "PlaceHolderA": "B2",
       "PlaceHolderB": "B3",
       "BallPossession": null,
       "Officials": [],
@@ -7893,7 +7893,7 @@
         "Built": null,
         "Roof": false,
         "Turf": null,
-        "IdCity": "400222094",
+        "IdCity": "400022722",
         "CityName": [
           {
             "Locale": "en-GB",
@@ -7925,7 +7925,7 @@
       "SecondHalfExtraTime": null,
       "Winner": null,
       "MatchReportUrl": null,
-      "PlaceHolderA": "UEFA PO D",
+      "PlaceHolderA": "A4",
       "PlaceHolderB": "A1",
       "BallPossession": null,
       "Officials": [],
@@ -8187,11 +8187,11 @@
         "Built": null,
         "Roof": false,
         "Turf": null,
-        "IdCity": "400221955",
+        "IdCity": "400021919",
         "CityName": [
           {
             "Locale": "en-GB",
-            "Description": "New York"
+            "Description": "New Jersey"
           }
         ],
         "IdCountry": "USA",
@@ -8514,7 +8514,7 @@
       "Winner": null,
       "MatchReportUrl": null,
       "PlaceHolderA": "F2",
-      "PlaceHolderB": "UEFA PO B",
+      "PlaceHolderB": "F3",
       "BallPossession": null,
       "Officials": [],
       "MatchStatus": 1,
@@ -8775,7 +8775,7 @@
         "Built": null,
         "Roof": false,
         "Turf": null,
-        "IdCity": "400249390",
+        "IdCity": "400021920",
         "CityName": [
           {
             "Locale": "en-GB",
@@ -8807,7 +8807,7 @@
       "SecondHalfExtraTime": null,
       "Winner": null,
       "MatchReportUrl": null,
-      "PlaceHolderA": "UEFA PO C",
+      "PlaceHolderA": "D4",
       "PlaceHolderB": "D1",
       "BallPossession": null,
       "Officials": [],
@@ -8955,7 +8955,7 @@
       "Winner": null,
       "MatchReportUrl": null,
       "PlaceHolderA": "I2",
-      "PlaceHolderB": "FIFA PO 2",
+      "PlaceHolderB": "I3",
       "BallPossession": null,
       "Officials": [],
       "MatchStatus": 1,
@@ -9804,11 +9804,11 @@
         "Built": null,
         "Roof": false,
         "Turf": null,
-        "IdCity": "400221955",
+        "IdCity": "400021919",
         "CityName": [
           {
             "Locale": "en-GB",
-            "Description": "New York"
+            "Description": "New Jersey"
           }
         ],
         "IdCountry": "USA",
@@ -10130,7 +10130,7 @@
       "SecondHalfExtraTime": null,
       "Winner": null,
       "MatchReportUrl": null,
-      "PlaceHolderA": "FIFA PO 1",
+      "PlaceHolderA": "K2",
       "PlaceHolderB": "K3",
       "BallPossession": null,
       "Officials": [],
@@ -10641,7 +10641,7 @@
         "Built": null,
         "Roof": false,
         "Turf": null,
-        "IdCity": "400249390",
+        "IdCity": "400021920",
         "CityName": [
           {
             "Locale": "en-GB",
@@ -11151,11 +11151,11 @@
         "Built": null,
         "Roof": false,
         "Turf": null,
-        "IdCity": "400221955",
+        "IdCity": "400021919",
         "CityName": [
           {
             "Locale": "en-GB",
-            "Description": "New York"
+            "Description": "New Jersey"
           }
         ],
         "IdCountry": "USA",
@@ -11253,7 +11253,7 @@
         "Built": null,
         "Roof": false,
         "Turf": null,
-        "IdCity": "400222094",
+        "IdCity": "400022722",
         "CityName": [
           {
             "Locale": "en-GB",
@@ -11661,7 +11661,7 @@
         "Built": null,
         "Roof": false,
         "Turf": null,
-        "IdCity": "400249390",
+        "IdCity": "400021920",
         "CityName": [
           {
             "Locale": "en-GB",
@@ -12477,11 +12477,11 @@
         "Built": null,
         "Roof": false,
         "Turf": null,
-        "IdCity": "400221955",
+        "IdCity": "400021919",
         "CityName": [
           {
             "Locale": "en-GB",
-            "Description": "New York"
+            "Description": "New Jersey"
           }
         ],
         "IdCountry": "USA",
@@ -12579,7 +12579,7 @@
         "Built": null,
         "Roof": false,
         "Turf": null,
-        "IdCity": "400222094",
+        "IdCity": "400022722",
         "CityName": [
           {
             "Locale": "en-GB",
@@ -13191,7 +13191,7 @@
         "Built": null,
         "Roof": false,
         "Turf": null,
-        "IdCity": "400249390",
+        "IdCity": "400021920",
         "CityName": [
           {
             "Locale": "en-GB",
@@ -13803,11 +13803,11 @@
         "Built": null,
         "Roof": false,
         "Turf": null,
-        "IdCity": "400221955",
+        "IdCity": "400021919",
         "CityName": [
           {
             "Locale": "en-GB",
-            "Description": "New York"
+            "Description": "New Jersey"
           }
         ],
         "IdCountry": "USA",
