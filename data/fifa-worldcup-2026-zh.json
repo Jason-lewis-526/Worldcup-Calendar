@@ -137,7 +137,192 @@
       "PlaceHolderA": "A1",
       "PlaceHolderB": "A2",
       "BallPossession": null,
-      "Officials": [],
+      "Officials": [
+        {
+          "IdCountry": "BRA",
+          "OfficialId": "361561",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Wilton SAMPAIO"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "威尔顿·桑帕约"
+            }
+          ],
+          "OfficialType": 1,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "裁判员"
+            }
+          ]
+        },
+        {
+          "IdCountry": "BRA",
+          "OfficialId": "391903",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Bruno PIRES"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "布鲁诺·皮雷斯"
+            }
+          ],
+          "OfficialType": 2,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "助理裁判员 1"
+            }
+          ]
+        },
+        {
+          "IdCountry": "BRA",
+          "OfficialId": "374168",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Bruno BOSCHILIA"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "布鲁诺·博斯奇利亚"
+            }
+          ],
+          "OfficialType": 3,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "助理裁判员 2"
+            }
+          ]
+        },
+        {
+          "IdCountry": "PAR",
+          "OfficialId": "416159",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Juan Gabriel BENITEZ"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "胡安·加布里埃尔·贝尼特斯"
+            }
+          ],
+          "OfficialType": 4,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "第四官员"
+            }
+          ]
+        },
+        {
+          "IdCountry": "COL",
+          "OfficialId": "408580",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Nicolas GALLO"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "尼古拉斯·加洛·巴拉甘"
+            }
+          ],
+          "OfficialType": 5,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "视频助理裁判 (VAR)"
+            }
+          ]
+        },
+        {
+          "IdCountry": "PAR",
+          "OfficialId": "360921",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Eduardo CARDOZO"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "爱德华多·卡多佐"
+            }
+          ],
+          "OfficialType": 6,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "储备裁判员"
+            }
+          ]
+        },
+        {
+          "IdCountry": "CHI",
+          "OfficialId": "428539",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Juan LARA"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "胡安·劳拉"
+            }
+          ],
+          "OfficialType": 8,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "助理 VAR"
+            }
+          ]
+        },
+        {
+          "IdCountry": "FRA",
+          "OfficialId": "408611",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Jerome BRISARD"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "杰罗姆·布里萨德"
+            }
+          ],
+          "OfficialType": 9,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "支持 VAR"
+            }
+          ]
+        }
+      ],
       "MatchStatus": 1,
       "ResultType": 0,
       "MatchNumber": 1,
@@ -284,7 +469,192 @@
       "PlaceHolderA": "A3",
       "PlaceHolderB": "A4",
       "BallPossession": null,
-      "Officials": [],
+      "Officials": [
+        {
+          "IdCountry": "EGY",
+          "OfficialId": "392013",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Amin MOHAMED"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "阿明·穆罕默德·奥马尔"
+            }
+          ],
+          "OfficialType": 1,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "裁判员"
+            }
+          ]
+        },
+        {
+          "IdCountry": "EGY",
+          "OfficialId": "374527",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Mahmoud ABOUELREGAL"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "马哈茂德·艾哈迈德·卡迈勒·阿博·埃尔·雷加尔"
+            }
+          ],
+          "OfficialType": 2,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "助理裁判员 1"
+            }
+          ]
+        },
+        {
+          "IdCountry": "EGY",
+          "OfficialId": "374447",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Ahmed HOSSAM TAHA"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "霍萨姆·埃尔丁·艾哈迈德"
+            }
+          ],
+          "OfficialType": 3,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "助理裁判员 2"
+            }
+          ]
+        },
+        {
+          "IdCountry": "CRC",
+          "OfficialId": "400250",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Juan CALDERON"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "胡安·加布里埃尔·卡尔德隆·佩雷斯"
+            }
+          ],
+          "OfficialType": 4,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "第四官员"
+            }
+          ]
+        },
+        {
+          "IdCountry": "EGY",
+          "OfficialId": "327641",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Mahmoud ASHOUR"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "马哈茂德·穆罕默德·阿舒尔"
+            }
+          ],
+          "OfficialType": 5,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "视频助理裁判 (VAR)"
+            }
+          ]
+        },
+        {
+          "IdCountry": "CRC",
+          "OfficialId": "383469",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Juan Carlos MORA"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "胡安·卡洛斯·莫拉"
+            }
+          ],
+          "OfficialType": 6,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "储备裁判员"
+            }
+          ]
+        },
+        {
+          "IdCountry": "USA",
+          "OfficialId": "434155",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Joe DICKERSON"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "约瑟夫·迪克森"
+            }
+          ],
+          "OfficialType": 8,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "助理 VAR"
+            }
+          ]
+        },
+        {
+          "IdCountry": "ITA",
+          "OfficialId": "408210",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Marco DI BELLO"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "马可·迪·贝洛"
+            }
+          ],
+          "OfficialType": 9,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "支持 VAR"
+            }
+          ]
+        }
+      ],
       "MatchStatus": 1,
       "ResultType": 0,
       "MatchNumber": 2,
@@ -431,7 +801,192 @@
       "PlaceHolderA": "B1",
       "PlaceHolderB": "B2",
       "BallPossession": null,
-      "Officials": [],
+      "Officials": [
+        {
+          "IdCountry": "ARG",
+          "OfficialId": "416165",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Facundo TELLO"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "法昆多·泰洛"
+            }
+          ],
+          "OfficialType": 1,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "裁判员"
+            }
+          ]
+        },
+        {
+          "IdCountry": "ARG",
+          "OfficialId": "328260",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Juan Pablo BELATTI"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "胡安·巴勃罗·贝拉蒂"
+            }
+          ],
+          "OfficialType": 2,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "助理裁判员 1"
+            }
+          ]
+        },
+        {
+          "IdCountry": "ARG",
+          "OfficialId": "391866",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Gabriel CHADE"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "加布里埃尔·查德"
+            }
+          ],
+          "OfficialType": 3,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "助理裁判员 2"
+            }
+          ]
+        },
+        {
+          "IdCountry": "KSA",
+          "OfficialId": "392293",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Khalid ALTURAIS"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "哈立德·萨利赫·奥图赖斯"
+            }
+          ],
+          "OfficialType": 4,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "第四官员"
+            }
+          ]
+        },
+        {
+          "IdCountry": "ARG",
+          "OfficialId": "434969",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Hernan MASTRANGELO"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "埃尔南·马斯特朗格罗"
+            }
+          ],
+          "OfficialType": 5,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "视频助理裁判 (VAR)"
+            }
+          ]
+        },
+        {
+          "IdCountry": "KSA",
+          "OfficialId": "373831",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Mohammed ALABAKRY"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "穆罕默德·马基·阿尔·阿巴克里"
+            }
+          ],
+          "OfficialType": 6,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "储备裁判员"
+            }
+          ]
+        },
+        {
+          "IdCountry": "URU",
+          "OfficialId": "446925",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Antonio GARCIA"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "en-GB",
+              "Description": "Antonio GARCIA"
+            }
+          ],
+          "OfficialType": 8,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "助理 VAR"
+            }
+          ]
+        },
+        {
+          "IdCountry": "NCA",
+          "OfficialId": "373123",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Tatiana GUZMAN"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "塔蒂亚娜·古兹曼"
+            }
+          ],
+          "OfficialType": 9,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "支持 VAR"
+            }
+          ]
+        }
+      ],
       "MatchStatus": 1,
       "ResultType": 0,
       "MatchNumber": 3,
@@ -578,7 +1133,192 @@
       "PlaceHolderA": "D1",
       "PlaceHolderB": "D2",
       "BallPossession": null,
-      "Officials": [],
+      "Officials": [
+        {
+          "IdCountry": "NED",
+          "OfficialId": "327159",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Danny MAKKELIE"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "丹尼·德斯蒙德·麦凯利"
+            }
+          ],
+          "OfficialType": 1,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "裁判员"
+            }
+          ]
+        },
+        {
+          "IdCountry": "NED",
+          "OfficialId": "363986",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Hessel STEEGSTRA"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "黑塞尔·斯蒂格斯特拉"
+            }
+          ],
+          "OfficialType": 2,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "助理裁判员 1"
+            }
+          ]
+        },
+        {
+          "IdCountry": "NED",
+          "OfficialId": "400210",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Jan DE VRIES"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "扬·德·弗里斯"
+            }
+          ],
+          "OfficialType": 3,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "助理裁判员 2"
+            }
+          ]
+        },
+        {
+          "IdCountry": "JPN",
+          "OfficialId": "400040",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Yusuke ARAKI"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "荒木友辅"
+            }
+          ],
+          "OfficialType": 4,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "第四官员"
+            }
+          ]
+        },
+        {
+          "IdCountry": "ESP",
+          "OfficialId": "360808",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Carlos DEL CERRO GRANDE"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "卡洛斯·德尔·塞罗·格兰德"
+            }
+          ],
+          "OfficialType": 5,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "视频助理裁判 (VAR)"
+            }
+          ]
+        },
+        {
+          "IdCountry": "JPN",
+          "OfficialId": "400157",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Jun MIHARA"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "三原纯"
+            }
+          ],
+          "OfficialType": 6,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "储备裁判员"
+            }
+          ]
+        },
+        {
+          "IdCountry": "NED",
+          "OfficialId": "400325",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Dennis HIGLER"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "丹尼斯·约翰·希格勒"
+            }
+          ],
+          "OfficialType": 8,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "助理 VAR"
+            }
+          ]
+        },
+        {
+          "IdCountry": "QAT",
+          "OfficialId": "315190",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Khamis ALMARRI"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "哈米斯·阿尔·马里"
+            }
+          ],
+          "OfficialType": 9,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "支持 VAR"
+            }
+          ]
+        }
+      ],
       "MatchStatus": 1,
       "ResultType": 0,
       "MatchNumber": 4,
