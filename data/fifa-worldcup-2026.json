@@ -1465,7 +1465,123 @@
       "PlaceHolderA": "B3",
       "PlaceHolderB": "B4",
       "BallPossession": null,
-      "Officials": [],
+      "Officials": [
+        {
+          "IdCountry": "HON",
+          "OfficialId": "400191",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Said MARTINEZ"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "en-GB",
+              "Description": "Said MARTINEZ"
+            }
+          ],
+          "OfficialType": 1,
+          "TypeLocalized": [
+            {
+              "Locale": "en-GB",
+              "Description": "Referee"
+            }
+          ]
+        },
+        {
+          "IdCountry": "HON",
+          "OfficialId": "361341",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Walter LOPEZ"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "en-GB",
+              "Description": "Walter LOPEZ"
+            }
+          ],
+          "OfficialType": 2,
+          "TypeLocalized": [
+            {
+              "Locale": "en-GB",
+              "Description": "Assistant Referee 1"
+            }
+          ]
+        },
+        {
+          "IdCountry": "HON",
+          "OfficialId": "348332",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Christian RAMIREZ"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "en-GB",
+              "Description": "Christian RAMIREZ"
+            }
+          ],
+          "OfficialType": 3,
+          "TypeLocalized": [
+            {
+              "Locale": "en-GB",
+              "Description": "Assistant Referee 2"
+            }
+          ]
+        },
+        {
+          "IdCountry": "JAM",
+          "OfficialId": "408303",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Oshane NATION"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "en-GB",
+              "Description": "Oshane Nation"
+            }
+          ],
+          "OfficialType": 4,
+          "TypeLocalized": [
+            {
+              "Locale": "en-GB",
+              "Description": "Fourth official"
+            }
+          ]
+        },
+        {
+          "IdCountry": "TRI",
+          "OfficialId": "360677",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Caleb WALES"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "en-GB",
+              "Description": "Caleb Wales"
+            }
+          ],
+          "OfficialType": 6,
+          "TypeLocalized": [
+            {
+              "Locale": "en-GB",
+              "Description": "Reserve referee"
+            }
+          ]
+        }
+      ],
       "MatchStatus": 1,
       "ResultType": 0,
       "MatchNumber": 8,
@@ -1612,7 +1728,123 @@
       "PlaceHolderA": "C1",
       "PlaceHolderB": "C2",
       "BallPossession": null,
-      "Officials": [],
+      "Officials": [
+        {
+          "IdCountry": "SVN",
+          "OfficialId": "315008",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Slavko VINCIC"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "en-GB",
+              "Description": "Slavko VINCIC"
+            }
+          ],
+          "OfficialType": 1,
+          "TypeLocalized": [
+            {
+              "Locale": "en-GB",
+              "Description": "Referee"
+            }
+          ]
+        },
+        {
+          "IdCountry": "SVN",
+          "OfficialId": "374790",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Tomaz KLANCNIK"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "en-GB",
+              "Description": "Tomaz KLANCNIK"
+            }
+          ],
+          "OfficialType": 2,
+          "TypeLocalized": [
+            {
+              "Locale": "en-GB",
+              "Description": "Assistant Referee 1"
+            }
+          ]
+        },
+        {
+          "IdCountry": "SVN",
+          "OfficialId": "383670",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Andraz KOVACIC"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "en-GB",
+              "Description": "Andraz KOVACIC"
+            }
+          ],
+          "OfficialType": 3,
+          "TypeLocalized": [
+            {
+              "Locale": "en-GB",
+              "Description": "Assistant Referee 2"
+            }
+          ]
+        },
+        {
+          "IdCountry": "SUI",
+          "OfficialId": "383265",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Sandro SCHAERER"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "en-GB",
+              "Description": "Sandro Schärer"
+            }
+          ],
+          "OfficialType": 4,
+          "TypeLocalized": [
+            {
+              "Locale": "en-GB",
+              "Description": "Fourth official"
+            }
+          ]
+        },
+        {
+          "IdCountry": "SUI",
+          "OfficialId": "383264",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Stephane DE ALMEIDA"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "en-GB",
+              "Description": "Stéphane De Almeida"
+            }
+          ],
+          "OfficialType": 6,
+          "TypeLocalized": [
+            {
+              "Locale": "en-GB",
+              "Description": "Reserve referee"
+            }
+          ]
+        }
+      ],
       "MatchStatus": 1,
       "ResultType": 0,
       "MatchNumber": 7,
@@ -1759,7 +1991,123 @@
       "PlaceHolderA": "C3",
       "PlaceHolderB": "C4",
       "BallPossession": null,
-      "Officials": [],
+      "Officials": [
+        {
+          "IdCountry": "ALG",
+          "OfficialId": "375306",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Mustapha GHORBAL"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "en-GB",
+              "Description": "Mustapha Ghorbal"
+            }
+          ],
+          "OfficialType": 1,
+          "TypeLocalized": [
+            {
+              "Locale": "en-GB",
+              "Description": "Referee"
+            }
+          ]
+        },
+        {
+          "IdCountry": "ALG",
+          "OfficialId": "375314",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Mokrane GOURARI"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "en-GB",
+              "Description": "Mokrane Gourari"
+            }
+          ],
+          "OfficialType": 2,
+          "TypeLocalized": [
+            {
+              "Locale": "en-GB",
+              "Description": "Assistant Referee 1"
+            }
+          ]
+        },
+        {
+          "IdCountry": "ALG",
+          "OfficialId": "400115",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Abbes Akram ZERHOUNI"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "en-GB",
+              "Description": "Abbes Zerhouni"
+            }
+          ],
+          "OfficialType": 3,
+          "TypeLocalized": [
+            {
+              "Locale": "en-GB",
+              "Description": "Assistant Referee 2"
+            }
+          ]
+        },
+        {
+          "IdCountry": "ESP",
+          "OfficialId": "373845",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Alejandro HERNANDEZ"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "en-GB",
+              "Description": "Alejandro José Hernández Hernández"
+            }
+          ],
+          "OfficialType": 4,
+          "TypeLocalized": [
+            {
+              "Locale": "en-GB",
+              "Description": "Fourth official"
+            }
+          ]
+        },
+        {
+          "IdCountry": "ESP",
+          "OfficialId": "425311",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Jose Enrique NARANJO"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "en-GB",
+              "Description": "José Enrique Naranjo Pérez"
+            }
+          ],
+          "OfficialType": 6,
+          "TypeLocalized": [
+            {
+              "Locale": "en-GB",
+              "Description": "Reserve referee"
+            }
+          ]
+        }
+      ],
       "MatchStatus": 1,
       "ResultType": 0,
       "MatchNumber": 5,
@@ -1906,7 +2254,123 @@
       "PlaceHolderA": "D3",
       "PlaceHolderB": "D4",
       "BallPossession": null,
-      "Officials": [],
+      "Officials": [
+        {
+          "IdCountry": "VEN",
+          "OfficialId": "360305",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Jesus VALENZUELA"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "en-GB",
+              "Description": "Jesús Valenzuela Sáez"
+            }
+          ],
+          "OfficialType": 1,
+          "TypeLocalized": [
+            {
+              "Locale": "en-GB",
+              "Description": "Referee"
+            }
+          ]
+        },
+        {
+          "IdCountry": "VEN",
+          "OfficialId": "262055",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Jorge URREGO"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "en-GB",
+              "Description": "Jorge Urrego Martínez"
+            }
+          ],
+          "OfficialType": 2,
+          "TypeLocalized": [
+            {
+              "Locale": "en-GB",
+              "Description": "Assistant Referee 1"
+            }
+          ]
+        },
+        {
+          "IdCountry": "VEN",
+          "OfficialId": "349171",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Tulio MORENO"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "en-GB",
+              "Description": "Tulio Moreno"
+            }
+          ],
+          "OfficialType": 3,
+          "TypeLocalized": [
+            {
+              "Locale": "en-GB",
+              "Description": "Assistant Referee 2"
+            }
+          ]
+        },
+        {
+          "IdCountry": "PER",
+          "OfficialId": "416161",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Kevin ORTEGA"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "en-GB",
+              "Description": "Kevin Ortega"
+            }
+          ],
+          "OfficialType": 4,
+          "TypeLocalized": [
+            {
+              "Locale": "en-GB",
+              "Description": "Fourth official"
+            }
+          ]
+        },
+        {
+          "IdCountry": "PER",
+          "OfficialId": "374831",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Michael ORUE"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "en-GB",
+              "Description": "Michael Orué"
+            }
+          ],
+          "OfficialType": 6,
+          "TypeLocalized": [
+            {
+              "Locale": "en-GB",
+              "Description": "Reserve referee"
+            }
+          ]
+        }
+      ],
       "MatchStatus": 1,
       "ResultType": 0,
       "MatchNumber": 6,

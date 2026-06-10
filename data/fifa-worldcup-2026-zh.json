@@ -1465,7 +1465,123 @@
       "PlaceHolderA": "B3",
       "PlaceHolderB": "B4",
       "BallPossession": null,
-      "Officials": [],
+      "Officials": [
+        {
+          "IdCountry": "HON",
+          "OfficialId": "400191",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Said MARTINEZ"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "赛义德·马丁内斯"
+            }
+          ],
+          "OfficialType": 1,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "裁判员"
+            }
+          ]
+        },
+        {
+          "IdCountry": "HON",
+          "OfficialId": "361341",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Walter LOPEZ"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "沃尔特·洛佩兹"
+            }
+          ],
+          "OfficialType": 2,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "助理裁判员 1"
+            }
+          ]
+        },
+        {
+          "IdCountry": "HON",
+          "OfficialId": "348332",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Christian RAMIREZ"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "克里斯蒂安·拉米雷斯"
+            }
+          ],
+          "OfficialType": 3,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "助理裁判员 2"
+            }
+          ]
+        },
+        {
+          "IdCountry": "JAM",
+          "OfficialId": "408303",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Oshane NATION"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "奥沙尼·内申"
+            }
+          ],
+          "OfficialType": 4,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "第四官员"
+            }
+          ]
+        },
+        {
+          "IdCountry": "TRI",
+          "OfficialId": "360677",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Caleb WALES"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "迦勒布·威尔士"
+            }
+          ],
+          "OfficialType": 6,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "储备裁判员"
+            }
+          ]
+        }
+      ],
       "MatchStatus": 1,
       "ResultType": 0,
       "MatchNumber": 8,
@@ -1612,7 +1728,123 @@
       "PlaceHolderA": "C1",
       "PlaceHolderB": "C2",
       "BallPossession": null,
-      "Officials": [],
+      "Officials": [
+        {
+          "IdCountry": "SVN",
+          "OfficialId": "315008",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Slavko VINCIC"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "斯拉夫科·文西奇"
+            }
+          ],
+          "OfficialType": 1,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "裁判员"
+            }
+          ]
+        },
+        {
+          "IdCountry": "SVN",
+          "OfficialId": "374790",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Tomaz KLANCNIK"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "托马兹·克兰尼克"
+            }
+          ],
+          "OfficialType": 2,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "助理裁判员 1"
+            }
+          ]
+        },
+        {
+          "IdCountry": "SVN",
+          "OfficialId": "383670",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Andraz KOVACIC"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "安德拉兹·科瓦契奇"
+            }
+          ],
+          "OfficialType": 3,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "助理裁判员 2"
+            }
+          ]
+        },
+        {
+          "IdCountry": "SUI",
+          "OfficialId": "383265",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Sandro SCHAERER"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "桑德罗·舍勒"
+            }
+          ],
+          "OfficialType": 4,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "第四官员"
+            }
+          ]
+        },
+        {
+          "IdCountry": "SUI",
+          "OfficialId": "383264",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Stephane DE ALMEIDA"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "斯蒂芬·德·阿尔梅达"
+            }
+          ],
+          "OfficialType": 6,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "储备裁判员"
+            }
+          ]
+        }
+      ],
       "MatchStatus": 1,
       "ResultType": 0,
       "MatchNumber": 7,
@@ -1759,7 +1991,123 @@
       "PlaceHolderA": "C3",
       "PlaceHolderB": "C4",
       "BallPossession": null,
-      "Officials": [],
+      "Officials": [
+        {
+          "IdCountry": "ALG",
+          "OfficialId": "375306",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Mustapha GHORBAL"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "穆斯塔法·戈巴尔"
+            }
+          ],
+          "OfficialType": 1,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "裁判员"
+            }
+          ]
+        },
+        {
+          "IdCountry": "ALG",
+          "OfficialId": "375314",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Mokrane GOURARI"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "莫克兰·古拉里"
+            }
+          ],
+          "OfficialType": 2,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "助理裁判员 1"
+            }
+          ]
+        },
+        {
+          "IdCountry": "ALG",
+          "OfficialId": "400115",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Abbes Akram ZERHOUNI"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "阿贝斯·泽霍尼"
+            }
+          ],
+          "OfficialType": 3,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "助理裁判员 2"
+            }
+          ]
+        },
+        {
+          "IdCountry": "ESP",
+          "OfficialId": "373845",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Alejandro HERNANDEZ"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "亚历杭德罗·何塞·埃尔南德斯·埃尔南德斯"
+            }
+          ],
+          "OfficialType": 4,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "第四官员"
+            }
+          ]
+        },
+        {
+          "IdCountry": "ESP",
+          "OfficialId": "425311",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Jose Enrique NARANJO"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "何塞·恩里克·纳兰霍·佩雷斯"
+            }
+          ],
+          "OfficialType": 6,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "储备裁判员"
+            }
+          ]
+        }
+      ],
       "MatchStatus": 1,
       "ResultType": 0,
       "MatchNumber": 5,
@@ -1906,7 +2254,123 @@
       "PlaceHolderA": "D3",
       "PlaceHolderB": "D4",
       "BallPossession": null,
-      "Officials": [],
+      "Officials": [
+        {
+          "IdCountry": "VEN",
+          "OfficialId": "360305",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Jesus VALENZUELA"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "赫苏斯·瓦伦苏埃拉·萨斯"
+            }
+          ],
+          "OfficialType": 1,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "裁判员"
+            }
+          ]
+        },
+        {
+          "IdCountry": "VEN",
+          "OfficialId": "262055",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Jorge URREGO"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "豪尔赫·乌雷戈·马丁内斯"
+            }
+          ],
+          "OfficialType": 2,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "助理裁判员 1"
+            }
+          ]
+        },
+        {
+          "IdCountry": "VEN",
+          "OfficialId": "349171",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Tulio MORENO"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "图利奥·莫雷诺"
+            }
+          ],
+          "OfficialType": 3,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "助理裁判员 2"
+            }
+          ]
+        },
+        {
+          "IdCountry": "PER",
+          "OfficialId": "416161",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Kevin ORTEGA"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "凯文·奥尔特加"
+            }
+          ],
+          "OfficialType": 4,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "第四官员"
+            }
+          ]
+        },
+        {
+          "IdCountry": "PER",
+          "OfficialId": "374831",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Michael ORUE"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "迈克尔·奥鲁"
+            }
+          ],
+          "OfficialType": 6,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "储备裁判员"
+            }
+          ]
+        }
+      ],
       "MatchStatus": 1,
       "ResultType": 0,
       "MatchNumber": 6,
