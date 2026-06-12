@@ -172,7 +172,7 @@
       "ResultType": 1,
       "MatchNumber": 1,
       "TimeDefined": true,
-      "OfficialityStatus": 2,
+      "OfficialityStatus": 1,
       "MatchLegInfo": null,
       "Properties": {
         "IdIFES": "151600"
@@ -184,8 +184,14 @@
       "IdSeason": "285023",
       "IdStage": "289273",
       "IdGroup": "289275",
-      "Weather": null,
-      "Attendance": null,
+      "Weather": {
+        "Humidity": null,
+        "Temperature": null,
+        "WindSpeed": null,
+        "Type": null,
+        "TypeLocalized": []
+      },
+      "Attendance": "44985",
       "IdMatch": "400021441",
       "MatchDay": null,
       "StageName": [
@@ -216,12 +222,12 @@
       "Date": "2026-06-12T02:00:00Z",
       "LocalDate": "2026-06-11T20:00:00Z",
       "Home": {
-        "Score": null,
+        "Score": 2,
         "Side": null,
         "IdTeam": "43822",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/KOR",
         "IdCountry": "KOR",
-        "Tactics": null,
+        "Tactics": "3-4-3",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -237,12 +243,12 @@
         "IdAssociation": "KOR"
       },
       "Away": {
-        "Score": null,
+        "Score": 1,
         "Side": null,
         "IdTeam": "43995",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CZE",
         "IdCountry": "CZE",
-        "Tactics": null,
+        "Tactics": "5-2-3",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -257,8 +263,8 @@
         "Gender": 1,
         "IdAssociation": "CZE"
       },
-      "HomeTeamScore": null,
-      "AwayTeamScore": null,
+      "HomeTeamScore": 2,
+      "AwayTeamScore": 1,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
       "HomeTeamPenaltyScore": null,
@@ -304,12 +310,12 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "97'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
       "SecondHalfExtraTime": null,
-      "Winner": null,
+      "Winner": "43822",
       "MatchReportUrl": null,
       "PlaceHolderA": "A3",
       "PlaceHolderB": "A4",
@@ -339,11 +345,11 @@
           ]
         }
       ],
-      "MatchStatus": 1,
-      "ResultType": 0,
+      "MatchStatus": 0,
+      "ResultType": 1,
       "MatchNumber": 2,
       "TimeDefined": true,
-      "OfficialityStatus": 0,
+      "OfficialityStatus": 1,
       "MatchLegInfo": null,
       "Properties": {
         "IdIFES": "151608"
@@ -1511,7 +1517,31 @@
       "PlaceHolderA": "E1",
       "PlaceHolderB": "E2",
       "BallPossession": null,
-      "Officials": [],
+      "Officials": [
+        {
+          "IdCountry": "MAR",
+          "OfficialId": "416524",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Jalal JAYED"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "en-GB",
+              "Description": "Jalal Jayed"
+            }
+          ],
+          "OfficialType": 1,
+          "TypeLocalized": [
+            {
+              "Locale": "en-GB",
+              "Description": "Referee"
+            }
+          ]
+        }
+      ],
       "MatchStatus": 1,
       "ResultType": 0,
       "MatchNumber": 10,
@@ -1658,7 +1688,31 @@
       "PlaceHolderA": "F1",
       "PlaceHolderB": "F2",
       "BallPossession": null,
-      "Officials": [],
+      "Officials": [
+        {
+          "IdCountry": "USA",
+          "OfficialId": "392406",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Ismail ELFATH"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "en-GB",
+              "Description": "Ismail Elfath"
+            }
+          ],
+          "OfficialType": 1,
+          "TypeLocalized": [
+            {
+              "Locale": "en-GB",
+              "Description": "Referee"
+            }
+          ]
+        }
+      ],
       "MatchStatus": 1,
       "ResultType": 0,
       "MatchNumber": 11,
@@ -1805,7 +1859,31 @@
       "PlaceHolderA": "E3",
       "PlaceHolderB": "E4",
       "BallPossession": null,
-      "Officials": [],
+      "Officials": [
+        {
+          "IdCountry": "ENG",
+          "OfficialId": "347710",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Michael OLIVER"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "en-GB",
+              "Description": "Michael Oliver"
+            }
+          ],
+          "OfficialType": 1,
+          "TypeLocalized": [
+            {
+              "Locale": "en-GB",
+              "Description": "Referee"
+            }
+          ]
+        }
+      ],
       "MatchStatus": 1,
       "ResultType": 0,
       "MatchNumber": 9,
@@ -1952,7 +2030,31 @@
       "PlaceHolderA": "F3",
       "PlaceHolderB": "F4",
       "BallPossession": null,
-      "Officials": [],
+      "Officials": [
+        {
+          "IdCountry": "ARG",
+          "OfficialId": "434995",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Yael FALCON PEREZ"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "en-GB",
+              "Description": "Yael Falcón Pérez"
+            }
+          ],
+          "OfficialType": 1,
+          "TypeLocalized": [
+            {
+              "Locale": "en-GB",
+              "Description": "Referee"
+            }
+          ]
+        }
+      ],
       "MatchStatus": 1,
       "ResultType": 0,
       "MatchNumber": 12,
