@@ -538,8 +538,14 @@
       "IdSeason": "285023",
       "IdStage": "289273",
       "IdGroup": "289278",
-      "Weather": null,
-      "Attendance": null,
+      "Weather": {
+        "Humidity": null,
+        "Temperature": null,
+        "WindSpeed": null,
+        "Type": null,
+        "TypeLocalized": []
+      },
+      "Attendance": "70492",
       "IdMatch": "400021458",
       "MatchDay": null,
       "StageName": [
@@ -570,12 +576,12 @@
       "Date": "2026-06-13T01:00:00Z",
       "LocalDate": "2026-06-12T18:00:00Z",
       "Home": {
-        "Score": null,
+        "Score": 4,
         "Side": null,
         "IdTeam": "43921",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/USA",
         "IdCountry": "USA",
-        "Tactics": null,
+        "Tactics": "4-2-3-1",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -591,12 +597,12 @@
         "IdAssociation": "USA"
       },
       "Away": {
-        "Score": null,
+        "Score": 1,
         "Side": null,
         "IdTeam": "43928",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/PAR",
         "IdCountry": "PAR",
-        "Tactics": null,
+        "Tactics": "4-4-2",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -611,8 +617,8 @@
         "Gender": 1,
         "IdAssociation": "PAR"
       },
-      "HomeTeamScore": null,
-      "AwayTeamScore": null,
+      "HomeTeamScore": 4,
+      "AwayTeamScore": 1,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
       "HomeTeamPenaltyScore": null,
@@ -658,12 +664,12 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "99'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
       "SecondHalfExtraTime": null,
-      "Winner": null,
+      "Winner": "43921",
       "MatchReportUrl": null,
       "PlaceHolderA": "D1",
       "PlaceHolderB": "D2",
@@ -693,11 +699,11 @@
           ]
         }
       ],
-      "MatchStatus": 1,
-      "ResultType": 0,
+      "MatchStatus": 0,
+      "ResultType": 1,
       "MatchNumber": 4,
       "TimeDefined": true,
-      "OfficialityStatus": 0,
+      "OfficialityStatus": 1,
       "MatchLegInfo": null,
       "Properties": {
         "IdIFES": "151625"
@@ -1867,18 +1873,18 @@
       "BallPossession": null,
       "Officials": [
         {
-          "IdCountry": "ENG",
-          "OfficialId": "347710",
+          "IdCountry": "FRA",
+          "OfficialId": "399029",
           "NameShort": [
             {
               "Locale": "en-GB",
-              "Description": "Michael OLIVER"
+              "Description": "Francois LETEXIER"
             }
           ],
           "Name": [
             {
               "Locale": "zh-CN",
-              "Description": "迈克尔·奥利弗"
+              "Description": "弗朗索瓦·莱泰西耶"
             }
           ],
           "OfficialType": 1,
@@ -2207,7 +2213,31 @@
       "PlaceHolderA": "H1",
       "PlaceHolderB": "H2",
       "BallPossession": null,
-      "Officials": [],
+      "Officials": [
+        {
+          "IdCountry": "JOR",
+          "OfficialId": "361034",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Adham MAKHADMEH"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "阿达姆·穆罕默德·图马赫·马哈德梅"
+            }
+          ],
+          "OfficialType": 1,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "裁判员"
+            }
+          ]
+        }
+      ],
       "MatchStatus": 1,
       "ResultType": 0,
       "MatchNumber": 14,
@@ -2354,7 +2384,31 @@
       "PlaceHolderA": "G1",
       "PlaceHolderB": "G2",
       "BallPossession": null,
-      "Officials": [],
+      "Officials": [
+        {
+          "IdCountry": "BRA",
+          "OfficialId": "446932",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Ramon ABATTI"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "en-GB",
+              "Description": "Ramon ABATTI"
+            }
+          ],
+          "OfficialType": 1,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "裁判员"
+            }
+          ]
+        }
+      ],
       "MatchStatus": 1,
       "ResultType": 0,
       "MatchNumber": 16,
@@ -2501,7 +2555,31 @@
       "PlaceHolderA": "H3",
       "PlaceHolderB": "H4",
       "BallPossession": null,
-      "Officials": [],
+      "Officials": [
+        {
+          "IdCountry": "ITA",
+          "OfficialId": "415965",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Maurizio MARIANI"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "毛里齐奥·马里亚尼"
+            }
+          ],
+          "OfficialType": 1,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "裁判员"
+            }
+          ]
+        }
+      ],
       "MatchStatus": 1,
       "ResultType": 0,
       "MatchNumber": 13,
@@ -2648,7 +2726,31 @@
       "PlaceHolderA": "G3",
       "PlaceHolderB": "G4",
       "BallPossession": null,
-      "Officials": [],
+      "Officials": [
+        {
+          "IdCountry": "MEX",
+          "OfficialId": "374810",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Cesar RAMOS"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "塞萨尔·阿图罗·拉莫斯·帕拉苏埃洛斯"
+            }
+          ],
+          "OfficialType": 1,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "裁判员"
+            }
+          ]
+        }
+      ],
       "MatchStatus": 1,
       "ResultType": 0,
       "MatchNumber": 15,
