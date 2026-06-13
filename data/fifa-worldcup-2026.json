@@ -716,7 +716,7 @@
       "IdStage": "289273",
       "IdGroup": "289276",
       "Weather": null,
-      "Attendance": null,
+      "Attendance": "67966",
       "IdMatch": "400021447",
       "MatchDay": null,
       "StageName": [
@@ -747,12 +747,12 @@
       "Date": "2026-06-13T19:00:00Z",
       "LocalDate": "2026-06-13T12:00:00Z",
       "Home": {
-        "Score": null,
+        "Score": 0,
         "Side": null,
         "IdTeam": "43834",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/QAT",
         "IdCountry": "QAT",
-        "Tactics": null,
+        "Tactics": "4-2-3-1",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -768,12 +768,12 @@
         "IdAssociation": "QAT"
       },
       "Away": {
-        "Score": null,
+        "Score": 1,
         "Side": null,
         "IdTeam": "43971",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/SUI",
         "IdCountry": "SUI",
-        "Tactics": null,
+        "Tactics": "4-3-3",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -788,8 +788,8 @@
         "Gender": 1,
         "IdAssociation": "SUI"
       },
-      "HomeTeamScore": null,
-      "AwayTeamScore": null,
+      "HomeTeamScore": 0,
+      "AwayTeamScore": 1,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
       "HomeTeamPenaltyScore": null,
@@ -835,7 +835,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "82'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
@@ -870,7 +870,7 @@
           ]
         }
       ],
-      "MatchStatus": 1,
+      "MatchStatus": 3,
       "ResultType": 0,
       "MatchNumber": 8,
       "TimeDefined": true,
@@ -923,7 +923,7 @@
         "IdTeam": "43924",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/BRA",
         "IdCountry": "BRA",
-        "Tactics": null,
+        "Tactics": "4-2-3-1",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -944,7 +944,7 @@
         "IdTeam": "43872",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/MAR",
         "IdCountry": "MAR",
-        "Tactics": null,
+        "Tactics": "4-2-3-1",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -1006,7 +1006,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "0'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
