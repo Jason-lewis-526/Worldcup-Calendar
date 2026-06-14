@@ -1423,8 +1423,14 @@
       "IdSeason": "285023",
       "IdStage": "289273",
       "IdGroup": "289279",
-      "Weather": null,
-      "Attendance": null,
+      "Weather": {
+        "Humidity": null,
+        "Temperature": null,
+        "WindSpeed": null,
+        "Type": null,
+        "TypeLocalized": []
+      },
+      "Attendance": "68021",
       "IdMatch": "400021464",
       "MatchDay": null,
       "StageName": [
@@ -1455,12 +1461,12 @@
       "Date": "2026-06-14T17:00:00Z",
       "LocalDate": "2026-06-14T12:00:00Z",
       "Home": {
-        "Score": null,
+        "Score": 7,
         "Side": null,
         "IdTeam": "43948",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/GER",
         "IdCountry": "GER",
-        "Tactics": null,
+        "Tactics": "3-4-3",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -1476,12 +1482,12 @@
         "IdAssociation": "GER"
       },
       "Away": {
-        "Score": null,
+        "Score": 1,
         "Side": null,
         "IdTeam": "1895293",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CUW",
         "IdCountry": "CUW",
-        "Tactics": null,
+        "Tactics": "4-1-2-3",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -1496,8 +1502,8 @@
         "Gender": 1,
         "IdAssociation": "CUW"
       },
-      "HomeTeamScore": null,
-      "AwayTeamScore": null,
+      "HomeTeamScore": 7,
+      "AwayTeamScore": 1,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
       "HomeTeamPenaltyScore": null,
@@ -1543,12 +1549,12 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "96'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
       "SecondHalfExtraTime": null,
-      "Winner": null,
+      "Winner": "43948",
       "MatchReportUrl": null,
       "PlaceHolderA": "E1",
       "PlaceHolderB": "E2",
@@ -1578,11 +1584,11 @@
           ]
         }
       ],
-      "MatchStatus": 1,
-      "ResultType": 0,
+      "MatchStatus": 0,
+      "ResultType": 1,
       "MatchNumber": 10,
       "TimeDefined": true,
-      "OfficialityStatus": 0,
+      "OfficialityStatus": 1,
       "MatchLegInfo": null,
       "Properties": {
         "IdIFES": "151631"
@@ -1626,12 +1632,12 @@
       "Date": "2026-06-14T20:00:00Z",
       "LocalDate": "2026-06-14T15:00:00Z",
       "Home": {
-        "Score": null,
+        "Score": 0,
         "Side": null,
         "IdTeam": "43960",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/NED",
         "IdCountry": "NED",
-        "Tactics": null,
+        "Tactics": "4-1-2-3",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -1647,12 +1653,12 @@
         "IdAssociation": "NED"
       },
       "Away": {
-        "Score": null,
+        "Score": 0,
         "Side": null,
         "IdTeam": "43819",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/JPN",
         "IdCountry": "JPN",
-        "Tactics": null,
+        "Tactics": "3-4-3",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -1667,8 +1673,8 @@
         "Gender": 1,
         "IdAssociation": "JPN"
       },
-      "HomeTeamScore": null,
-      "AwayTeamScore": null,
+      "HomeTeamScore": 0,
+      "AwayTeamScore": 0,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
       "HomeTeamPenaltyScore": null,
@@ -1714,7 +1720,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "23'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
@@ -1749,7 +1755,7 @@
           ]
         }
       ],
-      "MatchStatus": 1,
+      "MatchStatus": 3,
       "ResultType": 0,
       "MatchNumber": 11,
       "TimeDefined": true,
