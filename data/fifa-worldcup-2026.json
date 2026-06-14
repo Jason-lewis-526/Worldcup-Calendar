@@ -715,7 +715,13 @@
       "IdSeason": "285023",
       "IdStage": "289273",
       "IdGroup": "289276",
-      "Weather": null,
+      "Weather": {
+        "Humidity": null,
+        "Temperature": null,
+        "WindSpeed": null,
+        "Type": null,
+        "TypeLocalized": []
+      },
       "Attendance": "67966",
       "IdMatch": "400021447",
       "MatchDay": null,
@@ -747,7 +753,7 @@
       "Date": "2026-06-13T19:00:00Z",
       "LocalDate": "2026-06-13T12:00:00Z",
       "Home": {
-        "Score": 0,
+        "Score": 1,
         "Side": null,
         "IdTeam": "43834",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/QAT",
@@ -788,7 +794,7 @@
         "Gender": 1,
         "IdAssociation": "SUI"
       },
-      "HomeTeamScore": 0,
+      "HomeTeamScore": 1,
       "AwayTeamScore": 1,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
@@ -835,7 +841,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": "82'",
+      "MatchTime": "98'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
@@ -870,11 +876,11 @@
           ]
         }
       ],
-      "MatchStatus": 3,
-      "ResultType": 0,
+      "MatchStatus": 0,
+      "ResultType": 1,
       "MatchNumber": 8,
       "TimeDefined": true,
-      "OfficialityStatus": 0,
+      "OfficialityStatus": 1,
       "MatchLegInfo": null,
       "Properties": {
         "IdIFES": "151613"
@@ -886,8 +892,14 @@
       "IdSeason": "285023",
       "IdStage": "289273",
       "IdGroup": "289277",
-      "Weather": null,
-      "Attendance": null,
+      "Weather": {
+        "Humidity": null,
+        "Temperature": null,
+        "WindSpeed": null,
+        "Type": null,
+        "TypeLocalized": []
+      },
+      "Attendance": "80663",
       "IdMatch": "400021456",
       "MatchDay": null,
       "StageName": [
@@ -918,12 +930,12 @@
       "Date": "2026-06-13T22:00:00Z",
       "LocalDate": "2026-06-13T18:00:00Z",
       "Home": {
-        "Score": null,
+        "Score": 1,
         "Side": null,
         "IdTeam": "43924",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/BRA",
         "IdCountry": "BRA",
-        "Tactics": "4-2-3-1",
+        "Tactics": "4-4-2",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -939,7 +951,7 @@
         "IdAssociation": "BRA"
       },
       "Away": {
-        "Score": null,
+        "Score": 1,
         "Side": null,
         "IdTeam": "43872",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/MAR",
@@ -959,8 +971,8 @@
         "Gender": 1,
         "IdAssociation": "MAR"
       },
-      "HomeTeamScore": null,
-      "AwayTeamScore": null,
+      "HomeTeamScore": 1,
+      "AwayTeamScore": 1,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
       "HomeTeamPenaltyScore": null,
@@ -1006,7 +1018,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": "0'",
+      "MatchTime": "101'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
@@ -1041,11 +1053,11 @@
           ]
         }
       ],
-      "MatchStatus": 1,
-      "ResultType": 0,
+      "MatchStatus": 0,
+      "ResultType": 1,
       "MatchNumber": 7,
       "TimeDefined": true,
-      "OfficialityStatus": 0,
+      "OfficialityStatus": 1,
       "MatchLegInfo": null,
       "Properties": {
         "IdIFES": "151620"
@@ -1057,8 +1069,14 @@
       "IdSeason": "285023",
       "IdStage": "289273",
       "IdGroup": "289277",
-      "Weather": null,
-      "Attendance": null,
+      "Weather": {
+        "Humidity": null,
+        "Temperature": null,
+        "WindSpeed": null,
+        "Type": null,
+        "TypeLocalized": []
+      },
+      "Attendance": "64146",
       "IdMatch": "400021453",
       "MatchDay": null,
       "StageName": [
@@ -1089,12 +1107,12 @@
       "Date": "2026-06-14T01:00:00Z",
       "LocalDate": "2026-06-13T21:00:00Z",
       "Home": {
-        "Score": null,
+        "Score": 0,
         "Side": null,
         "IdTeam": "43908",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/HAI",
         "IdCountry": "HAI",
-        "Tactics": null,
+        "Tactics": "4-4-2",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -1110,12 +1128,12 @@
         "IdAssociation": "HAI"
       },
       "Away": {
-        "Score": null,
+        "Score": 1,
         "Side": null,
         "IdTeam": "43967",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/SCO",
         "IdCountry": "SCO",
-        "Tactics": null,
+        "Tactics": "4-4-2",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -1130,8 +1148,8 @@
         "Gender": 1,
         "IdAssociation": "SCO"
       },
-      "HomeTeamScore": null,
-      "AwayTeamScore": null,
+      "HomeTeamScore": 0,
+      "AwayTeamScore": 1,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
       "HomeTeamPenaltyScore": null,
@@ -1177,12 +1195,12 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "99'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
       "SecondHalfExtraTime": null,
-      "Winner": null,
+      "Winner": "43967",
       "MatchReportUrl": null,
       "PlaceHolderA": "C3",
       "PlaceHolderB": "C4",
@@ -1212,11 +1230,11 @@
           ]
         }
       ],
-      "MatchStatus": 1,
-      "ResultType": 0,
+      "MatchStatus": 0,
+      "ResultType": 1,
       "MatchNumber": 5,
       "TimeDefined": true,
-      "OfficialityStatus": 0,
+      "OfficialityStatus": 1,
       "MatchLegInfo": null,
       "Properties": {
         "IdIFES": "151619"
@@ -1228,8 +1246,14 @@
       "IdSeason": "285023",
       "IdStage": "289273",
       "IdGroup": "289278",
-      "Weather": null,
-      "Attendance": null,
+      "Weather": {
+        "Humidity": null,
+        "Temperature": null,
+        "WindSpeed": null,
+        "Type": null,
+        "TypeLocalized": []
+      },
+      "Attendance": "52497",
       "IdMatch": "400021463",
       "MatchDay": null,
       "StageName": [
@@ -1260,12 +1284,12 @@
       "Date": "2026-06-14T04:00:00Z",
       "LocalDate": "2026-06-13T21:00:00Z",
       "Home": {
-        "Score": null,
+        "Score": 2,
         "Side": null,
         "IdTeam": "43976",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/AUS",
         "IdCountry": "AUS",
-        "Tactics": null,
+        "Tactics": "5-4-1",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -1281,12 +1305,12 @@
         "IdAssociation": "AUS"
       },
       "Away": {
-        "Score": null,
+        "Score": 0,
         "Side": null,
         "IdTeam": "43972",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/TUR",
         "IdCountry": "TUR",
-        "Tactics": null,
+        "Tactics": "4-2-3-1",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -1301,8 +1325,8 @@
         "Gender": 1,
         "IdAssociation": "TUR"
       },
-      "HomeTeamScore": null,
-      "AwayTeamScore": null,
+      "HomeTeamScore": 2,
+      "AwayTeamScore": 0,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
       "HomeTeamPenaltyScore": null,
@@ -1348,12 +1372,12 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "97'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
       "SecondHalfExtraTime": null,
-      "Winner": null,
+      "Winner": "43976",
       "MatchReportUrl": null,
       "PlaceHolderA": "D3",
       "PlaceHolderB": "D4",
@@ -1383,11 +1407,11 @@
           ]
         }
       ],
-      "MatchStatus": 1,
-      "ResultType": 0,
+      "MatchStatus": 0,
+      "ResultType": 1,
       "MatchNumber": 6,
       "TimeDefined": true,
-      "OfficialityStatus": 0,
+      "OfficialityStatus": 1,
       "MatchLegInfo": null,
       "Properties": {
         "IdIFES": "151626"
@@ -2897,7 +2921,31 @@
       "PlaceHolderA": "I1",
       "PlaceHolderB": "I2",
       "BallPossession": null,
-      "Officials": [],
+      "Officials": [
+        {
+          "IdCountry": "AUS",
+          "OfficialId": "283448",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Alireza FAGHANI"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "en-GB",
+              "Description": "Alireza FAGHANI"
+            }
+          ],
+          "OfficialType": 1,
+          "TypeLocalized": [
+            {
+              "Locale": "en-GB",
+              "Description": "Referee"
+            }
+          ]
+        }
+      ],
       "MatchStatus": 1,
       "ResultType": 0,
       "MatchNumber": 17,
@@ -3044,7 +3092,54 @@
       "PlaceHolderA": "I3",
       "PlaceHolderB": "I4",
       "BallPossession": null,
-      "Officials": [],
+      "Officials": [
+        {
+          "IdCountry": "GAB",
+          "OfficialId": "408417",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Pierre ATCHO"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "en-GB",
+              "Description": "Pierre Ghislain Atcho"
+            }
+          ],
+          "OfficialType": 1,
+          "TypeLocalized": [
+            {
+              "Locale": "en-GB",
+              "Description": "Referee"
+            }
+          ]
+        },
+        {
+          "IdCountry": "EGY",
+          "OfficialId": "392013",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Amin MOHAMED"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "en-GB",
+              "Description": "Amin Mohamed Omar"
+            }
+          ],
+          "OfficialType": 4,
+          "TypeLocalized": [
+            {
+              "Locale": "en-GB",
+              "Description": "Fourth official"
+            }
+          ]
+        }
+      ],
       "MatchStatus": 1,
       "ResultType": 0,
       "MatchNumber": 18,
@@ -3191,7 +3286,31 @@
       "PlaceHolderA": "J1",
       "PlaceHolderB": "J2",
       "BallPossession": null,
-      "Officials": [],
+      "Officials": [
+        {
+          "IdCountry": "POL",
+          "OfficialId": "327975",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Szymon MARCINIAK"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "en-GB",
+              "Description": "Szymon MARCINIAK"
+            }
+          ],
+          "OfficialType": 1,
+          "TypeLocalized": [
+            {
+              "Locale": "en-GB",
+              "Description": "Referee"
+            }
+          ]
+        }
+      ],
       "MatchStatus": 1,
       "ResultType": 0,
       "MatchNumber": 19,
@@ -3338,7 +3457,31 @@
       "PlaceHolderA": "J3",
       "PlaceHolderB": "J4",
       "BallPossession": null,
-      "Officials": [],
+      "Officials": [
+        {
+          "IdCountry": "MTN",
+          "OfficialId": "408591",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Dahane BEIDA"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "en-GB",
+              "Description": "Dahane BEIDA"
+            }
+          ],
+          "OfficialType": 1,
+          "TypeLocalized": [
+            {
+              "Locale": "en-GB",
+              "Description": "Referee"
+            }
+          ]
+        }
+      ],
       "MatchStatus": 1,
       "ResultType": 0,
       "MatchNumber": 20,
