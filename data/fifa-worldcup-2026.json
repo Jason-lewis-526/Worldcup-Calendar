@@ -2131,8 +2131,14 @@
       "IdSeason": "285023",
       "IdStage": "289273",
       "IdGroup": "289282",
-      "Weather": null,
-      "Attendance": null,
+      "Weather": {
+        "Humidity": null,
+        "Temperature": null,
+        "WindSpeed": null,
+        "Type": null,
+        "TypeLocalized": []
+      },
+      "Attendance": "67640",
       "IdMatch": "400021482",
       "MatchDay": null,
       "StageName": [
@@ -2189,7 +2195,7 @@
         "IdTeam": "43850",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CPV",
         "IdCountry": "CPV",
-        "Tactics": "4-2-3-1",
+        "Tactics": "4-1-2-3",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -2251,7 +2257,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": "21'",
+      "MatchTime": "96'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
@@ -2286,11 +2292,11 @@
           ]
         }
       ],
-      "MatchStatus": 3,
-      "ResultType": 0,
+      "MatchStatus": 0,
+      "ResultType": 1,
       "MatchNumber": 14,
       "TimeDefined": true,
-      "OfficialityStatus": 0,
+      "OfficialityStatus": 1,
       "MatchLegInfo": null,
       "Properties": {
         "IdIFES": "151649"
@@ -2302,8 +2308,14 @@
       "IdSeason": "285023",
       "IdStage": "289273",
       "IdGroup": "289281",
-      "Weather": null,
-      "Attendance": null,
+      "Weather": {
+        "Humidity": null,
+        "Temperature": null,
+        "WindSpeed": null,
+        "Type": null,
+        "TypeLocalized": []
+      },
+      "Attendance": "66775",
       "IdMatch": "400021478",
       "MatchDay": null,
       "StageName": [
@@ -2334,12 +2346,12 @@
       "Date": "2026-06-15T19:00:00Z",
       "LocalDate": "2026-06-15T12:00:00Z",
       "Home": {
-        "Score": null,
+        "Score": 1,
         "Side": null,
         "IdTeam": "43935",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/BEL",
         "IdCountry": "BEL",
-        "Tactics": null,
+        "Tactics": "4-2-3-1",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -2355,12 +2367,12 @@
         "IdAssociation": "BEL"
       },
       "Away": {
-        "Score": null,
+        "Score": 1,
         "Side": null,
         "IdTeam": "43855",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/EGY",
         "IdCountry": "EGY",
-        "Tactics": null,
+        "Tactics": "4-2-3-1",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -2375,8 +2387,8 @@
         "Gender": 1,
         "IdAssociation": "EGY"
       },
-      "HomeTeamScore": null,
-      "AwayTeamScore": null,
+      "HomeTeamScore": 1,
+      "AwayTeamScore": 1,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
       "HomeTeamPenaltyScore": null,
@@ -2422,7 +2434,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "96'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
@@ -2457,11 +2469,11 @@
           ]
         }
       ],
-      "MatchStatus": 1,
-      "ResultType": 0,
+      "MatchStatus": 0,
+      "ResultType": 1,
       "MatchNumber": 16,
       "TimeDefined": true,
-      "OfficialityStatus": 0,
+      "OfficialityStatus": 1,
       "MatchLegInfo": null,
       "Properties": {
         "IdIFES": "151643"
@@ -2505,12 +2517,12 @@
       "Date": "2026-06-15T22:00:00Z",
       "LocalDate": "2026-06-15T18:00:00Z",
       "Home": {
-        "Score": null,
+        "Score": 1,
         "Side": null,
         "IdTeam": "43835",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/KSA",
         "IdCountry": "KSA",
-        "Tactics": null,
+        "Tactics": "4-4-2",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -2526,12 +2538,12 @@
         "IdAssociation": "KSA"
       },
       "Away": {
-        "Score": null,
+        "Score": 0,
         "Side": null,
         "IdTeam": "43930",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/URU",
         "IdCountry": "URU",
-        "Tactics": null,
+        "Tactics": "4-4-2",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -2546,8 +2558,8 @@
         "Gender": 1,
         "IdAssociation": "URU"
       },
-      "HomeTeamScore": null,
-      "AwayTeamScore": null,
+      "HomeTeamScore": 1,
+      "AwayTeamScore": 0,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
       "HomeTeamPenaltyScore": null,
@@ -2593,7 +2605,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "52'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
@@ -2628,7 +2640,7 @@
           ]
         }
       ],
-      "MatchStatus": 1,
+      "MatchStatus": 3,
       "ResultType": 0,
       "MatchNumber": 13,
       "TimeDefined": true,
