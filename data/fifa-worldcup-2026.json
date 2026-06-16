@@ -2485,8 +2485,14 @@
       "IdSeason": "285023",
       "IdStage": "289273",
       "IdGroup": "289282",
-      "Weather": null,
-      "Attendance": null,
+      "Weather": {
+        "Humidity": null,
+        "Temperature": null,
+        "WindSpeed": null,
+        "Type": null,
+        "TypeLocalized": []
+      },
+      "Attendance": "62764",
       "IdMatch": "400021486",
       "MatchDay": null,
       "StageName": [
@@ -2538,7 +2544,7 @@
         "IdAssociation": "KSA"
       },
       "Away": {
-        "Score": 0,
+        "Score": 1,
         "Side": null,
         "IdTeam": "43930",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/URU",
@@ -2559,7 +2565,7 @@
         "IdAssociation": "URU"
       },
       "HomeTeamScore": 1,
-      "AwayTeamScore": 0,
+      "AwayTeamScore": 1,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
       "HomeTeamPenaltyScore": null,
@@ -2605,7 +2611,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": "52'",
+      "MatchTime": "99'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
@@ -2640,11 +2646,11 @@
           ]
         }
       ],
-      "MatchStatus": 3,
-      "ResultType": 0,
+      "MatchStatus": 0,
+      "ResultType": 1,
       "MatchNumber": 13,
       "TimeDefined": true,
-      "OfficialityStatus": 0,
+      "OfficialityStatus": 1,
       "MatchLegInfo": null,
       "Properties": {
         "IdIFES": "151650"
@@ -2656,8 +2662,14 @@
       "IdSeason": "285023",
       "IdStage": "289273",
       "IdGroup": "289281",
-      "Weather": null,
-      "Attendance": null,
+      "Weather": {
+        "Humidity": null,
+        "Temperature": null,
+        "WindSpeed": null,
+        "Type": null,
+        "TypeLocalized": []
+      },
+      "Attendance": "70108",
       "IdMatch": "400021476",
       "MatchDay": null,
       "StageName": [
@@ -2688,12 +2700,12 @@
       "Date": "2026-06-16T01:00:00Z",
       "LocalDate": "2026-06-15T18:00:00Z",
       "Home": {
-        "Score": null,
+        "Score": 2,
         "Side": null,
         "IdTeam": "43817",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/IRN",
         "IdCountry": "IRN",
-        "Tactics": null,
+        "Tactics": "4-3-3",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -2709,12 +2721,12 @@
         "IdAssociation": "IRN"
       },
       "Away": {
-        "Score": null,
+        "Score": 2,
         "Side": null,
         "IdTeam": "43978",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/NZL",
         "IdCountry": "NZL",
-        "Tactics": null,
+        "Tactics": "4-4-2",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -2729,8 +2741,8 @@
         "Gender": 1,
         "IdAssociation": "NZL"
       },
-      "HomeTeamScore": null,
-      "AwayTeamScore": null,
+      "HomeTeamScore": 2,
+      "AwayTeamScore": 2,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
       "HomeTeamPenaltyScore": null,
@@ -2776,7 +2788,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "96'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
@@ -2811,11 +2823,11 @@
           ]
         }
       ],
-      "MatchStatus": 1,
-      "ResultType": 0,
+      "MatchStatus": 0,
+      "ResultType": 1,
       "MatchNumber": 15,
       "TimeDefined": true,
-      "OfficialityStatus": 0,
+      "OfficialityStatus": 1,
       "MatchLegInfo": null,
       "Properties": {
         "IdIFES": "151644"
@@ -2947,7 +2959,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "0'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
@@ -4348,7 +4360,31 @@
       "PlaceHolderA": "A4",
       "PlaceHolderB": "A2",
       "BallPossession": null,
-      "Officials": [],
+      "Officials": [
+        {
+          "IdCountry": "USA",
+          "OfficialId": "428431",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Tori PENSO"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "en-GB",
+              "Description": "Tori Penso"
+            }
+          ],
+          "OfficialType": 1,
+          "TypeLocalized": [
+            {
+              "Locale": "en-GB",
+              "Description": "Referee"
+            }
+          ]
+        }
+      ],
       "MatchStatus": 1,
       "ResultType": 0,
       "MatchNumber": 25,
@@ -4495,7 +4531,31 @@
       "PlaceHolderA": "B4",
       "PlaceHolderB": "B2",
       "BallPossession": null,
-      "Officials": [],
+      "Officials": [
+        {
+          "IdCountry": "POR",
+          "OfficialId": "392268",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Joao PINHEIRO"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "en-GB",
+              "Description": "João Pedro Silva Pinheiro"
+            }
+          ],
+          "OfficialType": 1,
+          "TypeLocalized": [
+            {
+              "Locale": "en-GB",
+              "Description": "Referee"
+            }
+          ]
+        }
+      ],
       "MatchStatus": 1,
       "ResultType": 0,
       "MatchNumber": 26,
@@ -4642,7 +4702,31 @@
       "PlaceHolderA": "B1",
       "PlaceHolderB": "B3",
       "BallPossession": null,
-      "Officials": [],
+      "Officials": [
+        {
+          "IdCountry": "CHI",
+          "OfficialId": "416177",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Cristian GARAY"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "en-GB",
+              "Description": "Cristián Marcelo Garay Reyes"
+            }
+          ],
+          "OfficialType": 1,
+          "TypeLocalized": [
+            {
+              "Locale": "en-GB",
+              "Description": "Referee"
+            }
+          ]
+        }
+      ],
       "MatchStatus": 1,
       "ResultType": 0,
       "MatchNumber": 27,
@@ -4789,7 +4873,31 @@
       "PlaceHolderA": "A1",
       "PlaceHolderB": "A3",
       "BallPossession": null,
-      "Officials": [],
+      "Officials": [
+        {
+          "IdCountry": "URU",
+          "OfficialId": "408669",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Gustavo TEJERA"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "en-GB",
+              "Description": "Gustavo Tejera"
+            }
+          ],
+          "OfficialType": 1,
+          "TypeLocalized": [
+            {
+              "Locale": "en-GB",
+              "Description": "Referee"
+            }
+          ]
+        }
+      ],
       "MatchStatus": 1,
       "ResultType": 0,
       "MatchNumber": 28,
