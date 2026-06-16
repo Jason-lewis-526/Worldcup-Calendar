@@ -2839,8 +2839,14 @@
       "IdSeason": "285023",
       "IdStage": "289273",
       "IdGroup": "289283",
-      "Weather": null,
-      "Attendance": null,
+      "Weather": {
+        "Humidity": null,
+        "Temperature": null,
+        "WindSpeed": null,
+        "Type": null,
+        "TypeLocalized": []
+      },
+      "Attendance": "80545",
       "IdMatch": "400021490",
       "MatchDay": null,
       "StageName": [
@@ -2871,12 +2877,12 @@
       "Date": "2026-06-16T19:00:00Z",
       "LocalDate": "2026-06-16T15:00:00Z",
       "Home": {
-        "Score": null,
+        "Score": 3,
         "Side": null,
         "IdTeam": "43946",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/FRA",
         "IdCountry": "FRA",
-        "Tactics": null,
+        "Tactics": "4-2-3-1",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -2892,12 +2898,12 @@
         "IdAssociation": "FRA"
       },
       "Away": {
-        "Score": null,
+        "Score": 1,
         "Side": null,
         "IdTeam": "43879",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/SEN",
         "IdCountry": "SEN",
-        "Tactics": null,
+        "Tactics": "4-3-3",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -2912,8 +2918,8 @@
         "Gender": 1,
         "IdAssociation": "SEN"
       },
-      "HomeTeamScore": null,
-      "AwayTeamScore": null,
+      "HomeTeamScore": 3,
+      "AwayTeamScore": 1,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
       "HomeTeamPenaltyScore": null,
@@ -2959,12 +2965,12 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": "0'",
+      "MatchTime": "100'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
       "SecondHalfExtraTime": null,
-      "Winner": null,
+      "Winner": "43946",
       "MatchReportUrl": null,
       "PlaceHolderA": "I1",
       "PlaceHolderB": "I2",
@@ -2994,11 +3000,11 @@
           ]
         }
       ],
-      "MatchStatus": 1,
-      "ResultType": 0,
+      "MatchStatus": 0,
+      "ResultType": 1,
       "MatchNumber": 17,
       "TimeDefined": true,
-      "OfficialityStatus": 0,
+      "OfficialityStatus": 1,
       "MatchLegInfo": null,
       "Properties": {
         "IdIFES": "151656"
@@ -3011,7 +3017,7 @@
       "IdStage": "289273",
       "IdGroup": "289283",
       "Weather": null,
-      "Attendance": null,
+      "Attendance": "63106",
       "IdMatch": "400021488",
       "MatchDay": null,
       "StageName": [
@@ -3042,12 +3048,12 @@
       "Date": "2026-06-16T22:00:00Z",
       "LocalDate": "2026-06-16T18:00:00Z",
       "Home": {
-        "Score": null,
+        "Score": 1,
         "Side": null,
         "IdTeam": "43818",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/IRQ",
         "IdCountry": "IRQ",
-        "Tactics": null,
+        "Tactics": "4-4-2",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -3063,12 +3069,12 @@
         "IdAssociation": "IRQ"
       },
       "Away": {
-        "Score": null,
+        "Score": 3,
         "Side": null,
         "IdTeam": "43961",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/NOR",
         "IdCountry": "NOR",
-        "Tactics": null,
+        "Tactics": "4-1-2-3",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -3083,8 +3089,8 @@
         "Gender": 1,
         "IdAssociation": "NOR"
       },
-      "HomeTeamScore": null,
-      "AwayTeamScore": null,
+      "HomeTeamScore": 1,
+      "AwayTeamScore": 3,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
       "HomeTeamPenaltyScore": null,
@@ -3130,7 +3136,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "88'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
@@ -3163,32 +3169,9 @@
               "Description": "裁判员"
             }
           ]
-        },
-        {
-          "IdCountry": "EGY",
-          "OfficialId": "392013",
-          "NameShort": [
-            {
-              "Locale": "en-GB",
-              "Description": "Amin MOHAMED"
-            }
-          ],
-          "Name": [
-            {
-              "Locale": "zh-CN",
-              "Description": "阿明·穆罕默德·奥马尔"
-            }
-          ],
-          "OfficialType": 4,
-          "TypeLocalized": [
-            {
-              "Locale": "zh-CN",
-              "Description": "第四官员"
-            }
-          ]
         }
       ],
-      "MatchStatus": 1,
+      "MatchStatus": 3,
       "ResultType": 0,
       "MatchNumber": 18,
       "TimeDefined": true,
@@ -3324,7 +3307,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "0'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
