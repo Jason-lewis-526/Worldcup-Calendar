@@ -4324,8 +4324,14 @@
       "IdSeason": "285023",
       "IdStage": "289273",
       "IdGroup": "289275",
-      "Weather": null,
-      "Attendance": null,
+      "Weather": {
+        "Humidity": null,
+        "Temperature": null,
+        "WindSpeed": null,
+        "Type": null,
+        "TypeLocalized": []
+      },
+      "Attendance": "67442",
       "IdMatch": "400021440",
       "MatchDay": null,
       "StageName": [
@@ -4356,12 +4362,12 @@
       "Date": "2026-06-18T16:00:00Z",
       "LocalDate": "2026-06-18T12:00:00Z",
       "Home": {
-        "Score": null,
+        "Score": 1,
         "Side": null,
         "IdTeam": "43995",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CZE",
         "IdCountry": "CZE",
-        "Tactics": null,
+        "Tactics": "3-5-2",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -4377,12 +4383,12 @@
         "IdAssociation": "CZE"
       },
       "Away": {
-        "Score": null,
+        "Score": 1,
         "Side": null,
         "IdTeam": "43883",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/RSA",
         "IdCountry": "RSA",
-        "Tactics": null,
+        "Tactics": "4-3-3",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -4397,8 +4403,8 @@
         "Gender": 1,
         "IdAssociation": "RSA"
       },
-      "HomeTeamScore": null,
-      "AwayTeamScore": null,
+      "HomeTeamScore": 1,
+      "AwayTeamScore": 1,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
       "HomeTeamPenaltyScore": null,
@@ -4444,7 +4450,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "98'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
@@ -4479,11 +4485,11 @@
           ]
         }
       ],
-      "MatchStatus": 1,
-      "ResultType": 0,
+      "MatchStatus": 0,
+      "ResultType": 1,
       "MatchNumber": 25,
       "TimeDefined": true,
-      "OfficialityStatus": 0,
+      "OfficialityStatus": 1,
       "MatchLegInfo": null,
       "Properties": {
         "IdIFES": "151610"
@@ -4496,7 +4502,7 @@
       "IdStage": "289273",
       "IdGroup": "289276",
       "Weather": null,
-      "Attendance": null,
+      "Attendance": "70026",
       "IdMatch": "400021446",
       "MatchDay": null,
       "StageName": [
@@ -4527,12 +4533,12 @@
       "Date": "2026-06-18T19:00:00Z",
       "LocalDate": "2026-06-18T12:00:00Z",
       "Home": {
-        "Score": null,
+        "Score": 1,
         "Side": null,
         "IdTeam": "43971",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/SUI",
         "IdCountry": "SUI",
-        "Tactics": null,
+        "Tactics": "4-3-3",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -4548,12 +4554,12 @@
         "IdAssociation": "SUI"
       },
       "Away": {
-        "Score": null,
+        "Score": 0,
         "Side": null,
         "IdTeam": "44037",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/BIH",
         "IdCountry": "BIH",
-        "Tactics": null,
+        "Tactics": "4-4-2",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -4568,8 +4574,8 @@
         "Gender": 1,
         "IdAssociation": "BIH"
       },
-      "HomeTeamScore": null,
-      "AwayTeamScore": null,
+      "HomeTeamScore": 1,
+      "AwayTeamScore": 0,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
       "HomeTeamPenaltyScore": null,
@@ -4615,7 +4621,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "84'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
@@ -4650,7 +4656,7 @@
           ]
         }
       ],
-      "MatchStatus": 1,
+      "MatchStatus": 3,
       "ResultType": 0,
       "MatchNumber": 26,
       "TimeDefined": true,
@@ -4786,7 +4792,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "0'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
