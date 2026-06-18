@@ -149,8 +149,8 @@
           "OfficialId": "361561",
           "NameShort": [
             {
-              "Locale": "en-gb",
-              "Description": "Wilton Pereira Sampaio"
+              "Locale": "en-GB",
+              "Description": "Wilton SAMPAIO"
             }
           ],
           "Name": [
@@ -164,6 +164,29 @@
             {
               "Locale": "en-GB",
               "Description": "Referee"
+            }
+          ]
+        },
+        {
+          "IdCountry": "PAR",
+          "OfficialId": "416159",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Juan Gabriel BENITEZ"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "en-GB",
+              "Description": "Juan Gabriel Benítez"
+            }
+          ],
+          "OfficialType": 4,
+          "TypeLocalized": [
+            {
+              "Locale": "en-GB",
+              "Description": "Fourth official"
             }
           ]
         }
@@ -503,8 +526,8 @@
           "OfficialId": "416165",
           "NameShort": [
             {
-              "Locale": "en-gb",
-              "Description": "F. Tello"
+              "Locale": "en-GB",
+              "Description": "Facundo TELLO"
             }
           ],
           "Name": [
@@ -1411,8 +1434,8 @@
           "OfficialId": "360305",
           "NameShort": [
             {
-              "Locale": "en-gb",
-              "Description": "J. Valenzuela"
+              "Locale": "en-GB",
+              "Description": "Jesus VALENZUELA"
             }
           ],
           "Name": [
@@ -2119,8 +2142,8 @@
           "OfficialId": "434995",
           "NameShort": [
             {
-              "Locale": "en-gb",
-              "Description": "Y. Falcón"
+              "Locale": "en-GB",
+              "Description": "Yael FALCON PEREZ"
             }
           ],
           "Name": [
@@ -3770,8 +3793,14 @@
       "IdSeason": "285023",
       "IdStage": "289273",
       "IdGroup": "289286",
-      "Weather": null,
-      "Attendance": null,
+      "Weather": {
+        "Humidity": null,
+        "Temperature": null,
+        "WindSpeed": null,
+        "Type": null,
+        "TypeLocalized": []
+      },
+      "Attendance": "70389",
       "IdMatch": "400021507",
       "MatchDay": null,
       "StageName": [
@@ -3802,7 +3831,7 @@
       "Date": "2026-06-17T20:00:00Z",
       "LocalDate": "2026-06-17T15:00:00Z",
       "Home": {
-        "Score": 3,
+        "Score": 4,
         "Side": null,
         "IdTeam": "43942",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ENG",
@@ -3843,7 +3872,7 @@
         "Gender": 1,
         "IdAssociation": "CRO"
       },
-      "HomeTeamScore": 3,
+      "HomeTeamScore": 4,
       "AwayTeamScore": 2,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
@@ -3890,12 +3919,12 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": "57'",
+      "MatchTime": "97'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
       "SecondHalfExtraTime": null,
-      "Winner": null,
+      "Winner": "43942",
       "MatchReportUrl": null,
       "PlaceHolderA": "L1",
       "PlaceHolderB": "L2",
@@ -3925,11 +3954,11 @@
           ]
         }
       ],
-      "MatchStatus": 3,
-      "ResultType": 0,
+      "MatchStatus": 0,
+      "ResultType": 1,
       "MatchNumber": 22,
       "TimeDefined": true,
-      "OfficialityStatus": 0,
+      "OfficialityStatus": 1,
       "MatchLegInfo": null,
       "Properties": {
         "IdIFES": "151673"
@@ -3941,8 +3970,14 @@
       "IdSeason": "285023",
       "IdStage": "289273",
       "IdGroup": "289286",
-      "Weather": null,
-      "Attendance": null,
+      "Weather": {
+        "Humidity": null,
+        "Temperature": null,
+        "WindSpeed": null,
+        "Type": null,
+        "TypeLocalized": []
+      },
+      "Attendance": "42942",
       "IdMatch": "400021510",
       "MatchDay": null,
       "StageName": [
@@ -3973,12 +4008,12 @@
       "Date": "2026-06-17T23:00:00Z",
       "LocalDate": "2026-06-17T19:00:00Z",
       "Home": {
-        "Score": null,
+        "Score": 1,
         "Side": null,
         "IdTeam": "43860",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/GHA",
         "IdCountry": "GHA",
-        "Tactics": null,
+        "Tactics": "4-1-2-3",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -3994,12 +4029,12 @@
         "IdAssociation": "GHA"
       },
       "Away": {
-        "Score": null,
+        "Score": 0,
         "Side": null,
         "IdTeam": "43914",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/PAN",
         "IdCountry": "PAN",
-        "Tactics": null,
+        "Tactics": "3-4-3",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -4014,8 +4049,8 @@
         "Gender": 1,
         "IdAssociation": "PAN"
       },
-      "HomeTeamScore": null,
-      "AwayTeamScore": null,
+      "HomeTeamScore": 1,
+      "AwayTeamScore": 0,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
       "HomeTeamPenaltyScore": null,
@@ -4061,12 +4096,12 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "102'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
       "SecondHalfExtraTime": null,
-      "Winner": null,
+      "Winner": "43860",
       "MatchReportUrl": null,
       "PlaceHolderA": "L3",
       "PlaceHolderB": "L4",
@@ -4096,11 +4131,11 @@
           ]
         }
       ],
-      "MatchStatus": 1,
-      "ResultType": 0,
+      "MatchStatus": 0,
+      "ResultType": 1,
       "MatchNumber": 21,
       "TimeDefined": true,
-      "OfficialityStatus": 0,
+      "OfficialityStatus": 1,
       "MatchLegInfo": null,
       "Properties": {
         "IdIFES": "151674"
@@ -4112,8 +4147,14 @@
       "IdSeason": "285023",
       "IdStage": "289273",
       "IdGroup": "289285",
-      "Weather": null,
-      "Attendance": null,
+      "Weather": {
+        "Humidity": null,
+        "Temperature": null,
+        "WindSpeed": null,
+        "Type": null,
+        "TypeLocalized": []
+      },
+      "Attendance": "80824",
       "IdMatch": "400021504",
       "MatchDay": null,
       "StageName": [
@@ -4144,12 +4185,12 @@
       "Date": "2026-06-18T02:00:00Z",
       "LocalDate": "2026-06-17T20:00:00Z",
       "Home": {
-        "Score": null,
+        "Score": 1,
         "Side": null,
         "IdTeam": "44005",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/UZB",
         "IdCountry": "UZB",
-        "Tactics": null,
+        "Tactics": "3-4-3",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -4165,12 +4206,12 @@
         "IdAssociation": "UZB"
       },
       "Away": {
-        "Score": null,
+        "Score": 3,
         "Side": null,
         "IdTeam": "43926",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/COL",
         "IdCountry": "COL",
-        "Tactics": null,
+        "Tactics": "4-1-2-3",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -4185,8 +4226,8 @@
         "Gender": 1,
         "IdAssociation": "COL"
       },
-      "HomeTeamScore": null,
-      "AwayTeamScore": null,
+      "HomeTeamScore": 1,
+      "AwayTeamScore": 3,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
       "HomeTeamPenaltyScore": null,
@@ -4232,12 +4273,12 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "101'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
       "SecondHalfExtraTime": null,
-      "Winner": null,
+      "Winner": "43926",
       "MatchReportUrl": null,
       "PlaceHolderA": "K3",
       "PlaceHolderB": "K4",
@@ -4267,11 +4308,11 @@
           ]
         }
       ],
-      "MatchStatus": 1,
-      "ResultType": 0,
+      "MatchStatus": 0,
+      "ResultType": 1,
       "MatchNumber": 24,
       "TimeDefined": true,
-      "OfficialityStatus": 0,
+      "OfficialityStatus": 1,
       "MatchLegInfo": null,
       "Properties": {
         "IdIFES": "151667"
@@ -4761,8 +4802,8 @@
           "OfficialId": "416177",
           "NameShort": [
             {
-              "Locale": "en-gb",
-              "Description": "C. Garay"
+              "Locale": "en-GB",
+              "Description": "Cristian GARAY"
             }
           ],
           "Name": [
@@ -4932,8 +4973,8 @@
           "OfficialId": "408669",
           "NameShort": [
             {
-              "Locale": "en-gb",
-              "Description": "G. Tejera"
+              "Locale": "en-GB",
+              "Description": "Gustavo TEJERA"
             }
           ],
           "Name": [
@@ -5804,7 +5845,31 @@
       "PlaceHolderA": "F1",
       "PlaceHolderB": "F3",
       "BallPossession": null,
-      "Officials": [],
+      "Officials": [
+        {
+          "IdCountry": "ENG",
+          "OfficialId": "347710",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Michael OLIVER"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "en-GB",
+              "Description": "Michael Oliver"
+            }
+          ],
+          "OfficialType": 1,
+          "TypeLocalized": [
+            {
+              "Locale": "en-GB",
+              "Description": "Referee"
+            }
+          ]
+        }
+      ],
       "MatchStatus": 1,
       "ResultType": 0,
       "MatchNumber": 35,
@@ -5951,7 +6016,31 @@
       "PlaceHolderA": "E1",
       "PlaceHolderB": "E3",
       "BallPossession": null,
-      "Officials": [],
+      "Officials": [
+        {
+          "IdCountry": "PAR",
+          "OfficialId": "416159",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Juan Gabriel BENITEZ"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "en-GB",
+              "Description": "Juan Gabriel Benítez"
+            }
+          ],
+          "OfficialType": 1,
+          "TypeLocalized": [
+            {
+              "Locale": "en-GB",
+              "Description": "Referee"
+            }
+          ]
+        }
+      ],
       "MatchStatus": 1,
       "ResultType": 0,
       "MatchNumber": 33,
@@ -6098,7 +6187,31 @@
       "PlaceHolderA": "E4",
       "PlaceHolderB": "E2",
       "BallPossession": null,
-      "Officials": [],
+      "Officials": [
+        {
+          "IdCountry": "CHN",
+          "OfficialId": "328495",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "MA Ning"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "en-GB",
+              "Description": "Ning Ma"
+            }
+          ],
+          "OfficialType": 1,
+          "TypeLocalized": [
+            {
+              "Locale": "en-GB",
+              "Description": "Referee"
+            }
+          ]
+        }
+      ],
       "MatchStatus": 1,
       "ResultType": 0,
       "MatchNumber": 34,
@@ -6245,7 +6358,31 @@
       "PlaceHolderA": "F4",
       "PlaceHolderB": "F2",
       "BallPossession": null,
-      "Officials": [],
+      "Officials": [
+        {
+          "IdCountry": "ROU",
+          "OfficialId": "314605",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Istvan KOVACS"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "en-GB",
+              "Description": "Istvan Kovacs"
+            }
+          ],
+          "OfficialType": 1,
+          "TypeLocalized": [
+            {
+              "Locale": "en-GB",
+              "Description": "Referee"
+            }
+          ]
+        }
+      ],
       "MatchStatus": 1,
       "ResultType": 0,
       "MatchNumber": 36,
