@@ -5064,12 +5064,12 @@
       "Date": "2026-06-19T19:00:00Z",
       "LocalDate": "2026-06-19T12:00:00Z",
       "Home": {
-        "Score": null,
+        "Score": 1,
         "Side": null,
         "IdTeam": "43921",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/USA",
         "IdCountry": "USA",
-        "Tactics": null,
+        "Tactics": "4-2-3-1",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -5085,12 +5085,12 @@
         "IdAssociation": "USA"
       },
       "Away": {
-        "Score": null,
+        "Score": 0,
         "Side": null,
         "IdTeam": "43976",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/AUS",
         "IdCountry": "AUS",
-        "Tactics": null,
+        "Tactics": "5-4-1",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -5105,8 +5105,8 @@
         "Gender": 1,
         "IdAssociation": "AUS"
       },
-      "HomeTeamScore": null,
-      "AwayTeamScore": null,
+      "HomeTeamScore": 1,
+      "AwayTeamScore": 0,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
       "HomeTeamPenaltyScore": null,
@@ -5152,7 +5152,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "15'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
@@ -5187,7 +5187,7 @@
           ]
         }
       ],
-      "MatchStatus": 1,
+      "MatchStatus": 3,
       "ResultType": 0,
       "MatchNumber": 32,
       "TimeDefined": true,
