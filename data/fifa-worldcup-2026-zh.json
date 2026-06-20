@@ -2690,6 +2690,29 @@
               "Description": "裁判员"
             }
           ]
+        },
+        {
+          "IdCountry": "CAN",
+          "OfficialId": "372930",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Drew FISCHER"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "德鲁·费舍尔"
+            }
+          ],
+          "OfficialType": 4,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "第四官员"
+            }
+          ]
         }
       ],
       "MatchStatus": 0,
@@ -5209,8 +5232,14 @@
       "IdSeason": "285023",
       "IdStage": "289273",
       "IdGroup": "289277",
-      "Weather": null,
-      "Attendance": null,
+      "Weather": {
+        "Humidity": null,
+        "Temperature": null,
+        "WindSpeed": null,
+        "Type": null,
+        "TypeLocalized": []
+      },
+      "Attendance": "64146",
       "IdMatch": "400021454",
       "MatchDay": null,
       "StageName": [
@@ -5329,12 +5358,12 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": "38'",
+      "MatchTime": "97'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
       "SecondHalfExtraTime": null,
-      "Winner": null,
+      "Winner": "43872",
       "MatchReportUrl": null,
       "PlaceHolderA": "C4",
       "PlaceHolderB": "C2",
@@ -5362,13 +5391,36 @@
               "Description": "裁判员"
             }
           ]
+        },
+        {
+          "IdCountry": "JOR",
+          "OfficialId": "361034",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Adham MAKHADMEH"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "阿达姆·穆罕默德·图马赫·马哈德梅"
+            }
+          ],
+          "OfficialType": 4,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "第四官员"
+            }
+          ]
         }
       ],
-      "MatchStatus": 3,
-      "ResultType": 0,
+      "MatchStatus": 0,
+      "ResultType": 1,
       "MatchNumber": 30,
       "TimeDefined": true,
-      "OfficialityStatus": 0,
+      "OfficialityStatus": 1,
       "MatchLegInfo": null,
       "Properties": {
         "IdIFES": "151621"
@@ -5380,8 +5432,14 @@
       "IdSeason": "285023",
       "IdStage": "289273",
       "IdGroup": "289277",
-      "Weather": null,
-      "Attendance": null,
+      "Weather": {
+        "Humidity": null,
+        "Temperature": null,
+        "WindSpeed": null,
+        "Type": null,
+        "TypeLocalized": []
+      },
+      "Attendance": "68324",
       "IdMatch": "400021457",
       "MatchDay": null,
       "StageName": [
@@ -5412,12 +5470,12 @@
       "Date": "2026-06-20T00:30:00Z",
       "LocalDate": "2026-06-19T20:30:00Z",
       "Home": {
-        "Score": null,
+        "Score": 3,
         "Side": null,
         "IdTeam": "43924",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/BRA",
         "IdCountry": "BRA",
-        "Tactics": null,
+        "Tactics": "4-3-3",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -5433,12 +5491,12 @@
         "IdAssociation": "BRA"
       },
       "Away": {
-        "Score": null,
+        "Score": 0,
         "Side": null,
         "IdTeam": "43908",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/HAI",
         "IdCountry": "HAI",
-        "Tactics": null,
+        "Tactics": "5-4-1",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -5453,8 +5511,8 @@
         "Gender": 1,
         "IdAssociation": "HAI"
       },
-      "HomeTeamScore": null,
-      "AwayTeamScore": null,
+      "HomeTeamScore": 3,
+      "AwayTeamScore": 0,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
       "HomeTeamPenaltyScore": null,
@@ -5500,12 +5558,12 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "96'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
       "SecondHalfExtraTime": null,
-      "Winner": null,
+      "Winner": "43924",
       "MatchReportUrl": null,
       "PlaceHolderA": "C1",
       "PlaceHolderB": "C3",
@@ -5535,11 +5593,11 @@
           ]
         }
       ],
-      "MatchStatus": 1,
-      "ResultType": 0,
+      "MatchStatus": 0,
+      "ResultType": 1,
       "MatchNumber": 29,
       "TimeDefined": true,
-      "OfficialityStatus": 0,
+      "OfficialityStatus": 1,
       "MatchLegInfo": null,
       "Properties": {
         "IdIFES": "151622"
@@ -5551,8 +5609,14 @@
       "IdSeason": "285023",
       "IdStage": "289273",
       "IdGroup": "289278",
-      "Weather": null,
-      "Attendance": null,
+      "Weather": {
+        "Humidity": null,
+        "Temperature": null,
+        "WindSpeed": null,
+        "Type": null,
+        "TypeLocalized": []
+      },
+      "Attendance": "68827",
       "IdMatch": "400021460",
       "MatchDay": null,
       "StageName": [
@@ -5583,12 +5647,12 @@
       "Date": "2026-06-20T03:00:00Z",
       "LocalDate": "2026-06-19T20:00:00Z",
       "Home": {
-        "Score": null,
+        "Score": 0,
         "Side": null,
         "IdTeam": "43972",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/TUR",
         "IdCountry": "TUR",
-        "Tactics": null,
+        "Tactics": "4-2-3-1",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -5604,12 +5668,12 @@
         "IdAssociation": "TUR"
       },
       "Away": {
-        "Score": null,
+        "Score": 1,
         "Side": null,
         "IdTeam": "43928",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/PAR",
         "IdCountry": "PAR",
-        "Tactics": null,
+        "Tactics": "4-2-3-1",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -5624,8 +5688,8 @@
         "Gender": 1,
         "IdAssociation": "PAR"
       },
-      "HomeTeamScore": null,
-      "AwayTeamScore": null,
+      "HomeTeamScore": 0,
+      "AwayTeamScore": 1,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
       "HomeTeamPenaltyScore": null,
@@ -5671,12 +5735,12 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "99'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
       "SecondHalfExtraTime": null,
-      "Winner": null,
+      "Winner": "43928",
       "MatchReportUrl": null,
       "PlaceHolderA": "D4",
       "PlaceHolderB": "D2",
@@ -5706,11 +5770,11 @@
           ]
         }
       ],
-      "MatchStatus": 1,
-      "ResultType": 0,
+      "MatchStatus": 0,
+      "ResultType": 1,
       "MatchNumber": 31,
       "TimeDefined": true,
-      "OfficialityStatus": 0,
+      "OfficialityStatus": 1,
       "MatchLegInfo": null,
       "Properties": {
         "IdIFES": "151628"
@@ -7243,7 +7307,54 @@
       "PlaceHolderA": "J1",
       "PlaceHolderB": "J3",
       "BallPossession": null,
-      "Officials": [],
+      "Officials": [
+        {
+          "IdCountry": "EGY",
+          "OfficialId": "392013",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Amin MOHAMED"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "阿明·穆罕默德·奥马尔"
+            }
+          ],
+          "OfficialType": 1,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "裁判员"
+            }
+          ]
+        },
+        {
+          "IdCountry": "ESP",
+          "OfficialId": "373845",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Alejandro HERNANDEZ"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "亚历杭德罗·何塞·埃尔南德斯·埃尔南德斯"
+            }
+          ],
+          "OfficialType": 4,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "第四官员"
+            }
+          ]
+        }
+      ],
       "MatchStatus": 1,
       "ResultType": 0,
       "MatchNumber": 43,
@@ -7390,7 +7501,31 @@
       "PlaceHolderA": "I1",
       "PlaceHolderB": "I3",
       "BallPossession": null,
-      "Officials": [],
+      "Officials": [
+        {
+          "IdCountry": "CAN",
+          "OfficialId": "372930",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Drew FISCHER"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "德鲁·费舍尔"
+            }
+          ],
+          "OfficialType": 1,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "裁判员"
+            }
+          ]
+        }
+      ],
       "MatchStatus": 1,
       "ResultType": 0,
       "MatchNumber": 42,
@@ -7537,7 +7672,31 @@
       "PlaceHolderA": "I4",
       "PlaceHolderB": "I2",
       "BallPossession": null,
-      "Officials": [],
+      "Officials": [
+        {
+          "IdCountry": "BRA",
+          "OfficialId": "361561",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Wilton SAMPAIO"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "威尔顿·桑帕约"
+            }
+          ],
+          "OfficialType": 1,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "裁判员"
+            }
+          ]
+        }
+      ],
       "MatchStatus": 1,
       "ResultType": 0,
       "MatchNumber": 41,
@@ -7684,7 +7843,31 @@
       "PlaceHolderA": "J4",
       "PlaceHolderB": "J2",
       "BallPossession": null,
-      "Officials": [],
+      "Officials": [
+        {
+          "IdCountry": "SVN",
+          "OfficialId": "315008",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Slavko VINCIC"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "斯拉夫科·文西奇"
+            }
+          ],
+          "OfficialType": 1,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "裁判员"
+            }
+          ]
+        }
+      ],
       "MatchStatus": 1,
       "ResultType": 0,
       "MatchNumber": 44,
@@ -12781,7 +12964,27 @@
       "SeasonShortName": [],
       "Date": "2026-07-02T00:00:00Z",
       "LocalDate": "2026-07-01T17:00:00Z",
-      "Home": null,
+      "Home": {
+        "Score": null,
+        "Side": null,
+        "IdTeam": "43921",
+        "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/USA",
+        "IdCountry": "USA",
+        "Tactics": null,
+        "TeamType": 1,
+        "AgeType": 7,
+        "TeamName": [
+          {
+            "Locale": "zh-CN",
+            "Description": "美国"
+          }
+        ],
+        "Abbreviation": "USA",
+        "ShortClubName": "USA",
+        "FootballType": 0,
+        "Gender": 1,
+        "IdAssociation": "USA"
+      },
       "Away": null,
       "HomeTeamScore": null,
       "AwayTeamScore": null,
