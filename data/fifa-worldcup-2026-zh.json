@@ -6526,12 +6526,12 @@
       "Date": "2026-06-21T16:00:00Z",
       "LocalDate": "2026-06-21T12:00:00Z",
       "Home": {
-        "Score": null,
+        "Score": 3,
         "Side": null,
         "IdTeam": "43969",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ESP",
         "IdCountry": "ESP",
-        "Tactics": null,
+        "Tactics": "4-1-2-3",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -6547,12 +6547,12 @@
         "IdAssociation": "ESP"
       },
       "Away": {
-        "Score": null,
+        "Score": 0,
         "Side": null,
         "IdTeam": "43835",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/KSA",
         "IdCountry": "KSA",
-        "Tactics": null,
+        "Tactics": "5-4-1",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -6567,8 +6567,8 @@
         "Gender": 1,
         "IdAssociation": "KSA"
       },
-      "HomeTeamScore": null,
-      "AwayTeamScore": null,
+      "HomeTeamScore": 3,
+      "AwayTeamScore": 0,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
       "HomeTeamPenaltyScore": null,
@@ -6614,7 +6614,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
@@ -6649,7 +6649,7 @@
           ]
         }
       ],
-      "MatchStatus": 1,
+      "MatchStatus": 3,
       "ResultType": 0,
       "MatchNumber": 38,
       "TimeDefined": true,
