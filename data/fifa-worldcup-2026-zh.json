@@ -6494,8 +6494,14 @@
       "IdSeason": "285023",
       "IdStage": "289273",
       "IdGroup": "289282",
-      "Weather": null,
-      "Attendance": null,
+      "Weather": {
+        "Humidity": null,
+        "Temperature": null,
+        "WindSpeed": null,
+        "Type": null,
+        "TypeLocalized": []
+      },
+      "Attendance": "68239",
       "IdMatch": "400021483",
       "MatchDay": null,
       "StageName": [
@@ -6526,7 +6532,7 @@
       "Date": "2026-06-21T16:00:00Z",
       "LocalDate": "2026-06-21T12:00:00Z",
       "Home": {
-        "Score": 3,
+        "Score": 4,
         "Side": null,
         "IdTeam": "43969",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ESP",
@@ -6567,7 +6573,7 @@
         "Gender": 1,
         "IdAssociation": "KSA"
       },
-      "HomeTeamScore": 3,
+      "HomeTeamScore": 4,
       "AwayTeamScore": 0,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
@@ -6614,12 +6620,12 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": "",
+      "MatchTime": "99'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
       "SecondHalfExtraTime": null,
-      "Winner": null,
+      "Winner": "43969",
       "MatchReportUrl": null,
       "PlaceHolderA": "H1",
       "PlaceHolderB": "H3",
@@ -6649,11 +6655,11 @@
           ]
         }
       ],
-      "MatchStatus": 3,
-      "ResultType": 0,
+      "MatchStatus": 0,
+      "ResultType": 1,
       "MatchNumber": 38,
       "TimeDefined": true,
-      "OfficialityStatus": 0,
+      "OfficialityStatus": 1,
       "MatchLegInfo": null,
       "Properties": {
         "IdIFES": "151651"
@@ -6665,8 +6671,14 @@
       "IdSeason": "285023",
       "IdStage": "289273",
       "IdGroup": "289281",
-      "Weather": null,
-      "Attendance": null,
+      "Weather": {
+        "Humidity": null,
+        "Temperature": null,
+        "WindSpeed": null,
+        "Type": null,
+        "TypeLocalized": []
+      },
+      "Attendance": "70317",
       "IdMatch": "400021477",
       "MatchDay": null,
       "StageName": [
@@ -6697,12 +6709,12 @@
       "Date": "2026-06-21T19:00:00Z",
       "LocalDate": "2026-06-21T12:00:00Z",
       "Home": {
-        "Score": null,
+        "Score": 0,
         "Side": null,
         "IdTeam": "43935",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/BEL",
         "IdCountry": "BEL",
-        "Tactics": null,
+        "Tactics": "4-2-3-1",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -6718,12 +6730,12 @@
         "IdAssociation": "BEL"
       },
       "Away": {
-        "Score": null,
+        "Score": 0,
         "Side": null,
         "IdTeam": "43817",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/IRN",
         "IdCountry": "IRN",
-        "Tactics": null,
+        "Tactics": "5-2-3",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -6738,8 +6750,8 @@
         "Gender": 1,
         "IdAssociation": "IRN"
       },
-      "HomeTeamScore": null,
-      "AwayTeamScore": null,
+      "HomeTeamScore": 0,
+      "AwayTeamScore": 0,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
       "HomeTeamPenaltyScore": null,
@@ -6785,7 +6797,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "96'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
@@ -6820,11 +6832,11 @@
           ]
         }
       ],
-      "MatchStatus": 1,
-      "ResultType": 0,
+      "MatchStatus": 0,
+      "ResultType": 1,
       "MatchNumber": 39,
       "TimeDefined": true,
-      "OfficialityStatus": 0,
+      "OfficialityStatus": 1,
       "MatchLegInfo": null,
       "Properties": {
         "IdIFES": "151646"
@@ -6873,7 +6885,7 @@
         "IdTeam": "43930",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/URU",
         "IdCountry": "URU",
-        "Tactics": null,
+        "Tactics": "4-2-3-1",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -6894,7 +6906,7 @@
         "IdTeam": "43850",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CPV",
         "IdCountry": "CPV",
-        "Tactics": null,
+        "Tactics": "4-1-4-1",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -6956,7 +6968,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "0'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
@@ -6987,29 +6999,6 @@
             {
               "Locale": "zh-CN",
               "Description": "裁判员"
-            }
-          ]
-        },
-        {
-          "IdCountry": "USA",
-          "OfficialId": "428431",
-          "NameShort": [
-            {
-              "Locale": "en-GB",
-              "Description": "Tori PENSO"
-            }
-          ],
-          "Name": [
-            {
-              "Locale": "zh-CN",
-              "Description": "托里·彭索"
-            }
-          ],
-          "OfficialType": 4,
-          "TypeLocalized": [
-            {
-              "Locale": "zh-CN",
-              "Description": "第四官员"
             }
           ]
         }
