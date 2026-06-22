@@ -7225,8 +7225,14 @@
       "IdSeason": "285023",
       "IdStage": "289273",
       "IdGroup": "289284",
-      "Weather": null,
-      "Attendance": null,
+      "Weather": {
+        "Humidity": null,
+        "Temperature": null,
+        "WindSpeed": null,
+        "Type": null,
+        "TypeLocalized": []
+      },
+      "Attendance": "70649",
       "IdMatch": "400021494",
       "MatchDay": null,
       "StageName": [
@@ -7257,12 +7263,12 @@
       "Date": "2026-06-22T17:00:00Z",
       "LocalDate": "2026-06-22T12:00:00Z",
       "Home": {
-        "Score": null,
+        "Score": 2,
         "Side": null,
         "IdTeam": "43922",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ARG",
         "IdCountry": "ARG",
-        "Tactics": null,
+        "Tactics": "4-1-3-2",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -7278,12 +7284,12 @@
         "IdAssociation": "ARG"
       },
       "Away": {
-        "Score": null,
+        "Score": 0,
         "Side": null,
         "IdTeam": "43934",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/AUT",
         "IdCountry": "AUT",
-        "Tactics": null,
+        "Tactics": "4-2-3-1",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -7298,8 +7304,8 @@
         "Gender": 1,
         "IdAssociation": "AUT"
       },
-      "HomeTeamScore": null,
-      "AwayTeamScore": null,
+      "HomeTeamScore": 2,
+      "AwayTeamScore": 0,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
       "HomeTeamPenaltyScore": null,
@@ -7345,12 +7351,12 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": "0'",
+      "MatchTime": "98'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
       "SecondHalfExtraTime": null,
-      "Winner": null,
+      "Winner": "43922",
       "MatchReportUrl": null,
       "PlaceHolderA": "J1",
       "PlaceHolderB": "J3",
@@ -7380,11 +7386,11 @@
           ]
         }
       ],
-      "MatchStatus": 1,
-      "ResultType": 0,
+      "MatchStatus": 0,
+      "ResultType": 1,
       "MatchNumber": 43,
       "TimeDefined": true,
-      "OfficialityStatus": 0,
+      "OfficialityStatus": 1,
       "MatchLegInfo": null,
       "Properties": {
         "IdIFES": "151664"
@@ -7428,12 +7434,12 @@
       "Date": "2026-06-22T21:00:00Z",
       "LocalDate": "2026-06-22T17:00:00Z",
       "Home": {
-        "Score": null,
+        "Score": 1,
         "Side": null,
         "IdTeam": "43946",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/FRA",
         "IdCountry": "FRA",
-        "Tactics": null,
+        "Tactics": "4-2-3-1",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -7449,12 +7455,12 @@
         "IdAssociation": "FRA"
       },
       "Away": {
-        "Score": null,
+        "Score": 0,
         "Side": null,
         "IdTeam": "43818",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/IRQ",
         "IdCountry": "IRQ",
-        "Tactics": null,
+        "Tactics": "4-2-3-1",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -7469,8 +7475,8 @@
         "Gender": 1,
         "IdAssociation": "IRQ"
       },
-      "HomeTeamScore": null,
-      "AwayTeamScore": null,
+      "HomeTeamScore": 1,
+      "AwayTeamScore": 0,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
       "HomeTeamPenaltyScore": null,
@@ -7516,7 +7522,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
@@ -7551,7 +7557,7 @@
           ]
         }
       ],
-      "MatchStatus": 1,
+      "MatchStatus": 11,
       "ResultType": 0,
       "MatchNumber": 42,
       "TimeDefined": true,
