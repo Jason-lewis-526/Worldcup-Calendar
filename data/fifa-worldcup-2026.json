@@ -8057,12 +8057,12 @@
       "Date": "2026-06-23T17:00:00Z",
       "LocalDate": "2026-06-23T12:00:00Z",
       "Home": {
-        "Score": null,
+        "Score": 2,
         "Side": null,
         "IdTeam": "43963",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/POR",
         "IdCountry": "POR",
-        "Tactics": null,
+        "Tactics": "4-2-3-1",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -8078,12 +8078,12 @@
         "IdAssociation": "POR"
       },
       "Away": {
-        "Score": null,
+        "Score": 1,
         "Side": null,
         "IdTeam": "44005",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/UZB",
         "IdCountry": "UZB",
-        "Tactics": null,
+        "Tactics": "3-4-3",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -8098,8 +8098,8 @@
         "Gender": 1,
         "IdAssociation": "UZB"
       },
-      "HomeTeamScore": null,
-      "AwayTeamScore": null,
+      "HomeTeamScore": 2,
+      "AwayTeamScore": 1,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
       "HomeTeamPenaltyScore": null,
@@ -8145,7 +8145,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "30'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
@@ -8180,7 +8180,7 @@
           ]
         }
       ],
-      "MatchStatus": 1,
+      "MatchStatus": 3,
       "ResultType": 0,
       "MatchNumber": 47,
       "TimeDefined": true,
