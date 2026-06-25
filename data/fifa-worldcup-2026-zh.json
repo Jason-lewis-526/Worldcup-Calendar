@@ -9887,8 +9887,14 @@
       "IdSeason": "285023",
       "IdStage": "289273",
       "IdGroup": "289279",
-      "Weather": null,
-      "Attendance": null,
+      "Weather": {
+        "Humidity": null,
+        "Temperature": null,
+        "WindSpeed": null,
+        "Type": null,
+        "TypeLocalized": []
+      },
+      "Attendance": "68324",
       "IdMatch": "400021468",
       "MatchDay": null,
       "StageName": [
@@ -9919,12 +9925,12 @@
       "Date": "2026-06-25T20:00:00Z",
       "LocalDate": "2026-06-25T16:00:00Z",
       "Home": {
-        "Score": null,
+        "Score": 0,
         "Side": null,
         "IdTeam": "1895293",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CUW",
         "IdCountry": "CUW",
-        "Tactics": null,
+        "Tactics": "5-4-1",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -9940,12 +9946,12 @@
         "IdAssociation": "CUW"
       },
       "Away": {
-        "Score": null,
+        "Score": 2,
         "Side": null,
         "IdTeam": "43854",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CIV",
         "IdCountry": "CIV",
-        "Tactics": null,
+        "Tactics": "4-1-2-3",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -9960,8 +9966,8 @@
         "Gender": 1,
         "IdAssociation": "CIV"
       },
-      "HomeTeamScore": null,
-      "AwayTeamScore": null,
+      "HomeTeamScore": 0,
+      "AwayTeamScore": 2,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
       "HomeTeamPenaltyScore": null,
@@ -10007,12 +10013,12 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "97'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
       "SecondHalfExtraTime": null,
-      "Winner": null,
+      "Winner": "43854",
       "MatchReportUrl": null,
       "PlaceHolderA": "E2",
       "PlaceHolderB": "E3",
@@ -10042,11 +10048,11 @@
           ]
         }
       ],
-      "MatchStatus": 1,
-      "ResultType": 0,
+      "MatchStatus": 0,
+      "ResultType": 1,
       "MatchNumber": 55,
       "TimeDefined": true,
-      "OfficialityStatus": 0,
+      "OfficialityStatus": 1,
       "MatchLegInfo": null,
       "Properties": {
         "IdIFES": "151635"
@@ -10058,8 +10064,14 @@
       "IdSeason": "285023",
       "IdStage": "289273",
       "IdGroup": "289279",
-      "Weather": null,
-      "Attendance": null,
+      "Weather": {
+        "Humidity": null,
+        "Temperature": null,
+        "WindSpeed": null,
+        "Type": null,
+        "TypeLocalized": []
+      },
+      "Attendance": "80663",
       "IdMatch": "400021466",
       "MatchDay": null,
       "StageName": [
@@ -10090,12 +10102,12 @@
       "Date": "2026-06-25T20:00:00Z",
       "LocalDate": "2026-06-25T16:00:00Z",
       "Home": {
-        "Score": null,
+        "Score": 2,
         "Side": null,
         "IdTeam": "43927",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ECU",
         "IdCountry": "ECU",
-        "Tactics": null,
+        "Tactics": "4-4-2",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -10111,12 +10123,12 @@
         "IdAssociation": "ECU"
       },
       "Away": {
-        "Score": null,
+        "Score": 1,
         "Side": null,
         "IdTeam": "43948",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/GER",
         "IdCountry": "GER",
-        "Tactics": null,
+        "Tactics": "4-2-3-1",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -10131,8 +10143,8 @@
         "Gender": 1,
         "IdAssociation": "GER"
       },
-      "HomeTeamScore": null,
-      "AwayTeamScore": null,
+      "HomeTeamScore": 2,
+      "AwayTeamScore": 1,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
       "HomeTeamPenaltyScore": null,
@@ -10178,12 +10190,12 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "98'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
       "SecondHalfExtraTime": null,
-      "Winner": null,
+      "Winner": "43927",
       "MatchReportUrl": null,
       "PlaceHolderA": "E4",
       "PlaceHolderB": "E1",
@@ -10213,11 +10225,11 @@
           ]
         }
       ],
-      "MatchStatus": 1,
-      "ResultType": 0,
+      "MatchStatus": 0,
+      "ResultType": 1,
       "MatchNumber": 56,
       "TimeDefined": true,
-      "OfficialityStatus": 0,
+      "OfficialityStatus": 1,
       "MatchLegInfo": null,
       "Properties": {
         "IdIFES": "151636"
@@ -10261,12 +10273,12 @@
       "Date": "2026-06-25T23:00:00Z",
       "LocalDate": "2026-06-25T18:00:00Z",
       "Home": {
-        "Score": null,
+        "Score": 0,
         "Side": null,
         "IdTeam": "43888",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/TUN",
         "IdCountry": "TUN",
-        "Tactics": null,
+        "Tactics": "5-3-2",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -10282,12 +10294,12 @@
         "IdAssociation": "TUN"
       },
       "Away": {
-        "Score": null,
+        "Score": 0,
         "Side": null,
         "IdTeam": "43960",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/NED",
         "IdCountry": "NED",
-        "Tactics": null,
+        "Tactics": "4-3-3",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -10302,8 +10314,8 @@
         "Gender": 1,
         "IdAssociation": "NED"
       },
-      "HomeTeamScore": null,
-      "AwayTeamScore": null,
+      "HomeTeamScore": 0,
+      "AwayTeamScore": 0,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
       "HomeTeamPenaltyScore": null,
@@ -10349,7 +10361,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "1'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
@@ -10382,32 +10394,9 @@
               "Description": "裁判员"
             }
           ]
-        },
-        {
-          "IdCountry": "PAR",
-          "OfficialId": "416159",
-          "NameShort": [
-            {
-              "Locale": "en-GB",
-              "Description": "Juan Gabriel BENITEZ"
-            }
-          ],
-          "Name": [
-            {
-              "Locale": "zh-CN",
-              "Description": "胡安·加布里埃尔·贝尼特斯"
-            }
-          ],
-          "OfficialType": 4,
-          "TypeLocalized": [
-            {
-              "Locale": "zh-CN",
-              "Description": "第四官员"
-            }
-          ]
         }
       ],
-      "MatchStatus": 1,
+      "MatchStatus": 3,
       "ResultType": 0,
       "MatchNumber": 58,
       "TimeDefined": true,
@@ -10455,12 +10444,12 @@
       "Date": "2026-06-25T23:00:00Z",
       "LocalDate": "2026-06-25T18:00:00Z",
       "Home": {
-        "Score": null,
+        "Score": 0,
         "Side": null,
         "IdTeam": "43819",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/JPN",
         "IdCountry": "JPN",
-        "Tactics": null,
+        "Tactics": "3-4-3",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -10476,12 +10465,12 @@
         "IdAssociation": "JPN"
       },
       "Away": {
-        "Score": null,
+        "Score": 0,
         "Side": null,
         "IdTeam": "43970",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/SWE",
         "IdCountry": "SWE",
-        "Tactics": null,
+        "Tactics": "3-4-1-2",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -10496,8 +10485,8 @@
         "Gender": 1,
         "IdAssociation": "SWE"
       },
-      "HomeTeamScore": null,
-      "AwayTeamScore": null,
+      "HomeTeamScore": 0,
+      "AwayTeamScore": 0,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
       "HomeTeamPenaltyScore": null,
@@ -10543,7 +10532,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "1'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
@@ -10576,32 +10565,9 @@
               "Description": "裁判员"
             }
           ]
-        },
-        {
-          "IdCountry": "MTN",
-          "OfficialId": "408591",
-          "NameShort": [
-            {
-              "Locale": "en-GB",
-              "Description": "Dahane BEIDA"
-            }
-          ],
-          "Name": [
-            {
-              "Locale": "zh-CN",
-              "Description": "达哈恩·贝达"
-            }
-          ],
-          "OfficialType": 4,
-          "TypeLocalized": [
-            {
-              "Locale": "zh-CN",
-              "Description": "第四官员"
-            }
-          ]
         }
       ],
-      "MatchStatus": 1,
+      "MatchStatus": 3,
       "ResultType": 0,
       "MatchNumber": 57,
       "TimeDefined": true,
@@ -13683,7 +13649,27 @@
       "SeasonShortName": [],
       "Date": "2026-06-30T17:00:00Z",
       "LocalDate": "2026-06-30T12:00:00Z",
-      "Home": null,
+      "Home": {
+        "Score": null,
+        "Side": null,
+        "IdTeam": "43854",
+        "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CIV",
+        "IdCountry": "CIV",
+        "Tactics": null,
+        "TeamType": 1,
+        "AgeType": 7,
+        "TeamName": [
+          {
+            "Locale": "zh-CN",
+            "Description": "科特迪瓦"
+          }
+        ],
+        "Abbreviation": "CIV",
+        "ShortClubName": "Côte d'Ivoire",
+        "FootballType": 0,
+        "Gender": 1,
+        "IdAssociation": "CIV"
+      },
       "Away": null,
       "HomeTeamScore": null,
       "AwayTeamScore": null,
