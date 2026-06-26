@@ -10995,8 +10995,14 @@
       "IdSeason": "285023",
       "IdStage": "289273",
       "IdGroup": "289283",
-      "Weather": null,
-      "Attendance": null,
+      "Weather": {
+        "Humidity": null,
+        "Temperature": null,
+        "WindSpeed": null,
+        "Type": null,
+        "TypeLocalized": []
+      },
+      "Attendance": "43036",
       "IdMatch": "400021493",
       "MatchDay": null,
       "StageName": [
@@ -11027,12 +11033,12 @@
       "Date": "2026-06-26T19:00:00Z",
       "LocalDate": "2026-06-26T15:00:00Z",
       "Home": {
-        "Score": null,
+        "Score": 5,
         "Side": null,
         "IdTeam": "43879",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/SEN",
         "IdCountry": "SEN",
-        "Tactics": null,
+        "Tactics": "4-1-2-3",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -11048,12 +11054,12 @@
         "IdAssociation": "SEN"
       },
       "Away": {
-        "Score": null,
+        "Score": 0,
         "Side": null,
         "IdTeam": "43818",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/IRQ",
         "IdCountry": "IRQ",
-        "Tactics": null,
+        "Tactics": "4-4-2",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -11068,8 +11074,8 @@
         "Gender": 1,
         "IdAssociation": "IRQ"
       },
-      "HomeTeamScore": null,
-      "AwayTeamScore": null,
+      "HomeTeamScore": 5,
+      "AwayTeamScore": 0,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
       "HomeTeamPenaltyScore": null,
@@ -11115,12 +11121,12 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "97'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
       "SecondHalfExtraTime": null,
-      "Winner": null,
+      "Winner": "43879",
       "MatchReportUrl": null,
       "PlaceHolderA": "I2",
       "PlaceHolderB": "I3",
@@ -11150,11 +11156,11 @@
           ]
         }
       ],
-      "MatchStatus": 1,
-      "ResultType": 0,
+      "MatchStatus": 0,
+      "ResultType": 1,
       "MatchNumber": 62,
       "TimeDefined": true,
-      "OfficialityStatus": 0,
+      "OfficialityStatus": 1,
       "MatchLegInfo": null,
       "Properties": {
         "IdIFES": "151659"
@@ -11166,8 +11172,14 @@
       "IdSeason": "285023",
       "IdStage": "289273",
       "IdGroup": "289283",
-      "Weather": null,
-      "Attendance": null,
+      "Weather": {
+        "Humidity": null,
+        "Temperature": null,
+        "WindSpeed": null,
+        "Type": null,
+        "TypeLocalized": []
+      },
+      "Attendance": "64146",
       "IdMatch": "400021489",
       "MatchDay": null,
       "StageName": [
@@ -11198,12 +11210,12 @@
       "Date": "2026-06-26T19:00:00Z",
       "LocalDate": "2026-06-26T15:00:00Z",
       "Home": {
-        "Score": null,
+        "Score": 1,
         "Side": null,
         "IdTeam": "43961",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/NOR",
         "IdCountry": "NOR",
-        "Tactics": null,
+        "Tactics": "4-1-2-3",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -11219,12 +11231,12 @@
         "IdAssociation": "NOR"
       },
       "Away": {
-        "Score": null,
+        "Score": 4,
         "Side": null,
         "IdTeam": "43946",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/FRA",
         "IdCountry": "FRA",
-        "Tactics": null,
+        "Tactics": "4-2-3-1",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -11239,8 +11251,8 @@
         "Gender": 1,
         "IdAssociation": "FRA"
       },
-      "HomeTeamScore": null,
-      "AwayTeamScore": null,
+      "HomeTeamScore": 1,
+      "AwayTeamScore": 4,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
       "HomeTeamPenaltyScore": null,
@@ -11286,12 +11298,12 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "96'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
       "SecondHalfExtraTime": null,
-      "Winner": null,
+      "Winner": "43946",
       "MatchReportUrl": null,
       "PlaceHolderA": "I4",
       "PlaceHolderB": "I1",
@@ -11319,36 +11331,13 @@
               "Description": "裁判员"
             }
           ]
-        },
-        {
-          "IdCountry": "CHN",
-          "OfficialId": "328495",
-          "NameShort": [
-            {
-              "Locale": "en-GB",
-              "Description": "MA Ning"
-            }
-          ],
-          "Name": [
-            {
-              "Locale": "zh-CN",
-              "Description": "马宁"
-            }
-          ],
-          "OfficialType": 4,
-          "TypeLocalized": [
-            {
-              "Locale": "zh-CN",
-              "Description": "第四官员"
-            }
-          ]
         }
       ],
-      "MatchStatus": 1,
-      "ResultType": 0,
+      "MatchStatus": 0,
+      "ResultType": 1,
       "MatchNumber": 61,
       "TimeDefined": true,
-      "OfficialityStatus": 0,
+      "OfficialityStatus": 1,
       "MatchLegInfo": null,
       "Properties": {
         "IdIFES": "151660"
@@ -13804,7 +13793,27 @@
         "Gender": 1,
         "IdAssociation": "CIV"
       },
-      "Away": null,
+      "Away": {
+        "Score": null,
+        "Side": null,
+        "IdTeam": "43961",
+        "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/NOR",
+        "IdCountry": "NOR",
+        "Tactics": null,
+        "TeamType": 1,
+        "AgeType": 7,
+        "TeamName": [
+          {
+            "Locale": "zh-CN",
+            "Description": "挪威"
+          }
+        ],
+        "Abbreviation": "NOR",
+        "ShortClubName": "Norway",
+        "FootballType": 0,
+        "Gender": 1,
+        "IdAssociation": "NOR"
+      },
       "HomeTeamScore": null,
       "AwayTeamScore": null,
       "AggregateHomeTeamScore": null,
@@ -13905,7 +13914,27 @@
       "SeasonShortName": [],
       "Date": "2026-06-30T21:00:00Z",
       "LocalDate": "2026-06-30T17:00:00Z",
-      "Home": null,
+      "Home": {
+        "Score": null,
+        "Side": null,
+        "IdTeam": "43946",
+        "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/FRA",
+        "IdCountry": "FRA",
+        "Tactics": null,
+        "TeamType": 1,
+        "AgeType": 7,
+        "TeamName": [
+          {
+            "Locale": "zh-CN",
+            "Description": "法国"
+          }
+        ],
+        "Abbreviation": "FRA",
+        "ShortClubName": "France",
+        "FootballType": 0,
+        "Gender": 1,
+        "IdAssociation": "FRA"
+      },
       "Away": null,
       "HomeTeamScore": null,
       "AwayTeamScore": null,
