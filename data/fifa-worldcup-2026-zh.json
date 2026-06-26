@@ -10241,8 +10241,14 @@
       "IdSeason": "285023",
       "IdStage": "289273",
       "IdGroup": "289280",
-      "Weather": null,
-      "Attendance": null,
+      "Weather": {
+        "Humidity": null,
+        "Temperature": null,
+        "WindSpeed": null,
+        "Type": null,
+        "TypeLocalized": []
+      },
+      "Attendance": "68391",
       "IdMatch": "400021473",
       "MatchDay": null,
       "StageName": [
@@ -10273,12 +10279,12 @@
       "Date": "2026-06-25T23:00:00Z",
       "LocalDate": "2026-06-25T18:00:00Z",
       "Home": {
-        "Score": 0,
+        "Score": 1,
         "Side": null,
         "IdTeam": "43888",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/TUN",
         "IdCountry": "TUN",
-        "Tactics": "5-3-2",
+        "Tactics": "5-4-1",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -10294,12 +10300,12 @@
         "IdAssociation": "TUN"
       },
       "Away": {
-        "Score": 0,
+        "Score": 3,
         "Side": null,
         "IdTeam": "43960",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/NED",
         "IdCountry": "NED",
-        "Tactics": "4-3-3",
+        "Tactics": "4-1-2-3",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -10314,8 +10320,8 @@
         "Gender": 1,
         "IdAssociation": "NED"
       },
-      "HomeTeamScore": 0,
-      "AwayTeamScore": 0,
+      "HomeTeamScore": 1,
+      "AwayTeamScore": 3,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
       "HomeTeamPenaltyScore": null,
@@ -10361,12 +10367,12 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": "1'",
+      "MatchTime": "96'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
       "SecondHalfExtraTime": null,
-      "Winner": null,
+      "Winner": "43960",
       "MatchReportUrl": null,
       "PlaceHolderA": "F4",
       "PlaceHolderB": "F1",
@@ -10394,13 +10400,36 @@
               "Description": "裁判员"
             }
           ]
+        },
+        {
+          "IdCountry": "PAR",
+          "OfficialId": "416159",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Juan Gabriel BENITEZ"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "胡安·加布里埃尔·贝尼特斯"
+            }
+          ],
+          "OfficialType": 4,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "第四官员"
+            }
+          ]
         }
       ],
-      "MatchStatus": 3,
-      "ResultType": 0,
+      "MatchStatus": 0,
+      "ResultType": 1,
       "MatchNumber": 58,
       "TimeDefined": true,
-      "OfficialityStatus": 0,
+      "OfficialityStatus": 1,
       "MatchLegInfo": null,
       "Properties": {
         "IdIFES": "151642"
@@ -10412,8 +10441,14 @@
       "IdSeason": "285023",
       "IdStage": "289273",
       "IdGroup": "289280",
-      "Weather": null,
-      "Attendance": null,
+      "Weather": {
+        "Humidity": null,
+        "Temperature": null,
+        "WindSpeed": null,
+        "Type": null,
+        "TypeLocalized": []
+      },
+      "Attendance": "70137",
       "IdMatch": "400021471",
       "MatchDay": null,
       "StageName": [
@@ -10444,7 +10479,7 @@
       "Date": "2026-06-25T23:00:00Z",
       "LocalDate": "2026-06-25T18:00:00Z",
       "Home": {
-        "Score": 0,
+        "Score": 1,
         "Side": null,
         "IdTeam": "43819",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/JPN",
@@ -10465,12 +10500,12 @@
         "IdAssociation": "JPN"
       },
       "Away": {
-        "Score": 0,
+        "Score": 1,
         "Side": null,
         "IdTeam": "43970",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/SWE",
         "IdCountry": "SWE",
-        "Tactics": "3-4-1-2",
+        "Tactics": "3-4-3",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -10485,8 +10520,8 @@
         "Gender": 1,
         "IdAssociation": "SWE"
       },
-      "HomeTeamScore": 0,
-      "AwayTeamScore": 0,
+      "HomeTeamScore": 1,
+      "AwayTeamScore": 1,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
       "HomeTeamPenaltyScore": null,
@@ -10532,7 +10567,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": "1'",
+      "MatchTime": "98'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
@@ -10565,13 +10600,36 @@
               "Description": "裁判员"
             }
           ]
+        },
+        {
+          "IdCountry": "MTN",
+          "OfficialId": "408591",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Dahane BEIDA"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "达哈恩·贝达"
+            }
+          ],
+          "OfficialType": 4,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "第四官员"
+            }
+          ]
         }
       ],
-      "MatchStatus": 3,
-      "ResultType": 0,
+      "MatchStatus": 0,
+      "ResultType": 1,
       "MatchNumber": 57,
       "TimeDefined": true,
-      "OfficialityStatus": 0,
+      "OfficialityStatus": 1,
       "MatchLegInfo": null,
       "Properties": {
         "IdIFES": "151641"
@@ -10583,8 +10641,14 @@
       "IdSeason": "285023",
       "IdStage": "289273",
       "IdGroup": "289278",
-      "Weather": null,
-      "Attendance": null,
+      "Weather": {
+        "Humidity": null,
+        "Temperature": null,
+        "WindSpeed": null,
+        "Type": null,
+        "TypeLocalized": []
+      },
+      "Attendance": "68827",
       "IdMatch": "400021461",
       "MatchDay": null,
       "StageName": [
@@ -10615,12 +10679,12 @@
       "Date": "2026-06-26T02:00:00Z",
       "LocalDate": "2026-06-25T19:00:00Z",
       "Home": {
-        "Score": null,
+        "Score": 0,
         "Side": null,
         "IdTeam": "43928",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/PAR",
         "IdCountry": "PAR",
-        "Tactics": null,
+        "Tactics": "5-3-2",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -10636,12 +10700,12 @@
         "IdAssociation": "PAR"
       },
       "Away": {
-        "Score": null,
+        "Score": 0,
         "Side": null,
         "IdTeam": "43976",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/AUS",
         "IdCountry": "AUS",
-        "Tactics": null,
+        "Tactics": "3-4-3",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -10656,8 +10720,8 @@
         "Gender": 1,
         "IdAssociation": "AUS"
       },
-      "HomeTeamScore": null,
-      "AwayTeamScore": null,
+      "HomeTeamScore": 0,
+      "AwayTeamScore": 0,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
       "HomeTeamPenaltyScore": null,
@@ -10703,7 +10767,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "96'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
@@ -10738,11 +10802,11 @@
           ]
         }
       ],
-      "MatchStatus": 1,
-      "ResultType": 0,
+      "MatchStatus": 0,
+      "ResultType": 1,
       "MatchNumber": 60,
       "TimeDefined": true,
-      "OfficialityStatus": 0,
+      "OfficialityStatus": 1,
       "MatchLegInfo": null,
       "Properties": {
         "IdIFES": "151629"
@@ -10754,7 +10818,13 @@
       "IdSeason": "285023",
       "IdStage": "289273",
       "IdGroup": "289278",
-      "Weather": null,
+      "Weather": {
+        "Humidity": null,
+        "Temperature": null,
+        "WindSpeed": null,
+        "Type": null,
+        "TypeLocalized": []
+      },
       "Attendance": null,
       "IdMatch": "400021459",
       "MatchDay": null,
@@ -10786,12 +10856,12 @@
       "Date": "2026-06-26T02:00:00Z",
       "LocalDate": "2026-06-25T19:00:00Z",
       "Home": {
-        "Score": null,
+        "Score": 3,
         "Side": null,
         "IdTeam": "43972",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/TUR",
         "IdCountry": "TUR",
-        "Tactics": null,
+        "Tactics": "3-4-3",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -10807,12 +10877,12 @@
         "IdAssociation": "TUR"
       },
       "Away": {
-        "Score": null,
+        "Score": 2,
         "Side": null,
         "IdTeam": "43921",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/USA",
         "IdCountry": "USA",
-        "Tactics": null,
+        "Tactics": "4-1-2-3",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -10827,8 +10897,8 @@
         "Gender": 1,
         "IdAssociation": "USA"
       },
-      "HomeTeamScore": null,
-      "AwayTeamScore": null,
+      "HomeTeamScore": 3,
+      "AwayTeamScore": 2,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
       "HomeTeamPenaltyScore": null,
@@ -10874,12 +10944,12 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "99'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
       "SecondHalfExtraTime": null,
-      "Winner": null,
+      "Winner": "43972",
       "MatchReportUrl": null,
       "PlaceHolderA": "D4",
       "PlaceHolderB": "D1",
@@ -10907,36 +10977,13 @@
               "Description": "裁判员"
             }
           ]
-        },
-        {
-          "IdCountry": "UAE",
-          "OfficialId": "383421",
-          "NameShort": [
-            {
-              "Locale": "en-GB",
-              "Description": "Omar ALALI"
-            }
-          ],
-          "Name": [
-            {
-              "Locale": "zh-CN",
-              "Description": "奥马尔·穆罕默德·阿尔·阿里"
-            }
-          ],
-          "OfficialType": 4,
-          "TypeLocalized": [
-            {
-              "Locale": "zh-CN",
-              "Description": "第四官员"
-            }
-          ]
         }
       ],
-      "MatchStatus": 1,
-      "ResultType": 0,
+      "MatchStatus": 0,
+      "ResultType": 1,
       "MatchNumber": 59,
       "TimeDefined": true,
-      "OfficialityStatus": 0,
+      "OfficialityStatus": 1,
       "MatchLegInfo": null,
       "Properties": {
         "IdIFES": "151630"
@@ -13240,7 +13287,54 @@
       "PlaceHolderA": "2A",
       "PlaceHolderB": "2B",
       "BallPossession": null,
-      "Officials": [],
+      "Officials": [
+        {
+          "IdCountry": "POR",
+          "OfficialId": "392268",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Joao PINHEIRO"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "若昂·佩德罗·席尔瓦·皮涅罗"
+            }
+          ],
+          "OfficialType": 1,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "裁判员"
+            }
+          ]
+        },
+        {
+          "IdCountry": "UAE",
+          "OfficialId": "383421",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Omar ALALI"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "奥马尔·穆罕默德·阿尔·阿里"
+            }
+          ],
+          "OfficialType": 4,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "第四官员"
+            }
+          ]
+        }
+      ],
       "MatchStatus": 1,
       "ResultType": 0,
       "MatchNumber": 73,
@@ -13304,7 +13398,27 @@
         "Gender": 1,
         "IdAssociation": "BRA"
       },
-      "Away": null,
+      "Away": {
+        "Score": null,
+        "Side": null,
+        "IdTeam": "43819",
+        "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/JPN",
+        "IdCountry": "JPN",
+        "Tactics": null,
+        "TeamType": 1,
+        "AgeType": 7,
+        "TeamName": [
+          {
+            "Locale": "zh-CN",
+            "Description": "日本"
+          }
+        ],
+        "Abbreviation": "JPN",
+        "ShortClubName": "Japan",
+        "FootballType": 0,
+        "Gender": 1,
+        "IdAssociation": "JPN"
+      },
       "HomeTeamScore": null,
       "AwayTeamScore": null,
       "AggregateHomeTeamScore": null,
@@ -13527,7 +13641,27 @@
       "SeasonShortName": [],
       "Date": "2026-06-30T01:00:00Z",
       "LocalDate": "2026-06-29T19:00:00Z",
-      "Home": null,
+      "Home": {
+        "Score": null,
+        "Side": null,
+        "IdTeam": "43960",
+        "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/NED",
+        "IdCountry": "NED",
+        "Tactics": null,
+        "TeamType": 1,
+        "AgeType": 7,
+        "TeamName": [
+          {
+            "Locale": "zh-CN",
+            "Description": "荷兰"
+          }
+        ],
+        "Abbreviation": "NED",
+        "ShortClubName": "Netherlands",
+        "FootballType": 0,
+        "Gender": 1,
+        "IdAssociation": "NED"
+      },
       "Away": {
         "Score": null,
         "Side": null,
@@ -14220,7 +14354,27 @@
         "Gender": 1,
         "IdAssociation": "USA"
       },
-      "Away": null,
+      "Away": {
+        "Score": null,
+        "Side": null,
+        "IdTeam": "44037",
+        "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/BIH",
+        "IdCountry": "BIH",
+        "Tactics": null,
+        "TeamType": 1,
+        "AgeType": 7,
+        "TeamName": [
+          {
+            "Locale": "zh-CN",
+            "Description": "波斯尼亚和黑塞哥维那"
+          }
+        ],
+        "Abbreviation": "BIH",
+        "ShortClubName": "Bosnia and Herzegovina",
+        "FootballType": 0,
+        "Gender": 1,
+        "IdAssociation": "BIH"
+      },
       "HomeTeamScore": null,
       "AwayTeamScore": null,
       "AggregateHomeTeamScore": null,
@@ -14647,7 +14801,27 @@
       "SeasonShortName": [],
       "Date": "2026-07-03T18:00:00Z",
       "LocalDate": "2026-07-03T13:00:00Z",
-      "Home": null,
+      "Home": {
+        "Score": null,
+        "Side": null,
+        "IdTeam": "43976",
+        "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/AUS",
+        "IdCountry": "AUS",
+        "Tactics": null,
+        "TeamType": 1,
+        "AgeType": 7,
+        "TeamName": [
+          {
+            "Locale": "zh-CN",
+            "Description": "澳大利亚"
+          }
+        ],
+        "Abbreviation": "AUS",
+        "ShortClubName": "Australia",
+        "FootballType": 0,
+        "Gender": 1,
+        "IdAssociation": "AUS"
+      },
       "Away": null,
       "HomeTeamScore": null,
       "AwayTeamScore": null,
