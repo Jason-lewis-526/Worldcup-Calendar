@@ -12140,7 +12140,7 @@
         "IdTeam": "43914",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/PAN",
         "IdCountry": "PAN",
-        "Tactics": null,
+        "Tactics": "5-4-1",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -12161,7 +12161,7 @@
         "IdTeam": "43942",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ENG",
         "IdCountry": "ENG",
-        "Tactics": null,
+        "Tactics": "4-2-3-1",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -12223,7 +12223,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "0'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
@@ -12311,7 +12311,7 @@
         "IdTeam": "43938",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CRO",
         "IdCountry": "CRO",
-        "Tactics": null,
+        "Tactics": "4-2-3-1",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -12332,7 +12332,7 @@
         "IdTeam": "43860",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/GHA",
         "IdCountry": "GHA",
-        "Tactics": null,
+        "Tactics": "4-1-2-3",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -12394,7 +12394,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "0'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
