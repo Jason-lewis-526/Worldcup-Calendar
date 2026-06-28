@@ -13211,8 +13211,14 @@
       "IdSeason": "285023",
       "IdStage": "289287",
       "IdGroup": null,
-      "Weather": null,
-      "Attendance": null,
+      "Weather": {
+        "Humidity": null,
+        "Temperature": null,
+        "WindSpeed": null,
+        "Type": null,
+        "TypeLocalized": []
+      },
+      "Attendance": "69237",
       "IdMatch": "400021518",
       "MatchDay": null,
       "StageName": [
@@ -13259,7 +13265,7 @@
         "IdAssociation": "RSA"
       },
       "Away": {
-        "Score": 0,
+        "Score": 1,
         "Side": null,
         "IdTeam": "43899",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CAN",
@@ -13280,7 +13286,7 @@
         "IdAssociation": "CAN"
       },
       "HomeTeamScore": 0,
-      "AwayTeamScore": 0,
+      "AwayTeamScore": 1,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
       "HomeTeamPenaltyScore": null,
@@ -13326,12 +13332,12 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": "",
+      "MatchTime": "97'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
       "SecondHalfExtraTime": null,
-      "Winner": null,
+      "Winner": "43899",
       "MatchReportUrl": null,
       "PlaceHolderA": "2A",
       "PlaceHolderB": "2B",
@@ -13361,11 +13367,11 @@
           ]
         }
       ],
-      "MatchStatus": 3,
-      "ResultType": 0,
+      "MatchStatus": 0,
+      "ResultType": 1,
       "MatchNumber": 73,
       "TimeDefined": true,
-      "OfficialityStatus": 0,
+      "OfficialityStatus": 1,
       "MatchLegInfo": null,
       "Properties": {
         "IdIFES": "151679"
@@ -15651,7 +15657,27 @@
       "SeasonShortName": [],
       "Date": "2026-07-04T17:00:00Z",
       "LocalDate": "2026-07-04T12:00:00Z",
-      "Home": null,
+      "Home": {
+        "Score": null,
+        "Side": null,
+        "IdTeam": "43899",
+        "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CAN",
+        "IdCountry": "CAN",
+        "Tactics": null,
+        "TeamType": 1,
+        "AgeType": 7,
+        "TeamName": [
+          {
+            "Locale": "en-GB",
+            "Description": "Canada"
+          }
+        ],
+        "Abbreviation": "CAN",
+        "ShortClubName": "Canada",
+        "FootballType": 0,
+        "Gender": 1,
+        "IdAssociation": "CAN"
+      },
       "Away": null,
       "HomeTeamScore": null,
       "AwayTeamScore": null,
