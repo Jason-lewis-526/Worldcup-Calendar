@@ -13238,12 +13238,12 @@
       "Date": "2026-06-28T19:00:00Z",
       "LocalDate": "2026-06-28T12:00:00Z",
       "Home": {
-        "Score": null,
+        "Score": 0,
         "Side": null,
         "IdTeam": "43883",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/RSA",
         "IdCountry": "RSA",
-        "Tactics": null,
+        "Tactics": "4-2-3-1",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -13259,12 +13259,12 @@
         "IdAssociation": "RSA"
       },
       "Away": {
-        "Score": null,
+        "Score": 0,
         "Side": null,
         "IdTeam": "43899",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CAN",
         "IdCountry": "CAN",
-        "Tactics": null,
+        "Tactics": "4-4-2",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -13279,8 +13279,8 @@
         "Gender": 1,
         "IdAssociation": "CAN"
       },
-      "HomeTeamScore": null,
-      "AwayTeamScore": null,
+      "HomeTeamScore": 0,
+      "AwayTeamScore": 0,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
       "HomeTeamPenaltyScore": null,
@@ -13326,7 +13326,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
@@ -13359,32 +13359,9 @@
               "Description": "Referee"
             }
           ]
-        },
-        {
-          "IdCountry": "UAE",
-          "OfficialId": "383421",
-          "NameShort": [
-            {
-              "Locale": "en-GB",
-              "Description": "Omar ALALI"
-            }
-          ],
-          "Name": [
-            {
-              "Locale": "en-GB",
-              "Description": "Omar Mohamed Al Ali"
-            }
-          ],
-          "OfficialType": 4,
-          "TypeLocalized": [
-            {
-              "Locale": "en-GB",
-              "Description": "Fourth official"
-            }
-          ]
         }
       ],
-      "MatchStatus": 1,
+      "MatchStatus": 3,
       "ResultType": 0,
       "MatchNumber": 73,
       "TimeDefined": true,
