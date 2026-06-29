@@ -13016,6 +13016,29 @@
               "Description": "裁判员"
             }
           ]
+        },
+        {
+          "IdCountry": "MEX",
+          "OfficialId": "416317",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Katia GARCIA"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "卡蒂亚·伊策尔·加西亚"
+            }
+          ],
+          "OfficialType": 4,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "第四官员"
+            }
+          ]
         }
       ],
       "MatchStatus": 0,
@@ -13193,6 +13216,29 @@
               "Description": "裁判员"
             }
           ]
+        },
+        {
+          "IdCountry": "MTN",
+          "OfficialId": "408591",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Dahane BEIDA"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "达哈恩·贝达"
+            }
+          ],
+          "OfficialType": 4,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "第四官员"
+            }
+          ]
         }
       ],
       "MatchStatus": 0,
@@ -13363,6 +13409,29 @@
             {
               "Locale": "zh-CN",
               "Description": "裁判员"
+            }
+          ]
+        },
+        {
+          "IdCountry": "UAE",
+          "OfficialId": "383421",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Omar ALALI"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "奥马尔·穆罕默德·阿尔·阿里"
+            }
+          ],
+          "OfficialType": 4,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "第四官员"
             }
           ]
         }
@@ -14052,7 +14121,54 @@
       "PlaceHolderA": "2E",
       "PlaceHolderB": "2I",
       "BallPossession": null,
-      "Officials": [],
+      "Officials": [
+        {
+          "IdCountry": "VEN",
+          "OfficialId": "360305",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Jesus VALENZUELA"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "赫苏斯·瓦伦苏埃拉·萨斯"
+            }
+          ],
+          "OfficialType": 1,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "裁判员"
+            }
+          ]
+        },
+        {
+          "IdCountry": "PAR",
+          "OfficialId": "416159",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Juan Gabriel BENITEZ"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "胡安·加布里埃尔·贝尼特斯"
+            }
+          ],
+          "OfficialType": 4,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "第四官员"
+            }
+          ]
+        }
+      ],
       "MatchStatus": 1,
       "ResultType": 0,
       "MatchNumber": 78,
@@ -14194,7 +14310,54 @@
       "PlaceHolderA": "1I",
       "PlaceHolderB": "3CDFGH",
       "BallPossession": null,
-      "Officials": [],
+      "Officials": [
+        {
+          "IdCountry": "NED",
+          "OfficialId": "327159",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Danny MAKKELIE"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "丹尼·德斯蒙德·麦凯利"
+            }
+          ],
+          "OfficialType": 1,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "裁判员"
+            }
+          ]
+        },
+        {
+          "IdCountry": "USA",
+          "OfficialId": "428431",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Tori PENSO"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "托里·彭索"
+            }
+          ],
+          "OfficialType": 4,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "第四官员"
+            }
+          ]
+        }
+      ],
       "MatchStatus": 1,
       "ResultType": 0,
       "MatchNumber": 77,
@@ -14336,7 +14499,54 @@
       "PlaceHolderA": "1A",
       "PlaceHolderB": "3CEFHI",
       "BallPossession": null,
-      "Officials": [],
+      "Officials": [
+        {
+          "IdCountry": "SVN",
+          "OfficialId": "315008",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Slavko VINCIC"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "斯拉夫科·文西奇"
+            }
+          ],
+          "OfficialType": 1,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "裁判员"
+            }
+          ]
+        },
+        {
+          "IdCountry": "ALG",
+          "OfficialId": "375306",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Mustapha GHORBAL"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "穆斯塔法·戈巴尔"
+            }
+          ],
+          "OfficialType": 4,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "第四官员"
+            }
+          ]
+        }
+      ],
       "MatchStatus": 1,
       "ResultType": 0,
       "MatchNumber": 79,
