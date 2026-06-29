@@ -13452,8 +13452,14 @@
       "IdSeason": "285023",
       "IdStage": "289287",
       "IdGroup": null,
-      "Weather": null,
-      "Attendance": null,
+      "Weather": {
+        "Humidity": null,
+        "Temperature": null,
+        "WindSpeed": null,
+        "Type": null,
+        "TypeLocalized": []
+      },
+      "Attendance": "68777",
       "IdMatch": "400021516",
       "MatchDay": null,
       "StageName": [
@@ -13479,12 +13485,12 @@
       "Date": "2026-06-29T17:00:00Z",
       "LocalDate": "2026-06-29T12:00:00Z",
       "Home": {
-        "Score": null,
+        "Score": 2,
         "Side": null,
         "IdTeam": "43924",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/BRA",
         "IdCountry": "BRA",
-        "Tactics": null,
+        "Tactics": "4-1-2-3",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -13500,12 +13506,12 @@
         "IdAssociation": "BRA"
       },
       "Away": {
-        "Score": null,
+        "Score": 1,
         "Side": null,
         "IdTeam": "43819",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/JPN",
         "IdCountry": "JPN",
-        "Tactics": null,
+        "Tactics": "3-4-3",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -13520,8 +13526,8 @@
         "Gender": 1,
         "IdAssociation": "JPN"
       },
-      "HomeTeamScore": null,
-      "AwayTeamScore": null,
+      "HomeTeamScore": 2,
+      "AwayTeamScore": 1,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
       "HomeTeamPenaltyScore": null,
@@ -13567,12 +13573,12 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "101'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
       "SecondHalfExtraTime": null,
-      "Winner": null,
+      "Winner": "43924",
       "MatchReportUrl": null,
       "PlaceHolderA": "1C",
       "PlaceHolderB": "2F",
@@ -13602,11 +13608,11 @@
           ]
         }
       ],
-      "MatchStatus": 1,
-      "ResultType": 0,
+      "MatchStatus": 0,
+      "ResultType": 1,
       "MatchNumber": 76,
       "TimeDefined": true,
-      "OfficialityStatus": 0,
+      "OfficialityStatus": 1,
       "MatchLegInfo": null,
       "Properties": {
         "IdIFES": "151681"
@@ -13645,12 +13651,12 @@
       "Date": "2026-06-29T20:30:00Z",
       "LocalDate": "2026-06-29T16:30:00Z",
       "Home": {
-        "Score": null,
+        "Score": 0,
         "Side": null,
         "IdTeam": "43948",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/GER",
         "IdCountry": "GER",
-        "Tactics": null,
+        "Tactics": "4-2-3-1",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -13666,12 +13672,12 @@
         "IdAssociation": "GER"
       },
       "Away": {
-        "Score": null,
+        "Score": 0,
         "Side": null,
         "IdTeam": "43928",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/PAR",
         "IdCountry": "PAR",
-        "Tactics": null,
+        "Tactics": "4-4-2",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -13686,8 +13692,8 @@
         "Gender": 1,
         "IdAssociation": "PAR"
       },
-      "HomeTeamScore": null,
-      "AwayTeamScore": null,
+      "HomeTeamScore": 0,
+      "AwayTeamScore": 0,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
       "HomeTeamPenaltyScore": null,
@@ -13733,7 +13739,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "29'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
@@ -13766,32 +13772,9 @@
               "Description": "Referee"
             }
           ]
-        },
-        {
-          "IdCountry": "CHN",
-          "OfficialId": "328495",
-          "NameShort": [
-            {
-              "Locale": "en-GB",
-              "Description": "MA Ning"
-            }
-          ],
-          "Name": [
-            {
-              "Locale": "en-GB",
-              "Description": "Ning Ma"
-            }
-          ],
-          "OfficialType": 4,
-          "TypeLocalized": [
-            {
-              "Locale": "en-GB",
-              "Description": "Fourth official"
-            }
-          ]
         }
       ],
-      "MatchStatus": 1,
+      "MatchStatus": 3,
       "ResultType": 0,
       "MatchNumber": 74,
       "TimeDefined": true,
@@ -16091,7 +16074,27 @@
       "SeasonShortName": [],
       "Date": "2026-07-05T20:00:00Z",
       "LocalDate": "2026-07-05T16:00:00Z",
-      "Home": null,
+      "Home": {
+        "Score": null,
+        "Side": null,
+        "IdTeam": "43924",
+        "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/BRA",
+        "IdCountry": "BRA",
+        "Tactics": null,
+        "TeamType": 1,
+        "AgeType": 7,
+        "TeamName": [
+          {
+            "Locale": "en-GB",
+            "Description": "Brazil"
+          }
+        ],
+        "Abbreviation": "BRA",
+        "ShortClubName": "Brazil",
+        "FootballType": 0,
+        "Gender": 1,
+        "IdAssociation": "BRA"
+      },
       "Away": null,
       "HomeTeamScore": null,
       "AwayTeamScore": null,
