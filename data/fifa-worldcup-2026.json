@@ -14162,29 +14162,6 @@
               "Description": "Referee"
             }
           ]
-        },
-        {
-          "IdCountry": "PAR",
-          "OfficialId": "416159",
-          "NameShort": [
-            {
-              "Locale": "en-GB",
-              "Description": "Juan Gabriel BENITEZ"
-            }
-          ],
-          "Name": [
-            {
-              "Locale": "en-GB",
-              "Description": "Juan Gabriel Benítez"
-            }
-          ],
-          "OfficialType": 4,
-          "TypeLocalized": [
-            {
-              "Locale": "en-GB",
-              "Description": "Fourth official"
-            }
-          ]
         }
       ],
       "MatchStatus": 1,
