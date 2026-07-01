@@ -14599,7 +14599,13 @@
       "IdSeason": "285023",
       "IdStage": "289287",
       "IdGroup": null,
-      "Weather": null,
+      "Weather": {
+        "Humidity": null,
+        "Temperature": null,
+        "WindSpeed": null,
+        "Type": null,
+        "TypeLocalized": []
+      },
       "Attendance": "68239",
       "IdMatch": "400021512",
       "MatchDay": null,
@@ -14626,7 +14632,7 @@
       "Date": "2026-07-01T16:00:00Z",
       "LocalDate": "2026-07-01T12:00:00Z",
       "Home": {
-        "Score": 0,
+        "Score": 2,
         "Side": null,
         "IdTeam": "43942",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ENG",
@@ -14667,7 +14673,7 @@
         "Gender": 1,
         "IdAssociation": "COD"
       },
-      "HomeTeamScore": 0,
+      "HomeTeamScore": 2,
       "AwayTeamScore": 1,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
@@ -14714,12 +14720,12 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": "68'",
+      "MatchTime": "97'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
       "SecondHalfExtraTime": null,
-      "Winner": null,
+      "Winner": "43942",
       "MatchReportUrl": null,
       "PlaceHolderA": "1L",
       "PlaceHolderB": "3EHIJK",
@@ -14749,11 +14755,11 @@
           ]
         }
       ],
-      "MatchStatus": 3,
-      "ResultType": 0,
+      "MatchStatus": 0,
+      "ResultType": 1,
       "MatchNumber": 80,
       "TimeDefined": true,
-      "OfficialityStatus": 0,
+      "OfficialityStatus": 1,
       "MatchLegInfo": null,
       "Properties": {
         "IdIFES": "151688"
@@ -14880,7 +14886,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "0'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
@@ -16540,7 +16546,27 @@
         "Gender": 1,
         "IdAssociation": "MEX"
       },
-      "Away": null,
+      "Away": {
+        "Score": null,
+        "Side": null,
+        "IdTeam": "43942",
+        "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ENG",
+        "IdCountry": "ENG",
+        "Tactics": null,
+        "TeamType": 1,
+        "AgeType": 7,
+        "TeamName": [
+          {
+            "Locale": "zh-CN",
+            "Description": "英格兰"
+          }
+        ],
+        "Abbreviation": "ENG",
+        "ShortClubName": "England",
+        "FootballType": 0,
+        "Gender": 1,
+        "IdAssociation": "ENG"
+      },
       "HomeTeamScore": null,
       "AwayTeamScore": null,
       "AggregateHomeTeamScore": null,
