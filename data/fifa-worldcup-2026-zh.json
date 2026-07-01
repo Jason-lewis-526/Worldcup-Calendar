@@ -14168,6 +14168,29 @@
               "Description": "裁判员"
             }
           ]
+        },
+        {
+          "IdCountry": "PAR",
+          "OfficialId": "416159",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Juan Gabriel BENITEZ"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "胡安·加布里埃尔·贝尼特斯"
+            }
+          ],
+          "OfficialType": 4,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "第四官员"
+            }
+          ]
         }
       ],
       "MatchStatus": 0,
@@ -14346,7 +14369,7 @@
       "ResultType": 1,
       "MatchNumber": 77,
       "TimeDefined": true,
-      "OfficialityStatus": 2,
+      "OfficialityStatus": 1,
       "MatchLegInfo": null,
       "Properties": {
         "IdIFES": "151685"
@@ -14382,15 +14405,15 @@
         }
       ],
       "SeasonShortName": [],
-      "Date": "2026-07-01T01:00:00Z",
-      "LocalDate": "2026-06-30T19:00:00Z",
+      "Date": "2026-07-01T02:00:00Z",
+      "LocalDate": "2026-06-30T20:00:00Z",
       "Home": {
         "Score": null,
         "Side": null,
         "IdTeam": "43911",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/MEX",
         "IdCountry": "MEX",
-        "Tactics": null,
+        "Tactics": "4-1-2-3",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -14411,7 +14434,7 @@
         "IdTeam": "43927",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ECU",
         "IdCountry": "ECU",
-        "Tactics": null,
+        "Tactics": "4-4-2",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -14473,7 +14496,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "0'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
@@ -14506,32 +14529,9 @@
               "Description": "裁判员"
             }
           ]
-        },
-        {
-          "IdCountry": "ALG",
-          "OfficialId": "375306",
-          "NameShort": [
-            {
-              "Locale": "en-GB",
-              "Description": "Mustapha GHORBAL"
-            }
-          ],
-          "Name": [
-            {
-              "Locale": "zh-CN",
-              "Description": "穆斯塔法·戈巴尔"
-            }
-          ],
-          "OfficialType": 4,
-          "TypeLocalized": [
-            {
-              "Locale": "zh-CN",
-              "Description": "第四官员"
-            }
-          ]
         }
       ],
-      "MatchStatus": 1,
+      "MatchStatus": 10,
       "ResultType": 0,
       "MatchNumber": 79,
       "TimeDefined": true,
