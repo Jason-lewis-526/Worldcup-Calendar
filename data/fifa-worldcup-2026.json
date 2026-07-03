@@ -15704,12 +15704,12 @@
       "Date": "2026-07-03T18:00:00Z",
       "LocalDate": "2026-07-03T13:00:00Z",
       "Home": {
-        "Score": null,
+        "Score": 1,
         "Side": null,
         "IdTeam": "43976",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/AUS",
         "IdCountry": "AUS",
-        "Tactics": null,
+        "Tactics": "3-4-3",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -15725,12 +15725,12 @@
         "IdAssociation": "AUS"
       },
       "Away": {
-        "Score": null,
+        "Score": 1,
         "Side": null,
         "IdTeam": "43855",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/EGY",
         "IdCountry": "EGY",
-        "Tactics": null,
+        "Tactics": "4-4-2",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -15745,8 +15745,8 @@
         "Gender": 1,
         "IdAssociation": "EGY"
       },
-      "HomeTeamScore": null,
-      "AwayTeamScore": null,
+      "HomeTeamScore": 1,
+      "AwayTeamScore": 1,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
       "HomeTeamPenaltyScore": null,
@@ -15792,7 +15792,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": "0'",
+      "MatchTime": "59'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
@@ -15827,7 +15827,7 @@
           ]
         }
       ],
-      "MatchStatus": 1,
+      "MatchStatus": 3,
       "ResultType": 0,
       "MatchNumber": 88,
       "TimeDefined": true,
