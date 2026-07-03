@@ -15677,7 +15677,13 @@
       "IdSeason": "285023",
       "IdStage": "289287",
       "IdGroup": null,
-      "Weather": null,
+      "Weather": {
+        "Humidity": null,
+        "Temperature": null,
+        "WindSpeed": null,
+        "Type": null,
+        "TypeLocalized": []
+      },
       "Attendance": "70244",
       "IdMatch": "400021515",
       "MatchDay": null,
@@ -15749,8 +15755,8 @@
       "AwayTeamScore": 1,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
-      "HomeTeamPenaltyScore": null,
-      "AwayTeamPenaltyScore": null,
+      "HomeTeamPenaltyScore": 2,
+      "AwayTeamPenaltyScore": 4,
       "LastPeriodUpdate": null,
       "Leg": null,
       "IsHomeMatch": null,
@@ -15792,12 +15798,12 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": "120'+2'",
+      "MatchTime": "129'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
       "SecondHalfExtraTime": null,
-      "Winner": null,
+      "Winner": "43855",
       "MatchReportUrl": null,
       "PlaceHolderA": "2D",
       "PlaceHolderB": "2G",
@@ -15827,11 +15833,11 @@
           ]
         }
       ],
-      "MatchStatus": 3,
-      "ResultType": 0,
+      "MatchStatus": 0,
+      "ResultType": 2,
       "MatchNumber": 88,
       "TimeDefined": true,
-      "OfficialityStatus": 0,
+      "OfficialityStatus": 2,
       "MatchLegInfo": null,
       "Properties": {
         "IdIFES": "151692"
@@ -15875,7 +15881,7 @@
         "IdTeam": "43922",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ARG",
         "IdCountry": "ARG",
-        "Tactics": null,
+        "Tactics": "4-1-2-3",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -15896,7 +15902,7 @@
         "IdTeam": "43850",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CPV",
         "IdCountry": "CPV",
-        "Tactics": null,
+        "Tactics": "4-1-4-1",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -17171,7 +17177,27 @@
       "Date": "2026-07-07T16:00:00Z",
       "LocalDate": "2026-07-07T12:00:00Z",
       "Home": null,
-      "Away": null,
+      "Away": {
+        "Score": null,
+        "Side": null,
+        "IdTeam": "43855",
+        "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/EGY",
+        "IdCountry": "EGY",
+        "Tactics": null,
+        "TeamType": 1,
+        "AgeType": 7,
+        "TeamName": [
+          {
+            "Locale": "zh-CN",
+            "Description": "埃及"
+          }
+        ],
+        "Abbreviation": "EGY",
+        "ShortClubName": "Egypt",
+        "FootballType": 0,
+        "Gender": 1,
+        "IdAssociation": "EGY"
+      },
       "HomeTeamScore": null,
       "AwayTeamScore": null,
       "AggregateHomeTeamScore": null,
