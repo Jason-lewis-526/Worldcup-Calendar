@@ -15292,6 +15292,29 @@
               "Description": "Referee"
             }
           ]
+        },
+        {
+          "IdCountry": "MTN",
+          "OfficialId": "408591",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Dahane BEIDA"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "en-GB",
+              "Description": "Dahane BEIDA"
+            }
+          ],
+          "OfficialType": 4,
+          "TypeLocalized": [
+            {
+              "Locale": "en-GB",
+              "Description": "Fourth official"
+            }
+          ]
         }
       ],
       "MatchStatus": 0,
@@ -15447,8 +15470,8 @@
           "OfficialId": "400227",
           "NameShort": [
             {
-              "Locale": "en-gb",
-              "Description": "E. Eskås"
+              "Locale": "en-GB",
+              "Description": "Espen ESKAS"
             }
           ],
           "Name": [
@@ -15482,8 +15505,14 @@
       "IdSeason": "285023",
       "IdStage": "289287",
       "IdGroup": null,
-      "Weather": null,
-      "Attendance": null,
+      "Weather": {
+        "Humidity": null,
+        "Temperature": null,
+        "WindSpeed": null,
+        "Type": null,
+        "TypeLocalized": []
+      },
+      "Attendance": "52497",
       "IdMatch": "400021527",
       "MatchDay": null,
       "StageName": [
@@ -15597,12 +15626,12 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": "47'",
+      "MatchTime": "97'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
       "SecondHalfExtraTime": null,
-      "Winner": null,
+      "Winner": "43971",
       "MatchReportUrl": null,
       "PlaceHolderA": "1B",
       "PlaceHolderB": "3EFGIJ",
@@ -15613,8 +15642,8 @@
           "OfficialId": "434995",
           "NameShort": [
             {
-              "Locale": "en-gb",
-              "Description": "Y. Falcón"
+              "Locale": "en-GB",
+              "Description": "Yael FALCON PEREZ"
             }
           ],
           "Name": [
@@ -15632,11 +15661,11 @@
           ]
         }
       ],
-      "MatchStatus": 3,
-      "ResultType": 0,
+      "MatchStatus": 0,
+      "ResultType": 1,
       "MatchNumber": 85,
       "TimeDefined": true,
-      "OfficialityStatus": 0,
+      "OfficialityStatus": 1,
       "MatchLegInfo": null,
       "Properties": {
         "IdIFES": "151689"
@@ -15763,7 +15792,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "0'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
@@ -15929,7 +15958,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "0'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
@@ -16118,7 +16147,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "0'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
@@ -16307,7 +16336,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "0'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
@@ -16317,7 +16346,54 @@
       "PlaceHolderA": "W73",
       "PlaceHolderB": "W75",
       "BallPossession": null,
-      "Officials": [],
+      "Officials": [
+        {
+          "IdCountry": "ENG",
+          "OfficialId": "347710",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Michael OLIVER"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "en-GB",
+              "Description": "Michael Oliver"
+            }
+          ],
+          "OfficialType": 1,
+          "TypeLocalized": [
+            {
+              "Locale": "en-GB",
+              "Description": "Referee"
+            }
+          ]
+        },
+        {
+          "IdCountry": "NED",
+          "OfficialId": "327159",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Danny MAKKELIE"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "en-GB",
+              "Description": "Danny Desmond Makkelie"
+            }
+          ],
+          "OfficialType": 4,
+          "TypeLocalized": [
+            {
+              "Locale": "en-GB",
+              "Description": "Fourth official"
+            }
+          ]
+        }
+      ],
       "MatchStatus": 1,
       "ResultType": 0,
       "MatchNumber": 90,
@@ -16449,7 +16525,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "0'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
@@ -16459,7 +16535,54 @@
       "PlaceHolderA": "W74",
       "PlaceHolderB": "W77",
       "BallPossession": null,
-      "Officials": [],
+      "Officials": [
+        {
+          "IdCountry": "UZB",
+          "OfficialId": "360687",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Ilgiz TANTASHEV"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "en-GB",
+              "Description": "Ilgiz Tantashev"
+            }
+          ],
+          "OfficialType": 1,
+          "TypeLocalized": [
+            {
+              "Locale": "en-GB",
+              "Description": "Referee"
+            }
+          ]
+        },
+        {
+          "IdCountry": "QAT",
+          "OfficialId": "361083",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Abdulrahman ALJASSIM"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "en-GB",
+              "Description": "Abdulrahman AL JASSIM"
+            }
+          ],
+          "OfficialType": 4,
+          "TypeLocalized": [
+            {
+              "Locale": "en-GB",
+              "Description": "Fourth official"
+            }
+          ]
+        }
+      ],
       "MatchStatus": 1,
       "ResultType": 0,
       "MatchNumber": 89,
@@ -16591,7 +16714,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "0'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
@@ -16733,7 +16856,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "0'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
@@ -16875,7 +16998,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "0'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
@@ -17017,7 +17140,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "0'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
@@ -17172,7 +17295,27 @@
       "SeasonShortName": [],
       "Date": "2026-07-07T20:00:00Z",
       "LocalDate": "2026-07-07T13:00:00Z",
-      "Home": null,
+      "Home": {
+        "Score": null,
+        "Side": null,
+        "IdTeam": "43971",
+        "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/SUI",
+        "IdCountry": "SUI",
+        "Tactics": null,
+        "TeamType": 1,
+        "AgeType": 7,
+        "TeamName": [
+          {
+            "Locale": "en-GB",
+            "Description": "Switzerland"
+          }
+        ],
+        "Abbreviation": "SUI",
+        "ShortClubName": "Switzerland",
+        "FootballType": 0,
+        "Gender": 1,
+        "IdAssociation": "SUI"
+      },
       "Away": null,
       "HomeTeamScore": null,
       "AwayTeamScore": null,
