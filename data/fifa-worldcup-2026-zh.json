@@ -15850,7 +15850,7 @@
       "IdStage": "289287",
       "IdGroup": null,
       "Weather": null,
-      "Attendance": null,
+      "Attendance": "64478",
       "IdMatch": "400021521",
       "MatchDay": null,
       "StageName": [
@@ -15897,7 +15897,7 @@
         "IdAssociation": "ARG"
       },
       "Away": {
-        "Score": 0,
+        "Score": 1,
         "Side": null,
         "IdTeam": "43850",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CPV",
@@ -15918,7 +15918,7 @@
         "IdAssociation": "CPV"
       },
       "HomeTeamScore": 1,
-      "AwayTeamScore": 0,
+      "AwayTeamScore": 1,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
       "HomeTeamPenaltyScore": null,
@@ -15964,7 +15964,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": "45'",
+      "MatchTime": "",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
@@ -16130,7 +16130,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "0'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
@@ -16161,29 +16161,6 @@
             {
               "Locale": "zh-CN",
               "Description": "裁判员"
-            }
-          ]
-        },
-        {
-          "IdCountry": "ESP",
-          "OfficialId": "373845",
-          "NameShort": [
-            {
-              "Locale": "en-GB",
-              "Description": "Alejandro HERNANDEZ"
-            }
-          ],
-          "Name": [
-            {
-              "Locale": "zh-CN",
-              "Description": "亚历杭德罗·何塞·埃尔南德斯·埃尔南德斯"
-            }
-          ],
-          "OfficialType": 4,
-          "TypeLocalized": [
-            {
-              "Locale": "zh-CN",
-              "Description": "第四官员"
             }
           ]
         }
