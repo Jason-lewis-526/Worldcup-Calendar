@@ -16629,7 +16629,13 @@
       "IdSeason": "285023",
       "IdStage": "289288",
       "IdGroup": null,
-      "Weather": null,
+      "Weather": {
+        "Humidity": null,
+        "Temperature": null,
+        "WindSpeed": null,
+        "Type": null,
+        "TypeLocalized": []
+      },
       "Attendance": "80663",
       "IdMatch": "400021532",
       "MatchDay": null,
@@ -16656,7 +16662,7 @@
       "Date": "2026-07-05T20:00:00Z",
       "LocalDate": "2026-07-05T16:00:00Z",
       "Home": {
-        "Score": 0,
+        "Score": 1,
         "Side": null,
         "IdTeam": "43924",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/BRA",
@@ -16677,7 +16683,7 @@
         "IdAssociation": "BRA"
       },
       "Away": {
-        "Score": 0,
+        "Score": 2,
         "Side": null,
         "IdTeam": "43961",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/NOR",
@@ -16697,8 +16703,8 @@
         "Gender": 1,
         "IdAssociation": "NOR"
       },
-      "HomeTeamScore": 0,
-      "AwayTeamScore": 0,
+      "HomeTeamScore": 1,
+      "AwayTeamScore": 2,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
       "HomeTeamPenaltyScore": null,
@@ -16744,12 +16750,12 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": "78'",
+      "MatchTime": "102'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
       "SecondHalfExtraTime": null,
-      "Winner": null,
+      "Winner": "43961",
       "MatchReportUrl": null,
       "PlaceHolderA": "W76",
       "PlaceHolderB": "W78",
@@ -16779,11 +16785,11 @@
           ]
         }
       ],
-      "MatchStatus": 3,
-      "ResultType": 0,
+      "MatchStatus": 0,
+      "ResultType": 1,
       "MatchNumber": 91,
       "TimeDefined": true,
-      "OfficialityStatus": 0,
+      "OfficialityStatus": 1,
       "MatchLegInfo": null,
       "Properties": {
         "IdIFES": "151698"
@@ -16910,7 +16916,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "0'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
@@ -16941,29 +16947,6 @@
             {
               "Locale": "en-GB",
               "Description": "Referee"
-            }
-          ]
-        },
-        {
-          "IdCountry": "MAR",
-          "OfficialId": "416524",
-          "NameShort": [
-            {
-              "Locale": "en-GB",
-              "Description": "Jalal JAYED"
-            }
-          ],
-          "Name": [
-            {
-              "Locale": "en-GB",
-              "Description": "Jalal Jayed"
-            }
-          ],
-          "OfficialType": 4,
-          "TypeLocalized": [
-            {
-              "Locale": "en-GB",
-              "Description": "Fourth official"
             }
           ]
         }
@@ -17916,7 +17899,27 @@
       "SeasonShortName": [],
       "Date": "2026-07-11T21:00:00Z",
       "LocalDate": "2026-07-11T17:00:00Z",
-      "Home": null,
+      "Home": {
+        "Score": null,
+        "Side": null,
+        "IdTeam": "43961",
+        "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/NOR",
+        "IdCountry": "NOR",
+        "Tactics": null,
+        "TeamType": 1,
+        "AgeType": 7,
+        "TeamName": [
+          {
+            "Locale": "en-GB",
+            "Description": "Norway"
+          }
+        ],
+        "Abbreviation": "NOR",
+        "ShortClubName": "Norway",
+        "FootballType": 0,
+        "Gender": 1,
+        "IdAssociation": "NOR"
+      },
       "Away": null,
       "HomeTeamScore": null,
       "AwayTeamScore": null,
