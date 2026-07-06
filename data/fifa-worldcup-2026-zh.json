@@ -17179,7 +17179,7 @@
       "ResultType": 1,
       "MatchNumber": 93,
       "TimeDefined": true,
-      "OfficialityStatus": 2,
+      "OfficialityStatus": 1,
       "MatchLegInfo": null,
       "Properties": {
         "IdIFES": "151700"
@@ -17306,7 +17306,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "0'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
@@ -17337,29 +17337,6 @@
             {
               "Locale": "zh-CN",
               "Description": "裁判员"
-            }
-          ]
-        },
-        {
-          "IdCountry": "GAB",
-          "OfficialId": "408417",
-          "NameShort": [
-            {
-              "Locale": "en-GB",
-              "Description": "Pierre ATCHO"
-            }
-          ],
-          "Name": [
-            {
-              "Locale": "zh-CN",
-              "Description": "皮埃尔·吉斯兰·阿乔"
-            }
-          ],
-          "OfficialType": 4,
-          "TypeLocalized": [
-            {
-              "Locale": "zh-CN",
-              "Description": "第四官员"
             }
           ]
         }
