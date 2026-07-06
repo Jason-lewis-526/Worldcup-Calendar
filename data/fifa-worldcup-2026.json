@@ -17046,12 +17046,12 @@
       "Date": "2026-07-06T19:00:00Z",
       "LocalDate": "2026-07-06T14:00:00Z",
       "Home": {
-        "Score": null,
+        "Score": 0,
         "Side": null,
         "IdTeam": "43963",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/POR",
         "IdCountry": "POR",
-        "Tactics": null,
+        "Tactics": "4-2-3-1",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -17067,12 +17067,12 @@
         "IdAssociation": "POR"
       },
       "Away": {
-        "Score": null,
+        "Score": 0,
         "Side": null,
         "IdTeam": "43969",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ESP",
         "IdCountry": "ESP",
-        "Tactics": null,
+        "Tactics": "4-1-2-3",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -17087,8 +17087,8 @@
         "Gender": 1,
         "IdAssociation": "ESP"
       },
-      "HomeTeamScore": null,
-      "AwayTeamScore": null,
+      "HomeTeamScore": 0,
+      "AwayTeamScore": 0,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
       "HomeTeamPenaltyScore": null,
@@ -17134,7 +17134,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "15'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
@@ -17167,32 +17167,9 @@
               "Description": "Referee"
             }
           ]
-        },
-        {
-          "IdCountry": "GER",
-          "OfficialId": "348147",
-          "NameShort": [
-            {
-              "Locale": "en-GB",
-              "Description": "Felix ZWAYER"
-            }
-          ],
-          "Name": [
-            {
-              "Locale": "en-GB",
-              "Description": "Felix Zwayer"
-            }
-          ],
-          "OfficialType": 4,
-          "TypeLocalized": [
-            {
-              "Locale": "en-GB",
-              "Description": "Fourth official"
-            }
-          ]
         }
       ],
-      "MatchStatus": 1,
+      "MatchStatus": 3,
       "ResultType": 0,
       "MatchNumber": 93,
       "TimeDefined": true,
