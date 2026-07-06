@@ -16825,15 +16825,15 @@
         }
       ],
       "SeasonShortName": [],
-      "Date": "2026-07-06T00:00:00Z",
-      "LocalDate": "2026-07-05T18:00:00Z",
+      "Date": "2026-07-06T01:00:00Z",
+      "LocalDate": "2026-07-05T19:00:00Z",
       "Home": {
-        "Score": null,
+        "Score": 0,
         "Side": null,
         "IdTeam": "43911",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/MEX",
         "IdCountry": "MEX",
-        "Tactics": null,
+        "Tactics": "4-1-2-3",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -16849,12 +16849,12 @@
         "IdAssociation": "MEX"
       },
       "Away": {
-        "Score": null,
+        "Score": 0,
         "Side": null,
         "IdTeam": "43942",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ENG",
         "IdCountry": "ENG",
-        "Tactics": null,
+        "Tactics": "4-2-3-1",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -16869,8 +16869,8 @@
         "Gender": 1,
         "IdAssociation": "ENG"
       },
-      "HomeTeamScore": null,
-      "AwayTeamScore": null,
+      "HomeTeamScore": 0,
+      "AwayTeamScore": 0,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
       "HomeTeamPenaltyScore": null,
@@ -16916,7 +16916,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": "0'",
+      "MatchTime": "26'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
@@ -16951,7 +16951,7 @@
           ]
         }
       ],
-      "MatchStatus": 1,
+      "MatchStatus": 3,
       "ResultType": 0,
       "MatchNumber": 92,
       "TimeDefined": true,
