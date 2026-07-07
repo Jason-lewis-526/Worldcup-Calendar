@@ -17409,8 +17409,14 @@
       "IdSeason": "285023",
       "IdStage": "289288",
       "IdGroup": null,
-      "Weather": null,
-      "Attendance": null,
+      "Weather": {
+        "Humidity": null,
+        "Temperature": null,
+        "WindSpeed": null,
+        "Type": null,
+        "TypeLocalized": []
+      },
+      "Attendance": "68239",
       "IdMatch": "400021528",
       "MatchDay": null,
       "StageName": [
@@ -17436,7 +17442,7 @@
       "Date": "2026-07-07T16:00:00Z",
       "LocalDate": "2026-07-07T12:00:00Z",
       "Home": {
-        "Score": 0,
+        "Score": 3,
         "Side": null,
         "IdTeam": "43922",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ARG",
@@ -17457,7 +17463,7 @@
         "IdAssociation": "ARG"
       },
       "Away": {
-        "Score": 1,
+        "Score": 2,
         "Side": null,
         "IdTeam": "43855",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/EGY",
@@ -17477,8 +17483,8 @@
         "Gender": 1,
         "IdAssociation": "EGY"
       },
-      "HomeTeamScore": 0,
-      "AwayTeamScore": 1,
+      "HomeTeamScore": 3,
+      "AwayTeamScore": 2,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
       "HomeTeamPenaltyScore": null,
@@ -17524,12 +17530,12 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": "",
+      "MatchTime": "102'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
       "SecondHalfExtraTime": null,
-      "Winner": null,
+      "Winner": "43922",
       "MatchReportUrl": null,
       "PlaceHolderA": "W86",
       "PlaceHolderB": "W88",
@@ -17559,11 +17565,11 @@
           ]
         }
       ],
-      "MatchStatus": 3,
-      "ResultType": 0,
+      "MatchStatus": 0,
+      "ResultType": 1,
       "MatchNumber": 95,
       "TimeDefined": true,
-      "OfficialityStatus": 0,
+      "OfficialityStatus": 1,
       "MatchLegInfo": null,
       "Properties": {
         "IdIFES": "151702"
@@ -17690,7 +17696,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "0'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
@@ -17721,29 +17727,6 @@
             {
               "Locale": "zh-CN",
               "Description": "裁判员"
-            }
-          ]
-        },
-        {
-          "IdCountry": "MEX",
-          "OfficialId": "416317",
-          "NameShort": [
-            {
-              "Locale": "en-GB",
-              "Description": "Katia GARCIA"
-            }
-          ],
-          "Name": [
-            {
-              "Locale": "zh-CN",
-              "Description": "卡蒂亚·伊策尔·加西亚"
-            }
-          ],
-          "OfficialType": 4,
-          "TypeLocalized": [
-            {
-              "Locale": "zh-CN",
-              "Description": "第四官员"
             }
           ]
         }
@@ -18216,7 +18199,27 @@
       "SeasonShortName": [],
       "Date": "2026-07-12T01:00:00Z",
       "LocalDate": "2026-07-11T20:00:00Z",
-      "Home": null,
+      "Home": {
+        "Score": null,
+        "Side": null,
+        "IdTeam": "43922",
+        "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ARG",
+        "IdCountry": "ARG",
+        "Tactics": null,
+        "TeamType": 1,
+        "AgeType": 7,
+        "TeamName": [
+          {
+            "Locale": "zh-CN",
+            "Description": "阿根廷"
+          }
+        ],
+        "Abbreviation": "ARG",
+        "ShortClubName": "Argentina",
+        "FootballType": 0,
+        "Gender": 1,
+        "IdAssociation": "ARG"
+      },
       "Away": null,
       "HomeTeamScore": null,
       "AwayTeamScore": null,
