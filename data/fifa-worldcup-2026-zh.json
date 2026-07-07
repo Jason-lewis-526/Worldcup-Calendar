@@ -17173,6 +17173,29 @@
               "Description": "裁判员"
             }
           ]
+        },
+        {
+          "IdCountry": "GER",
+          "OfficialId": "348147",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Felix ZWAYER"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "费利克斯·兹韦尔"
+            }
+          ],
+          "OfficialType": 4,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "第四官员"
+            }
+          ]
         }
       ],
       "MatchStatus": 0,
@@ -17343,6 +17366,29 @@
             {
               "Locale": "zh-CN",
               "Description": "裁判员"
+            }
+          ]
+        },
+        {
+          "IdCountry": "GAB",
+          "OfficialId": "408417",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Pierre ATCHO"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "皮埃尔·吉斯兰·阿乔"
+            }
+          ],
+          "OfficialType": 4,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "第四官员"
             }
           ]
         }
