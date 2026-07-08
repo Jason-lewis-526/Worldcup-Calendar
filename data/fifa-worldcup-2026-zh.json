@@ -17563,6 +17563,29 @@
               "Description": "裁判员"
             }
           ]
+        },
+        {
+          "IdCountry": "NOR",
+          "OfficialId": "400227",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Espen ESKAS"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "埃斯彭·埃斯卡斯"
+            }
+          ],
+          "OfficialType": 4,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "第四官员"
+            }
+          ]
         }
       ],
       "MatchStatus": 0,
@@ -17735,6 +17758,29 @@
               "Description": "裁判员"
             }
           ]
+        },
+        {
+          "IdCountry": "MEX",
+          "OfficialId": "416317",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Katia GARCIA"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "卡蒂亚·伊策尔·加西亚"
+            }
+          ],
+          "OfficialType": 4,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "第四官员"
+            }
+          ]
         }
       ],
       "MatchStatus": 0,
@@ -17868,7 +17914,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "0'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
@@ -17878,7 +17924,54 @@
       "PlaceHolderA": "W89",
       "PlaceHolderB": "W90",
       "BallPossession": null,
-      "Officials": [],
+      "Officials": [
+        {
+          "IdCountry": "ARG",
+          "OfficialId": "416165",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Facundo TELLO"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "法昆多·泰洛"
+            }
+          ],
+          "OfficialType": 1,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "裁判员"
+            }
+          ]
+        },
+        {
+          "IdCountry": "ARG",
+          "OfficialId": "383174",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Dario HERRERA"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "达里奥·埃雷拉"
+            }
+          ],
+          "OfficialType": 4,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "第四官员"
+            }
+          ]
+        }
+      ],
       "MatchStatus": 1,
       "ResultType": 0,
       "MatchNumber": 97,
@@ -18010,7 +18103,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "0'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
@@ -18020,7 +18113,54 @@
       "PlaceHolderA": "W93",
       "PlaceHolderB": "W94",
       "BallPossession": null,
-      "Officials": [],
+      "Officials": [
+        {
+          "IdCountry": "ENG",
+          "OfficialId": "347710",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Michael OLIVER"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "迈克尔·奥利弗"
+            }
+          ],
+          "OfficialType": 1,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "裁判员"
+            }
+          ]
+        },
+        {
+          "IdCountry": "BRA",
+          "OfficialId": "446932",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Ramon ABATTI"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "en-GB",
+              "Description": "Ramon ABATTI"
+            }
+          ],
+          "OfficialType": 4,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "第四官员"
+            }
+          ]
+        }
+      ],
       "MatchStatus": 1,
       "ResultType": 0,
       "MatchNumber": 98,
@@ -18152,7 +18292,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "0'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
@@ -18294,7 +18434,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "0'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
