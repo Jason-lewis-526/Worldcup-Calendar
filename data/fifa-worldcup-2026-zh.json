@@ -17914,7 +17914,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "0'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
@@ -17945,29 +17945,6 @@
             {
               "Locale": "zh-CN",
               "Description": "裁判员"
-            }
-          ]
-        },
-        {
-          "IdCountry": "ARG",
-          "OfficialId": "383174",
-          "NameShort": [
-            {
-              "Locale": "en-GB",
-              "Description": "Dario HERRERA"
-            }
-          ],
-          "Name": [
-            {
-              "Locale": "zh-CN",
-              "Description": "达里奥·埃雷拉"
-            }
-          ],
-          "OfficialType": 4,
-          "TypeLocalized": [
-            {
-              "Locale": "zh-CN",
-              "Description": "第四官员"
             }
           ]
         }
