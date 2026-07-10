@@ -18109,7 +18109,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "0'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
@@ -18140,29 +18140,6 @@
             {
               "Locale": "zh-CN",
               "Description": "裁判员"
-            }
-          ]
-        },
-        {
-          "IdCountry": "BRA",
-          "OfficialId": "446932",
-          "NameShort": [
-            {
-              "Locale": "en-GB",
-              "Description": "Ramon ABATTI"
-            }
-          ],
-          "Name": [
-            {
-              "Locale": "en-GB",
-              "Description": "Ramon ABATTI"
-            }
-          ],
-          "OfficialType": 4,
-          "TypeLocalized": [
-            {
-              "Locale": "zh-CN",
-              "Description": "第四官员"
             }
           ]
         }
