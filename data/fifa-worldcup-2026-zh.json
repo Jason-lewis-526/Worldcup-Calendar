@@ -17994,7 +17994,13 @@
       "IdSeason": "285023",
       "IdStage": "289289",
       "IdGroup": null,
-      "Weather": null,
+      "Weather": {
+        "Humidity": null,
+        "Temperature": null,
+        "WindSpeed": null,
+        "Type": null,
+        "TypeLocalized": []
+      },
       "Attendance": "70492",
       "IdMatch": "400021538",
       "MatchDay": null,
@@ -18021,7 +18027,7 @@
       "Date": "2026-07-10T19:00:00Z",
       "LocalDate": "2026-07-10T12:00:00Z",
       "Home": {
-        "Score": 1,
+        "Score": 2,
         "Side": null,
         "IdTeam": "43969",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ESP",
@@ -18062,7 +18068,7 @@
         "Gender": 1,
         "IdAssociation": "BEL"
       },
-      "HomeTeamScore": 1,
+      "HomeTeamScore": 2,
       "AwayTeamScore": 1,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
@@ -18109,12 +18115,12 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": "76'",
+      "MatchTime": "98'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
       "SecondHalfExtraTime": null,
-      "Winner": null,
+      "Winner": "43969",
       "MatchReportUrl": null,
       "PlaceHolderA": "W93",
       "PlaceHolderB": "W94",
@@ -18144,11 +18150,11 @@
           ]
         }
       ],
-      "MatchStatus": 3,
-      "ResultType": 0,
+      "MatchStatus": 0,
+      "ResultType": 1,
       "MatchNumber": 98,
       "TimeDefined": true,
-      "OfficialityStatus": 0,
+      "OfficialityStatus": 1,
       "MatchLegInfo": null,
       "Properties": {
         "IdIFES": "151704"
@@ -18585,7 +18591,27 @@
         "Gender": 1,
         "IdAssociation": "FRA"
       },
-      "Away": null,
+      "Away": {
+        "Score": null,
+        "Side": null,
+        "IdTeam": "43969",
+        "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ESP",
+        "IdCountry": "ESP",
+        "Tactics": null,
+        "TeamType": 1,
+        "AgeType": 7,
+        "TeamName": [
+          {
+            "Locale": "zh-CN",
+            "Description": "西班牙"
+          }
+        ],
+        "Abbreviation": "ESP",
+        "ShortClubName": "Spain",
+        "FootballType": 0,
+        "Gender": 1,
+        "IdAssociation": "ESP"
+      },
       "HomeTeamScore": null,
       "AwayTeamScore": null,
       "AggregateHomeTeamScore": null,
