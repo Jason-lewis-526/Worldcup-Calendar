@@ -18190,7 +18190,7 @@
       "IdStage": "289289",
       "IdGroup": null,
       "Weather": null,
-      "Attendance": null,
+      "Attendance": "64478",
       "IdMatch": "400021539",
       "MatchDay": null,
       "StageName": [
@@ -18237,7 +18237,7 @@
         "IdAssociation": "NOR"
       },
       "Away": {
-        "Score": 1,
+        "Score": 2,
         "Side": null,
         "IdTeam": "43942",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ENG",
@@ -18258,7 +18258,7 @@
         "IdAssociation": "ENG"
       },
       "HomeTeamScore": 1,
-      "AwayTeamScore": 1,
+      "AwayTeamScore": 2,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
       "HomeTeamPenaltyScore": null,
@@ -18304,7 +18304,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": "46'",
+      "MatchTime": "93'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
