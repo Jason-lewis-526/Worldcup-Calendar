@@ -18216,7 +18216,7 @@
       "Date": "2026-07-11T21:00:00Z",
       "LocalDate": "2026-07-11T17:00:00Z",
       "Home": {
-        "Score": 0,
+        "Score": 1,
         "Side": null,
         "IdTeam": "43961",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/NOR",
@@ -18237,7 +18237,7 @@
         "IdAssociation": "NOR"
       },
       "Away": {
-        "Score": 0,
+        "Score": 1,
         "Side": null,
         "IdTeam": "43942",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ENG",
@@ -18257,8 +18257,8 @@
         "Gender": 1,
         "IdAssociation": "ENG"
       },
-      "HomeTeamScore": 0,
-      "AwayTeamScore": 0,
+      "HomeTeamScore": 1,
+      "AwayTeamScore": 1,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
       "HomeTeamPenaltyScore": null,
@@ -18304,7 +18304,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": "5'",
+      "MatchTime": "46'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
