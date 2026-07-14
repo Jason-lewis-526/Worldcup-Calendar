@@ -18694,7 +18694,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "0'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
@@ -18725,29 +18725,6 @@
             {
               "Locale": "zh-CN",
               "Description": "裁判员"
-            }
-          ]
-        },
-        {
-          "IdCountry": "SWE",
-          "OfficialId": "392336",
-          "NameShort": [
-            {
-              "Locale": "en-GB",
-              "Description": "Glenn NYBERG"
-            }
-          ],
-          "Name": [
-            {
-              "Locale": "zh-CN",
-              "Description": "格伦·尼伯格"
-            }
-          ],
-          "OfficialType": 4,
-          "TypeLocalized": [
-            {
-              "Locale": "zh-CN",
-              "Description": "第四官员"
             }
           ]
         }
