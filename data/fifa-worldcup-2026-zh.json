@@ -18580,7 +18580,7 @@
       "IdStage": "289290",
       "IdGroup": null,
       "Weather": null,
-      "Attendance": null,
+      "Attendance": "70176",
       "IdMatch": "400021541",
       "MatchDay": null,
       "StageName": [
@@ -18627,7 +18627,7 @@
         "IdAssociation": "FRA"
       },
       "Away": {
-        "Score": 1,
+        "Score": 2,
         "Side": null,
         "IdTeam": "43969",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ESP",
@@ -18648,7 +18648,7 @@
         "IdAssociation": "ESP"
       },
       "HomeTeamScore": 0,
-      "AwayTeamScore": 1,
+      "AwayTeamScore": 2,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
       "HomeTeamPenaltyScore": null,
@@ -18694,7 +18694,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": "45'+5'",
+      "MatchTime": "90'+7'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
