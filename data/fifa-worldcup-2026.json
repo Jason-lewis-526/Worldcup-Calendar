@@ -18801,7 +18801,7 @@
       "Date": "2026-07-15T19:00:00Z",
       "LocalDate": "2026-07-15T15:00:00Z",
       "Home": {
-        "Score": 0,
+        "Score": 1,
         "Side": null,
         "IdTeam": "43942",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ENG",
@@ -18842,7 +18842,7 @@
         "Gender": 1,
         "IdAssociation": "ARG"
       },
-      "HomeTeamScore": 0,
+      "HomeTeamScore": 1,
       "AwayTeamScore": 0,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
@@ -18889,7 +18889,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": "35'",
+      "MatchTime": "81'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
