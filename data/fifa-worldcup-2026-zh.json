@@ -19001,7 +19001,7 @@
         "IdTeam": "43946",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/FRA",
         "IdCountry": "FRA",
-        "Tactics": "4-1-2-3",
+        "Tactics": "4-2-3-1",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -19017,12 +19017,12 @@
         "IdAssociation": "FRA"
       },
       "Away": {
-        "Score": 1,
+        "Score": 4,
         "Side": null,
         "IdTeam": "43942",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ENG",
         "IdCountry": "ENG",
-        "Tactics": "4-2-3-1",
+        "Tactics": "4-1-2-3",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -19038,7 +19038,7 @@
         "IdAssociation": "ENG"
       },
       "HomeTeamScore": 0,
-      "AwayTeamScore": 1,
+      "AwayTeamScore": 4,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
       "HomeTeamPenaltyScore": null,
@@ -19084,7 +19084,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": "7'",
+      "MatchTime": "",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
