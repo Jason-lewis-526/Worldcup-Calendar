@@ -19165,7 +19165,7 @@
       "IdStage": "289292",
       "IdGroup": null,
       "Weather": null,
-      "Attendance": null,
+      "Attendance": "80663",
       "IdMatch": "400021543",
       "MatchDay": null,
       "StageName": [
@@ -19279,7 +19279,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": "45'+2'",
+      "MatchTime": "67'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
