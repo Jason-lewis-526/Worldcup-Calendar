@@ -19123,6 +19123,29 @@
               "Description": "裁判员"
             }
           ]
+        },
+        {
+          "IdCountry": "MAR",
+          "OfficialId": "416524",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Jalal JAYED"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "zh-CN",
+              "Description": "贾拉勒·杰德"
+            }
+          ],
+          "OfficialType": 4,
+          "TypeLocalized": [
+            {
+              "Locale": "zh-CN",
+              "Description": "第四官员"
+            }
+          ]
         }
       ],
       "MatchStatus": 0,
@@ -19256,7 +19279,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "0'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
