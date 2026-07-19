@@ -19164,7 +19164,13 @@
       "IdSeason": "285023",
       "IdStage": "289292",
       "IdGroup": null,
-      "Weather": null,
+      "Weather": {
+        "Humidity": null,
+        "Temperature": null,
+        "WindSpeed": null,
+        "Type": null,
+        "TypeLocalized": []
+      },
       "Attendance": "80663",
       "IdMatch": "400021543",
       "MatchDay": null,
@@ -19279,12 +19285,12 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": "115'",
+      "MatchTime": "109'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
       "SecondHalfExtraTime": null,
-      "Winner": null,
+      "Winner": "43969",
       "MatchReportUrl": null,
       "PlaceHolderA": "W101",
       "PlaceHolderB": "W102",
@@ -19314,11 +19320,11 @@
           ]
         }
       ],
-      "MatchStatus": 3,
-      "ResultType": 0,
+      "MatchStatus": 0,
+      "ResultType": 3,
       "MatchNumber": 104,
       "TimeDefined": true,
-      "OfficialityStatus": 0,
+      "OfficialityStatus": 2,
       "MatchLegInfo": null,
       "Properties": {
         "IdIFES": "151710"
