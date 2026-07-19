@@ -19191,7 +19191,7 @@
       "Date": "2026-07-19T19:00:00Z",
       "LocalDate": "2026-07-19T15:00:00Z",
       "Home": {
-        "Score": 0,
+        "Score": 1,
         "Side": null,
         "IdTeam": "43969",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ESP",
@@ -19232,7 +19232,7 @@
         "Gender": 1,
         "IdAssociation": "ARG"
       },
-      "HomeTeamScore": 0,
+      "HomeTeamScore": 1,
       "AwayTeamScore": 0,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
@@ -19279,7 +19279,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": "67'",
+      "MatchTime": "115'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
